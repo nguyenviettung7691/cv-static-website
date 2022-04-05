@@ -1,6 +1,7 @@
 //Import
 
 const gulp = require('gulp');
+const { series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const sourceMaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
@@ -35,5 +36,19 @@ function watch() {
 
 }
 
+//Copy Assets
+
+function copyAssets() {
+    return gulp.src([
+        './node_modules/@fortawesome*/**/*',
+        './node_modules/bootstrap*/**/*',
+        './node_modules/jquery*/**/*',
+        './node_modules/@popperjs*/**/*',
+    ])
+    .pipe(gulp.dest('./assets'))
+    .pipe(browserSync.stream());
+}
+
 exports.style = style;
 exports.watch = watch;
+exports.build = series(copyAssets, style);

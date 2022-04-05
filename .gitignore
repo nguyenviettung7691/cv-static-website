@@ -1,4 +1,6 @@
-assets/css
-assets/vendors
+assets
+!assets/images
+!assets/js
+!assets/scss
 
 node_modules
