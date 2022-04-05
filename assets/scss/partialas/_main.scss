@@ -12,7 +12,7 @@ main {
     }
 
     .section-title {
-        font-size: 25px;
+        font-size: 2rem;
         line-height: 1;
         font-weight: $font-weight-bold;
         text-transform: uppercase;
@@ -20,14 +20,14 @@ main {
     }
 
     .section-subtitle {
-        font-size: 12px;
+        font-size: 1rem;
         font-weight: $font-weight-medium;
         line-height: 1;
         color: $primary;
     }
 
     p {
-        font-size: 13px;
+        font-size: 1rem;
         line-height: 1.538;
         font-weight: $font-weight-light;
     }
@@ -95,7 +95,7 @@ main {
 
             .badge {
                 padding: 6px 10px;
-                font-size: 8px;
+                font-size: 1rem;
                 font-weight: $font-weight-medium;
                 line-height: 1;
                 border-radius: 2px;
@@ -103,14 +103,14 @@ main {
             }
 
             &-title {
-                font-size: 12px;
+                font-size: 1.2rem;
                 font-weight: $font-weight-bold;
                 line-height: 1;
                 margin-bottom: 2px;
             }
 
             &-subtitle {
-                font-size: 10px;
+                font-size: 0.9rem;
                 font-weight: $font-weight-medium;
                 line-height: 1.6;
                 color: #a7a7a7;
@@ -118,7 +118,7 @@ main {
             }
 
             &-content {
-                font-size: 10px;
+                font-size: 1rem;
                 font-weight: $font-weight-light;
                 line-height: 1.6;
                 margin-bottom: 0;
@@ -157,21 +157,20 @@ main {
             margin-right: 17.1px;
             display: flex;
             height: 100%;
-            align-items: center;
+            align-items: start;
             justify-content: center;
         }
 
         .service-title {
-            font-size: 12px;
+            font-size: 1.2rem;
             font-weight: bold;
             line-height: 1;
             margin-bottom: 8px;
         }
 
         .service-description {
-            font-size: 10px;
+            font-size: 1rem;
             font-weight: $font-weight-light;
-            max-width: 180px;
             margin-bottom: 0;
         }
     }
@@ -190,7 +189,7 @@ main {
         }
 
         .testimonial-content {
-            font-size: 10px;
+            font-size: 1rem;
             font-weight: $font-weight-light;
             max-width: 280px;
             margin-left: auto;
@@ -206,7 +205,7 @@ main {
         }
 
         .testimonial-name {
-            font-size: 10px;
+            font-size: 1.2rem;
             font-weight: $font-weight-medium;
             line-height: 1.2;
             color: $primary;
@@ -225,7 +224,7 @@ main {
     }
 
     footer {
-        font-size: 10px;
+        font-size: 0.8rem;
         font-weight: $font-weight-medium;
         line-height: 1.2;
         padding-top: 5px;
@@ -323,14 +322,14 @@ main {
         }
 
         &-title {
-            font-size: 20px;
+            font-size: 1.5rem;
             font-weight: $font-weight-bold;
             margin-bottom: 0;
             line-height: 1;
         }
 
         &-description {
-            font-size: 10px;
+            font-size: 1rem;
             font-weight: $font-weight-bold;
             line-height: 1.2;
             margin-bottom: 0;
