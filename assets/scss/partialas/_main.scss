@@ -245,7 +245,6 @@ main {
             width: calc(25% - 10px);
             border: 1px solid #f3f3f3;
             padding: 10px 15px;
-            height: 65px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -265,7 +264,6 @@ main {
 
             img {
                 max-width: 100%;
-                max-height: 21px;
             }
         }
     }
