@@ -352,6 +352,7 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
 
             @media (max-width: 1500px) {
                 width: calc(50% - 7px);
@@ -371,26 +372,30 @@ main {
 
             &-img {
                 max-height: 198px;
-                max-width: 100%;
+                max-width: 50%;
             }
 
             &-details {
                 padding: 22px 26px;
-                background-color: rgba($black, 0.42);
+                background-color: rgba($black, 0.7);
                 color: $white;
             }
 
             &-title {
-                font-size: 10px;
                 font-weight: $font-weight-bold;
                 line-height: 1;
                 margin-bottom: 5px;
             }
 
             &-description {
-                font-size: 10px;
                 line-height: 1;
                 margin-bottom: 0;
+            }
+
+            &.backend-advanced{
+                .portfolio-item-img{
+                    max-width: 33%;
+                }
             }
         }
     }

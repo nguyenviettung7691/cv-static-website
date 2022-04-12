@@ -3,7 +3,7 @@ $('[data-toggle="collapsible-nav"]').on('click', function(e){
     $('#' + target).toggleClass('show');
 });
 
-$(document).ready(function(){
+jQuery(function() {
     if(window.innerWidth >= 992) {
         $('#collapsible-nav').addClass('show');  //Show navigation menu in bigger screens by default.
     } else {
@@ -15,7 +15,7 @@ $(document).ready(function(){
     }
 });
 
-$(window).resize(
+$(window).on('resize',
     function() {
         if ($('.hover-box').length) {
             setHoverBoxPerspective();
@@ -58,3 +58,15 @@ $('.hover-box').hover(
 
     }
 );
+
+$('.btn-share').on('click', function(){
+    if (navigator.share) {
+        navigator.share({
+          title: 'NGUYỄN VIỆT TÙNG Resume',
+          url: location.href
+        })
+        .catch(console.error);
+    } else {
+        //fallback
+    }
+});
