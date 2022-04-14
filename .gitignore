@@ -4,5 +4,7 @@ assets/**
 !assets/images/**
 !assets/js/
 !assets/scss/
+!assets/content/
+!assets/content/**
 
 node_modules

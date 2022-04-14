@@ -13,6 +13,8 @@ jQuery(function() {
     if ($('.hover-box').length) {
         setHoverBoxPerspective();
     }
+
+    $('#last-updated').text(document.lastModified);
 });
 
 $(window).on('resize',
