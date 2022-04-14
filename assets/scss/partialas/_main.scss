@@ -397,6 +397,10 @@ main {
                     max-width: 33%;
                 }
             }
+
+            &.card{
+                overflow: hidden;
+            }
         }
     }
 
