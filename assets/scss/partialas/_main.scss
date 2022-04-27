@@ -62,7 +62,7 @@ main {
                 left: 5px;
                 transform: translateX(-50%);
                 width: 1px;
-                background-color: #f3f3f3;
+                background-color: #dcdcdc;
             }
 
             &::after {
@@ -136,7 +136,7 @@ main {
 
         &:first-child,
         &:nth-child(3) {
-            border-right: 1px solid #f3f3f3;
+            border-right: 1px solid #dcdcdc;
 
             @media (max-width: 991px) {
                 border-right: 0;
@@ -144,7 +144,7 @@ main {
         }
 
         @media (max-width: 991px) {
-            border-bottom: 1px solid #f3f3f3;
+            border-bottom: 1px solid #dcdcdc;
 
             &:last-child {
                 border-bottom: 0;
@@ -243,7 +243,7 @@ main {
 
         .client-logo {
             width: calc(25% - 10px);
-            border: 1px solid #f3f3f3;
+            border: 1px solid #f1f1f1;
             padding: 10px 15px;
             display: flex;
             align-items: center;
