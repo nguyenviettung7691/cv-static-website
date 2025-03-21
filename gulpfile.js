@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const { series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const sourceMaps = require('gulp-sourcemaps');
-const autoprefixer = require('gulp-autoprefixer');
+const autoprefixer = require('gulp-autoprefixer').default;
 const browserSync = require('browser-sync');
 
 //SCSS
@@ -12,7 +12,7 @@ const browserSync = require('browser-sync');
 function style() {
     return gulp.src('./assets/scss/**/*.scss')
     .pipe(sourceMaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({ style: 'compressed', quietDeps: true }).on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./assets/css'))
@@ -28,7 +28,6 @@ function watch() {
         },
         startPath: './index.html',
         ghostMode: false,
-        notify: false
     });
     gulp.watch('./assets/scss/**/*.scss', style);
     gulp.watch('./*.html').on('change', browserSync.reload);
@@ -44,7 +43,7 @@ function copyAssets() {
         './node_modules/bootstrap*/**/*',
         './node_modules/jquery*/**/*',
         './node_modules/@popperjs*/**/*',
-    ])
+    ], { encoding: false })
     .pipe(gulp.dest('./assets'))
     .pipe(browserSync.stream());
 }

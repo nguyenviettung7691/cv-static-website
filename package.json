@@ -1,25 +1,19 @@
 {
-  "name": "live-resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "static-cv",
+  "main": "index.html",
+  "author": "Nguyen Viet Tung",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-sass": "^5.1.0",
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-sass": "^6.0.1",
     "gulp-sourcemaps": "^2.6.5",
-    "sass": "^1.49.11"
+    "sass": "^1.86.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
-    "@popperjs/core": "^2.0.6",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
   }
 }
