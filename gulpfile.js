@@ -4,7 +4,6 @@ const gulp = require('gulp');
 const { series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const sourceMaps = require('gulp-sourcemaps');
-const autoprefixer = require('gulp-autoprefixer').default;
 const browserSync = require('browser-sync');
 
 //SCSS
@@ -13,7 +12,6 @@ function style() {
     return gulp.src('./assets/scss/**/*.scss')
     .pipe(sourceMaps.init())
     .pipe(sass({ style: 'compressed', quietDeps: true }).on('error', sass.logError))
-    .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./assets/css'))
     .pipe(browserSync.stream());
