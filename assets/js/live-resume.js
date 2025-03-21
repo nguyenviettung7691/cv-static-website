@@ -15,6 +15,24 @@ jQuery(function() {
     }
 
     $('#last-updated').text(document.lastModified);
+
+    let $typewriter = $('.typewriter-effect');
+    if($typewriter.length) {
+        var i = 0;
+        var txt = $typewriter.text(); /* The text */
+        var speed = 100; /* The speed/duration of the effect in milliseconds */
+
+        const typeWriter = function () {
+            if (i < txt.length) {
+                $typewriter[0].innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        $typewriter.text('')
+        typeWriter();
+    }
 });
 
 $(window).on('resize',
@@ -25,6 +43,13 @@ $(window).on('resize',
     }
 );
 
+$(window).on('scroll', function() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    $('.scroll-indicator-bar').css('width', scrolled + '%');
+});
+
 function setHoverBoxPerspective() {
     $('.hover-box').css({
         'perspective': function () {
@@ -32,7 +57,6 @@ function setHoverBoxPerspective() {
         }
     });
 }
-
 
 var classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
 

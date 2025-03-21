@@ -3,7 +3,9 @@ assets/**
 !assets/images/
 !assets/images/**
 !assets/js/
+!assets/js/**
 !assets/scss/
+!assets/scss/**
 !assets/content/
 !assets/content/**
 

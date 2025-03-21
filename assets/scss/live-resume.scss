@@ -1,12 +1,14 @@
 @import "./variables";
+@import "./mixins";
 
 @import "../bootstrap/scss/bootstrap.scss";
 @import "../@fortawesome/fontawesome-free/scss/fontawesome.scss";
 
 //Partials
 
-@import "./partialas/aside";
-@import "./partialas/buttons";
-@import "./partialas/header";
-@import "./partialas/layout";
-@import "./partialas/main";
+@import "./partials/media";
+@import "./partials/aside";
+@import "./partials/buttons";
+@import "./partials/header";
+@import "./partials/layout";
+@import "./partials/main";
