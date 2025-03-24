@@ -8,7 +8,7 @@ const browserSync = require('browser-sync');
 
 //SCSS
 
-function style() {
+function buildStylesheet() {
     return gulp.src('./assets/scss/**/*.scss')
     .pipe(sourceMaps.init())
     .pipe(sass({ style: 'compressed', quietDeps: true }).on('error', sass.logError))
@@ -27,7 +27,7 @@ function watch() {
         startPath: './index.html',
         ghostMode: false,
     });
-    gulp.watch('./assets/scss/**/*.scss', style);
+    gulp.watch('./assets/scss/**/*.scss', buildStylesheet);
     gulp.watch('./*.html').on('change', browserSync.reload);
     gulp.watch('./assets/js/*.js').on('change', browserSync.reload);
 
@@ -35,7 +35,7 @@ function watch() {
 
 //Copy Assets
 
-function copyAssets() {
+function copyLibrary() {
     return gulp.src([
         './node_modules/@fortawesome*/**/*',
         './node_modules/bootstrap*/**/*',
@@ -46,6 +46,6 @@ function copyAssets() {
     .pipe(browserSync.stream());
 }
 
-exports.style = style;
+exports.style = buildStylesheet;
 exports.watch = watch;
-exports.build = series(copyAssets, style);
+exports.build = series(copyLibrary, buildStylesheet);
