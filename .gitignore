@@ -1,14 +1,4 @@
-assets/**
-
-!assets/images/
-!assets/images/**
-!assets/js/
-!assets/js/**
-!assets/scss/
-!assets/scss/**
-!assets/content/
-!assets/content/**
-!assets/favicon/
-!assets/favicon/**
-
 node_modules
+
+docs/.vitepress/dist
+docs/.vitepress/cache

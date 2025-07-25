@@ -1,18 +1,16 @@
 {
-  "name": "static-cv",
-  "main": "index.html",
+  "name": "cv-nguyen-viet-tung",
   "author": "Nguyen Viet Tung",
   "devDependencies": {
-    "browser-sync": "^3.0.3",
-    "gulp": "^5.0.0",
-    "gulp-sass": "^6.0.1",
-    "gulp-sourcemaps": "^2.6.5",
-    "sass": "^1.86.0"
+    "sass": "^1.89.2",
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 4173",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 8080"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.2",
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1"
+    "@iconify/utils": "^2.3.0"
   }
 }
