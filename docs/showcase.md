@@ -33,6 +33,7 @@ const skillset = [
         { icon: '/images/azure-icons/networking/10067-icon-service-Network-Security-Groups.svg', title: 'Network Security Groups', desc: 'Internal network firewall', url: 'https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview' },
         { icon: '/images/azure-icons/networking/10064-icon-service-DNS-Zones.svg', title: 'DNS Zones', desc: 'Host DNS domain', url: 'https://azure.microsoft.com/en-us/products/dns/' },
         { icon: '/images/azure-icons/compute/10028-icon-service-Virtual-Machines-(Classic).svg', title: 'Virtual Machine', desc: 'Computing resources', url: 'https://azure.microsoft.com/en-us/products/virtual-machines/' },
+        { icon: '/images/azure-icons/networking/10362-icon-service-Web-Application-Firewall-Policies(WAF).svg', title: 'Web Application Firewall', desc: 'Web apps and APIs security', url: 'https://azure.microsoft.com/en-us/products/web-application-firewall/' },
     ]},
     { icon: '/images/Amazon_Web_Services_Logo.svg', color: '#f59e0b', title: 'AWS', desc: `Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally.`, url: 'https://aws.amazon.com/', items: [
         { icon: '/images/aws-icons/Architecture-Service-Icons_02072025/Arch_Front-End-Web-Mobile/16/Arch_AWS-Amplify_16.svg', title: 'Amplify', desc: 'Full-stack web & mobile development', url: 'https://aws.amazon.com/amplify' },
