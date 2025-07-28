@@ -32,8 +32,8 @@ Các kỹ năng cần có khác bao gồm: Dịch tiếng Anh và Giao tiếp ti
 
 ::: info Bạn không nên đánh mất bản sắc của mình.
 - 🎂 **Năm sinh**: 1991
+- 📍 **Địa điểm**: Sài Gòn, Việt Nam  
 - 📧 **Email**: [nvtung.harry@gmail.com](mailto:nvtung.harry@gmail.com)  
-- 📍 **Địa điểm**: Saigon, Vietnam  
 
 <a href="/content/CV.pdf" target="_blank" class="download-btn">⬇️ TẢI XUỐNG CV</a>
 

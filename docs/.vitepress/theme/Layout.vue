@@ -111,7 +111,7 @@ html {
 }
 
 iframe, .certification {
-  box-shadow: var(--vp-shadow-1);
+  box-shadow: var(--vp-shadow-4);
   border-radius: 10px;
   border: thin solid var(--vp-c-border);
 }

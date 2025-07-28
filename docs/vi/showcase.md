@@ -8,6 +8,8 @@ layout: doc
 ## 📚 Bộ kỹ năng {#skillsets}
 
 <script setup>
+import ProjectsContainer from '../components/ProjectsContainer.vue'
+
 const skillset = [
     { icon: 'vuedotjs', color: '#4FC08D', title: 'Vue.js', desc: 'Framework JavaScript Cấp tiến - Một framework dễ tiếp cận, hiệu suất cao và linh hoạt để xây dựng giao diện người dùng web.', url: 'https://vuejs.org/', items: [
         { icon: 'vuedotjs', color: '#4FC08D', title: 'Vue.js', desc: 'Core Framework', url: 'https://vuejs.org/' },
@@ -102,9 +104,34 @@ const skillset = [
         { icon: 'grafana', color: '#F46800', title: 'Grafana', desc: 'Infrastructure monitoring', url: 'https://grafana.com/' },
     ]}
 ]
+
+const projects = [
+    {
+        key: 'Leafwise',
+        repo: 'nguyenviettung7691/leafwise',
+        url: 'https://leafwise.nvtung.com/',
+        image: '/images/Projects_1.png',
+    },
+    {
+        key: 'Aquarium',
+        repo: 'nguyenviettung7691/vue-virtual-aquarium',
+        url: 'https://aquarium.nvtung.com/',
+        image: '/images/Projects_2.png',
+    },
+    {
+        key: 'Azure-Firewall',
+        repo: 'nguyenviettung7691/azure-firewall-policy-optimizer',
+        url: 'https://azure-firewall.nvtung.com/',
+        image: '/images/Projects_3.png',
+    }
+]
 </script>
 
 <Accordion :data="skillset" />
+
+## 🧑‍💻 Dự án {#projects}
+
+<ProjectsContainer :data="projects" />
 
 ## 🏅 Chứng nhận {#certifications}
 

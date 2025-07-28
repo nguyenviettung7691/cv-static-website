@@ -32,8 +32,8 @@ Other nice-to-have skills including: English Translation & English Communication
 
 ::: info You shouldn't lose sight of who you are.
 - 🎂 **Birth year**: 1991
-- 📧 **Email**: [nvtung.harry@gmail.com](mailto:nvtung.harry@gmail.com)  
 - 📍 **Location**: Saigon, Vietnam  
+- 📧 **Email**: [nvtung.harry@gmail.com](mailto:nvtung.harry@gmail.com)  
 
 <a href="/content/CV.pdf" target="_blank" class="download-btn">⬇️ DOWNLOAD CV</a>
 

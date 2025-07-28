@@ -125,7 +125,7 @@ function isHovered(item) {
                 border-radius: 5px;
                 align-items: center;
                 display: flex;
-                box-shadow: var(--vp-shadow-1);
+                box-shadow: var(--vp-shadow-2);
                 max-height: 35px;
                 padding: 0 4px;
                 gap: 2px;

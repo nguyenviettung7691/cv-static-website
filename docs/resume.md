@@ -53,7 +53,7 @@ Has experience designing for Mobile by:
 :::
 
 <script setup>
-const imgWrapperStyles = 'style="display:inline-flex;width:50px;height:50px;background-color:#fff;align-items:center;border-radius:5px;padding:2px;margin-right:10px;"';
+const imgWrapperStyles = 'style="display:inline-flex;width:50px;height:50px;background-color:#fff;align-items:center;border-radius:5px;padding:2px;margin-right:10px;box-shadow:var(--vp-shadow-3)"';
 const imgStyles = 'style="width:48px;"';
 const aAttr = 'target="_blank"';
 
