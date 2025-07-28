@@ -24,6 +24,12 @@ A static website for showcasing the CV, profile, skillsets, certifications, and 
 npm install
 ```
 
+Also supports BunJS runtime for faster install time, with bun.lock file included
+
+```sh
+bun install
+```
+
 ### Run development server
 
 ```sh
