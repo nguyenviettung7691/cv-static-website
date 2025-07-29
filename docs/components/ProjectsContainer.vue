@@ -162,8 +162,8 @@ function isSelected(item) {
         margin-top: 5rem;
         .carousel-header {
             transform: scale(0.5);
-            top: -60%;
-            left: -25%;
+            top: -7rem;
+            left: calc(25% - 111px);
         }
         .loader {
             transform: scale(0.5);
