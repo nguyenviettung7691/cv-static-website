@@ -72,6 +72,17 @@
       }
     }
   }
+  @media (max-width: 768px) {
+    .profile-avatar {
+      width: 5rem;
+    }
+    .profile-name {
+      font-size: 1.2rem;
+    }
+    .profile-role {
+      font-size: 0.8rem;
+    }
+  }
 }
 
 /* Avatar */

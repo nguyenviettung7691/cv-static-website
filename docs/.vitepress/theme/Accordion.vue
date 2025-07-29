@@ -147,10 +147,11 @@ function isHovered(item) {
             bottom: -20px;
             left: -20px;
             width: calc(100% + 40px);
-            padding: 0 20px 40px 20px;
+            padding: 15px 20px 15px 20px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             background: linear-gradient(to top, var(--vp-c-bg), transparent);
+            text-shadow: var(--vp-shadow-2);
             a { margin-left: 3px;}
         }
         &_background {
@@ -204,6 +205,42 @@ function isHovered(item) {
         &.break {
             flex-basis: 100%;
             height: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &-selected {
+            &_mosaic {
+                gap: 2px;
+                padding-top: 0;
+                .item {
+                    max-height: 30px;
+                    padding: 0 2px;
+                    gap: 1px;
+                    font-size: x-small;
+                    line-height: 10px;
+                    .icon {
+                        transform: scale(0.7);
+                    }
+                }
+            }
+            &_desc {
+                padding: 15px 5px 15px 5px;
+                font-size: 0.8rem;
+                line-height: 1rem;
+            }
+        }
+        &-items {
+            padding: 5px;
+        }
+        &-item {
+            width: 100px; height: 100px;
+            &_title {
+                font-size: 1.2rem;
+                &.show {
+                    bottom: 5px;
+                }
+            }
         }
     }
 }

@@ -71,5 +71,13 @@ function toggleTile(index: Number) {
             display: none;
         }
     }
+
+    @media (max-width: 768px) {
+        .tile {
+            width: calc(50% - 10px);
+            font-size: 0.8rem;
+            line-height: 1rem;
+        }
+    }
 }
 </style>

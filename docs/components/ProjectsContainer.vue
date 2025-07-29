@@ -156,5 +156,12 @@ function isSelected(item) {
             outline: thin solid var(--vp-c-border);
         }
     }
+
+    @media (max-width: 768px) {
+        .carousel-header {
+            transform: scale(0.5);
+            left: -25%;
+        }
+    }
 }
 </style>
