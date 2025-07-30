@@ -113,9 +113,9 @@ const projects = [
         image: '/images/Projects_1.png',
     },
     {
-        key: 'Aquarium',
-        repo: 'nguyenviettung7691/vue-virtual-aquarium',
-        url: 'https://aquarium.nvtung.com/',
+        key: 'KoiKingdom',
+        repo: 'nguyenviettung7691/koi-kingdom',
+        url: 'https://koikingdom.nvtung.com/',
         image: '/images/Projects_2.png',
     },
     {
