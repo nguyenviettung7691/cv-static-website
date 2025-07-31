@@ -2,7 +2,7 @@
 
 A static website for showcasing the CV, profile, skillsets, certifications, and portfolio of Nguyen Viet Tung. Built with [VitePress](https://vitepress.dev/) for fast, modern documentation and personal branding.
 
-![Screenshot](/public/preview.png)
+![Screenshot](/docs/public/preview.png)
 
 ## Features
 
