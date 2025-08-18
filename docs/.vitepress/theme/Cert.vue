@@ -1,12 +1,14 @@
 <script setup>
 import { onMounted, nextTick, computed } from 'vue'
 import { useData } from 'vitepress'
-const { localeIndex } = useData()
+const { localeIndex, isDark } = useData()
 
 const efsetUrl = computed(() => {
   let lang = localeIndex.value != 'root' ? (localeIndex.value + '/') : '';
   return `https://cert.efset.org/${lang}Yr64ri`
 });
+
+const vuejsCert = computed(() => `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9cf3a5b7-fd94-4a17-ab22-6d17596e6c56${isDark.value ? '.dark' : ''}.jpg`)
 
 onMounted(async () => {
   await nextTick();
@@ -20,7 +22,7 @@ onMounted(async () => {
 <template>
   <iframe :src="efsetUrl" style="height: 840px; width: 100%; margin-bottom: 1.6rem;"></iframe>
 
-  <img class="certification" src="https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9cf3a5b7-fd94-4a17-ab22-6d17596e6c56.jpg" style="width: 100%; margin-bottom: 1.6rem;">
+  <img class="certification" :src="vuejsCert" style="width: 100%; margin-bottom: 1.6rem;">
   <img class="certification" src="https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9f981598-89ce-4208-b545-8766a6e20fae.jpg" style="width: 100%; margin-bottom: 1.6rem;">
 
   <div style="display: flex; gap: 1.6rem; align-items: center; flex-direction: column;">
