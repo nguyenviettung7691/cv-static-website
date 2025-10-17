@@ -10,46 +10,25 @@ layout: doc
 ### 🎯 Team Leader & Organizer
 
 ::: tip With great power comes great responsibility
-- Has experience in organizing & practicing SCRUM, AGILE framework
-- Has experience in leading a team of development including developer, tester, BA.
-- Has experience in requirement clarification, high-level technical estimation.
+Experienced in applying Scrum and Agile methodologies, leading cross-functional teams of developers, testers, and business analysts, and managing requirement clarification and high-level technical estimation.
 :::
 
 ### 💡 Technical Solution Maker
 
 ::: tip Careful planning will go a long way
-- Has experience in research & deciding technical solution to meet business requirement as well as overcome technical constraint, compliance.
-- Has experience in some web architecture such as BFF (backend for frontend), SPA (single page application), MVC (model view controller).
-- Has experience in Cloud Computing by utilizing AWS and Azure services to build solutions.
+Skilled in researching and selecting technical solutions that balance business needs, technical limitations, and compliance requirements. Experienced with modern web architectures, including BFF, SPA, and MVC, and adept at building scalable solutions using AWS and Azure cloud services.
 :::
 
 ### 🖥️ Web Development
 
 ::: tip So many tools to choose from, how you use them is up to you
-Has experience working as a full-stack web developer with technologies such as:
-
-- Front-end Stack: VueJS (VueJS, Pinia, Vuetify, ViteJs, Vitest, vue-i18n)
-- Front-end Libraries: CkEditor, Highcharts, jQuery
-- Front-end UI: Bootstrap, LESS, SASS
-- Builders: GruntJS, gulpjs, NPM, Composer, Webpack
-- Source control: Github, Bitbucket
-- Back-end: PHP, Yii Framework, Humhub, C#, .NET Core
-- Container: Docker
-- Database: MySQL, ElasticSearch, Redis
-- Cloud: Azure, AWS
-- Graphics: Adobe Illustrator, Paint.net
-- Others: Rabbitmq
+Full-stack web developer skilled in both front-end and back-end technologies, including Vue.js, PHP, .NET Core, and containerized deployments with Docker. Experienced in cloud integration (AWS, Azure), modern build pipelines, and database solutions using MySQL, Elasticsearch, and Redis.
 :::
 
 ### 📱 Mobile Design
 
 ::: tip Web deserves to have their own mobile app experience
-Has experience designing for Mobile by:
-
-- Optimize web app to Progressive Web App standards
-- Utilizing Responsive Design (CSS media query)
-- Cross-Browser, Cross-Device UI design
-- Cross-Browser, Cross-Device JS
+Skilled in designing for mobile by optimizing web apps to PWA standards, implementing responsive design with CSS media queries, and ensuring consistent UI and JavaScript behavior across browsers and devices.
 :::
 
 <script setup>
@@ -58,108 +37,54 @@ const imgStyles = 'style="width:48px;"';
 const aAttr = 'target="_blank"';
 
 const experiences = [
+    { badge: 'Coming soon', title: '???' },
     {
-        badge: 'Apr 2022 → Current',
+        badge: 'Apr 2022 → Sep 2025',
         title: 'Fullstack Web Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Work with Conexus and being responsible for the web app products, including Followup. Main tasks include:</p>
-        <ul>
-            <li>Research &amp; incorporate new technologies (VueJS, .NET Core 6, Pinia...) to new web apps.</li>
-            <li>Update Azure Infrastructure code for new web app services (firewall policy rules, pipeline, ...).</li>
-            <li>Create POC for new features (biometrics authentication with FIDO).</li>
-            <li>Migrate current frontend libraries to new versions (Bootstrap 5).</li>
-        </ul>`
+        content: `<p>Contributed to web app products such as FollowUp, focusing on modernizing the tech stack and infrastructure. My work involved integrating new frameworks (Vue.js, .NET Core 6, Pinia), managing Azure infrastructure code for service deployment, developing POCs like FIDO-based biometric authentication, and upgrading front-end libraries to Bootstrap 5.</p>`
     },
     {
         badge: 'Sep 2022 → Mar 2023',
         title: 'Azure DevOps',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Work with Conexus to migrate their whole infrastructure from on-premise BaseFarm servers to Azure Cloud. Main tasks include:</p>
-        <ul>
-            <li>Manage security flow between app services with Firewall policies, Network
-                security group rules.</li>
-            <li>Manage deployment of app services with Pipelines.</li>
-            <li>Manage app service deployment definition template with ARM and Bicep.</li>
-            <li>Manage containerized app services with Azure App Service and Azure Container
-                Instance.</li>
-            <li>Manage the metrics &amp; insights of app services with Application Insights.</li>
-        </ul>`
+        content: `<p>Migrated Conexus’s infrastructure from on-premise BaseFarm servers to Azure Cloud, focusing on network security, automated deployments, and infrastructure-as-code. Managed containerized app services and monitored performance using Azure Application Insights.</p>`
     },
     {
         badge: 'May 2022 → Aug 2022',
         title: 'Frontend Web Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Work with Conexus and responsible for the front-end of their website products, mainly Engage & Followup. Main tasks include:</p>
-        <ul>
-            <li>Implement frontend functionality for web app.</li>
-            <li>Implement UI/UX for web app, including create font icon from SVG designs.</li>
-            <li>Refactor code, fix bugs, make changes to codes when needed.</li>
-            <li>Follow the SCRUM framework.</li>
-        </ul>`
+        content: `<p>Focused on the front-end of Engage and FollowUp, implementing core features, refining UI/UX with custom SVG-based icons, and maintaining clean, efficient code. I actively contributed within the Scrum workflow to deliver consistent, high-quality web experiences.</p>`
     },
     {
         badge: 'Sep 2020 → Apr 2022',
         title: 'Web Development Team Lead',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Work with Conexus and Singapore MOE (Ministry of Education), being responsible for one of the modules of their E- Learning government product OPAL (One Portal All Learners), called CSL (Collaborative and Social Learning). It is a web app that provides communities for learners. Main tasks include:</p>
-        <ul>
-            <li>Manage a small team of web development to make sure they follow the SCRUM framework.</li>
-            <li>Implement features for the web app by being fullstack developer.</li>
-            <li>Work on improving the web app by resolving SSAT and SPT issues.</li>
-        </ul>`
+        content: `<p>Collaborated with the Singapore Ministry of Education on the OPAL e-learning platform, focusing on the CSL (Collaborative and Social Learning) module. Led a small Scrum team, contributed as a full-stack developer, and improved platform reliability through systematic resolution of SSAT and SPT issues.</p>`
     },
     {
         badge: 'Oct 2019 → Sep 2020',
         title: 'Web Development Team Lead',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Work with Conexus and Singapore MOE (Ministry of Education), being responsible for one of the modules of their E- Learning government product OPAL (One Portal All Learners), called CSL (Collaborative and Social Learning). It is a web app that provides communities for learners. Main tasks include:</p>
-        <ul>
-            <li>Manage a small team of web development to make sure they follow the SCRUM
-                framework.</li>
-            <li>Implement features for the web app by being fullstack developer.</li>
-            <li>Work on improving the web app by resolving SSAT and SPT issues.</li>
-        </ul>`
+        content: `<p>Worked with Conexus and the Singapore Ministry of Education on the OPAL e-learning platform, contributing to the CSL module that supports community-based learning. Led a small Scrum team, developed full-stack features, and improved product stability through targeted SSAT and SPT issue resolution.</p>`
     },
     {
         badge: 'Jan 2018 → Oct 2019',
         title: 'Fullstack Web Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Work with Conexus and Conexus SG, being responsible for the front-end of their website products, includes Conexus Companion and Coursepad. Main tasks include:</p>
-        <ul>
-            <li>Upgrade &amp; migrate version or frontend web libraries.</li>
-            <li>Create &amp; update web components.</li>
-            <li>Improve the workflow and infrastructure of the client-side.</li>
-            <li>Refactor code, fix bugs, make changes to codes when needed.</li>
-            <li>Follow the SCRUM framework.</li>
-        </ul>`
+        content: `<p>Collaborated with Conexus and Conexus SG on front-end development for products such as Conexus Companion and Coursepad. Focused on upgrading libraries, building reusable web components, improving client-side workflows, and maintaining high-quality code within the Scrum development process.</p>`
     },
     {
         badge: 'Nov 2014 → Dec 2017',
         title: 'Front-end Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Create & maintain features for web application that is responsive and functions for as many devices and browsers as possible to create a seamless experience. That includes:</p>
-        <ul>
-            <li>Create web page in ASP.Net MVC using Razor syntax.</li>
-            <li>Create front-end scripts using jQuery.</li>
-            <li>Styling UI with LESS and font-icons.</li>
-            <li>Bundling code with Microsoft Optimization.</li>
-            <li>Utilizing Javascript Module technique to organize features.</li>
-            <li>Design new UX for web app.</li>
-            <li>Create and modify graphics such as font icons, transparent images.</li>
-        </ul>`
+        content: `<p>Designed and implemented responsive web applications using ASP.NET MVC (Razor), jQuery, and LESS. Focused on cross-device and cross-browser compatibility, efficient bundling with Microsoft Optimization, modular JavaScript design, and UX improvements supported by custom graphics and icons.</p>`
     },
     {
         badge: 'Oct 2013 → Sep 2014',
         title: 'Fullstack Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_1.png" ${imgStyles}></div><a href="https://f2tech.asia/" ${aAttr}>F2Tech (formerly VNYI)</a>`,
-        content: `
-        <ul>
-            <li>Develop & maintain features for POS app using C# Winforms, DevExpress.</li>
-            <li>Develop & maintain features for web app using ExtJS.</li>
-            <li>Develop new cross platform mobile app using Cordova, Telerik, Kendo UI.</li>
-            <li>Write & maintain database using SQL Server by writing stored procedure.</li>
-        </ul>
-        `
+        content: `<p>Contributed to multi-platform development, including a POS desktop app (C# WinForms, DevExpress), a web app (ExtJS), and a mobile app (Cordova, Telerik, Kendo UI). Managed database logic in SQL Server through well-structured stored procedures to ensure data reliability and performance.</p>`
     },
 ]
 
@@ -216,7 +141,7 @@ const certifications = [
         badge: 'Sep 2009 → Mar 2014',
         title: `Bachelor - Software Engineering, Information Technology Faculty</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.haitrieu.com/wp-content/uploads/2021/10/DH-Hoa-Sen-Main-Icon.png" ${imgStyles}></div><a href="https://www.hoasen.edu.vn/en/education/university/" ${aAttr}>Hoa Sen, University</a>`,
-        content: `<p>Graduating Project was built with a team of 4. It is a solution of ordering for coffee shops. It has a mobile app used for ordering by waiter, built with Windows Phone SDK; and a desktop app used for managing and accounting, built with C# WPF. The mobile app sends data to the database, using SQL Server, and the desktop app displays changes in realtime, using SignalR</p>`
+        content: `<p>Developed as a team of four, this graduation project delivered a complete ordering and management system for coffee shops. The solution featured a Windows Phone-based mobile app for order taking and a C# WPF desktop app for management and accounting. Data synchronization was handled via SQL Server, with real-time updates powered by SignalR.</p>`
     },
 ]
 
@@ -303,7 +228,7 @@ const employers = [
         img: '/images/Employer_1.png',
         title: 'F2Tech (formerly VNYI)',
         url: 'https://f2tech.asia/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>F2Tech <small style="font-size:0.8rem">(formerly VNYI)</small></b></div>F2 Asia Technology Joint Stock Company (F2Tech) is a professional consulting company and provides sales management software solutions and POS hardware for the F&B and retail industries. We are proud to have a passion for creativity, enthusiasm, and possess a high-tech platform with a talented team.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>F2Tech <small style="font-size:0.8rem">(formerly VNYI)</small></b></div>F2 Asia Technology Joint Stock Company (F2Tech) is a professional consulting company and provides sales management software solutions and POS hardware for the F&B and retail industries.`
     },
 ]
 </script>

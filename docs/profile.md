@@ -13,18 +13,9 @@ import ProfileContainer from './components/ProfileContainer.vue'
 ## 🙋 Introduction {#intro}
 
 ::: info First impression is important.
-- I am an experienced Web Developer with a demonstrated history of working in the information technology, especially comfortable with education business requirements.
-Excels in tools & techs such as: VueJS stack (VueJS, Pinia, Vite...), jQuery, .NET Core/ASP.NET MVC, SCSS/LESS, Bootstrap...
-
-- Familiar with Cloud Computing tech in DevOps role of Azure and AWS.
-
-- Familiar with AI models & tools for coding tasks, having experience in ChatGPT, Gemini, Firebase Studio, Copilot.
-
-- Specialized in: Web Responsive Design, UI/UX Design, Full-stack Web Develop based on patterns such as: MVC, SPA, BFF...
-
-- Has experience in: Yii Framework, Humhub, PHP, MySQL, Docker, Redis, ElasticSearch, RabbitMQ.
-Has applied Agile Methodologies & SCRUM in team lead role.
-Other nice-to-have skills including: English Translation & English Communication, Adobe Illustrator, Paint.net.
+Experienced Web Developer specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
+Skilled in Azure/AWS cloud infrastructure, Agile practices, and AI-assisted coding.
+Passionate about building modern, scalable applications that bridge technology and education.
 
 :::
 

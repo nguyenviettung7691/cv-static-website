@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Nguyễn Việt Tùng"
   text: "｢Web Developer｣"
-  tagline: "Hello world! I am an experienced Web Developer with a demonstrated history of working in the information technology and services industry. Excels in tools & techs of Front-end Development. Familiar with Cloud Computing tech in DevOps role."
+  tagline: "Hello world! I am a Passionate Web Developer experienced in building responsive, scalable applications. Strong focus on front-end development and cloud deployment."
   image:
     src: /images/Profile.jpg
     alt: Profile picture

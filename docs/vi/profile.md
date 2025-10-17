@@ -13,18 +13,9 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 ## 🙋 Giới thiệu {#intro}
 
 ::: info Ấn tượng ban đầu rất quan trọng.
-- Tôi là một nhà phát triển web giàu kinh nghiệm với lịch sử làm việc đã được chứng minh trong ngành công nghệ thông tin, cụ thể là quen thuộc với các nghiệp vụ của ngành giáo dục.
-Thành thạo các công cụ và kỹ thuật chuyên môn như: VueJS stack (VueJS, Pinia, Vite...), jQuery, .NET Core/ASP.NET MVC, SCSS/LESS, Bootstrap...
-
-- Quen thuộc với công nghệ điện toán đám mây trong vai trò DevOps của Azure và AWS.
-
-- Quen thuộc với các mô hình và công cụ AI để viết code, có kinh nghiệm về ChatGPT, Gemini, Firebase Studio, Copilot.
-
-- Chuyên gia về Thiết kế web Responsive, Thiết kế UI/UX, Full-stack Web Develop theo các mô hình như MVC, SPA, BFF...
-
-- Có kinh nghiệm về: Yii Framework, Humhub, PHP, MySQL, Docker, Redis, ElasticSearch, RabbitMQ.
-Đã từng áp dụng Phương pháp Agile và SCRUM trong vai trò team lead.
-Các kỹ năng cần có khác bao gồm: Dịch tiếng Anh và Giao tiếp tiếng Anh, Adobe Illustrator, Paint.net.
+Lập trình viên Web giàu kinh nghiệm, chuyên về thiết kế giao diện đáp ứng (responsive) và phát triển web full-stack trong các hệ sinh thái Vue.js và .NET.
+Thành thạo hạ tầng điện toán đám mây Azure/AWS, phương pháp Agile, và lập trình hỗ trợ bởi AI.
+Đam mê xây dựng các ứng dụng hiện đại, có khả năng mở rộng, kết nối giữa công nghệ và giáo dục.
 
 :::
 

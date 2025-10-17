@@ -1,3 +1,8 @@
+<script setup>
+import { useData } from 'vitepress';
+const { localeIndex } = useData()
+</script>
+
 <template>
     <div class="profile-container">
       <div style="display: flex; align-items: center; justify-content: flex-start; gap: 1rem;">
@@ -5,7 +10,7 @@
 
         <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem;">
           <h1 class="profile-name">Nguyễn Việt Tùng</h1>
-          <div class="profile-role">Web Developer</div>
+          <div class="profile-role">{{ localeIndex == 'vi' ? 'Lập trình viên Web' : 'Web Developer' }}</div>
         </div>
       </div>
 

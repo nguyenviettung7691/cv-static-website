@@ -10,46 +10,27 @@ layout: doc
 ### 🎯 Trưởng nhóm & Người tổ chức
 
 ::: tip Với sức mạnh lớn đi kèm trách nhiệm lớn
-- Có kinh nghiệm tổ chức và thực hành SCRUM, framework AGILE
-- Có kinh nghiệm lãnh đạo nhóm phát triển bao gồm lập trình viên, kiểm thử viên, BA.
-- Có kinh nghiệm làm rõ yêu cầu, ước tính kỹ thuật cấp cao.
+Có kinh nghiệm áp dụng phương pháp Scrum và Agile, dẫn dắt các nhóm liên chức năng gồm lập trình viên, kiểm thử viên và chuyên viên phân tích nghiệp vụ, đồng thời quản lý việc làm rõ yêu cầu và ước lượng kỹ thuật ở cấp độ tổng thể.
 :::
 
 ### 💡 Tạo ra giải pháp kỹ thuật
 
 ::: tip Kế hoạch cẩn thận sẽ giúp đi một chặng đường dài
-- Có kinh nghiệm nghiên cứu và quyết định giải pháp kỹ thuật đáp ứng yêu cầu kinh doanh cũng như vượt qua các hạn chế kỹ thuật.
-- Có kinh nghiệm về một số kiến trúc web như BFF (backend cho frontend), SPA (ứng dụng trang đơn), MVC (model-view-controller).
-- Có kinh nghiệm về Điện toán đám mây bằng cách sử dụng các dịch vụ AWS và Azure để xây dựng giải pháp.
+Thành thạo trong việc nghiên cứu và lựa chọn các giải pháp kỹ thuật phù hợp, cân bằng giữa nhu cầu kinh doanh, giới hạn kỹ thuật và yêu cầu tuân thủ.
+Có kinh nghiệm với kiến trúc web hiện đại như BFF (Backend for Frontend), SPA (Single Page Application) và MVC (Model–View–Controller), cùng khả năng xây dựng các giải pháp có khả năng mở rộng trên nền tảng điện toán đám mây AWS và Azure.
 :::
 
 ### 🖥️ Phát triển web
 
 ::: tip Có rất nhiều công cụ để lựa chọn, cách bạn sử dụng chúng là tùy thuộc vào bạn
-Có kinh nghiệm làm việc với tư cách là nhà phát triển web đầy đủ với các công nghệ như:
-
-- Hệ sinh thái Front-end: VueJS (VueJS, Pinia, Vuetify, ViteJs, Vitest, vue-i18n)
-- Thư viện Front-end: CkEditor, Highcharts, jQuery
-- Giao diện Front-end: Bootstrap, LESS, SASS
-- Biên dịch mã: GruntJS, gulpjs, NPM, Composer, Webpack
-- Quản lý source: Github, Bitbucket
-- Back-end: PHP, Yii Framework, Humhub, C#, .NET Core
-- Đóng gói: Docker
-- Cơ sở dữ liệu: MySQL, ElasticSearch, Redis
-- Đám mây: Azure, AWS
-- Đồ họa: Adobe Illustrator, Paint.net
-- Khác: Rabbitmq
+Lập trình viên Web full-stack, thành thạo cả front-end và back-end, với kinh nghiệm sử dụng Vue.js, PHP, .NET Core, cùng khả năng triển khai ứng dụng bằng Docker.
+Có kinh nghiệm trong tích hợp điện toán đám mây (AWS, Azure), quy trình build hiện đại, và giải pháp cơ sở dữ liệu sử dụng MySQL, Elasticsearch, và Redis.
 :::
 
 ### 📱 Thiết kế Di động
 
 ::: tip Web xứng đáng có trải nghiệm ứng dụng di động riêng
-Có kinh nghiệm thiết kế cho thiết bị di động:
-
-- Tối ưu hóa ứng dụng web cho chuẩn Progressive Web App
-- Sử dụng Responsive Design (CSS media query)
-- Thiết kế UI Đa trình duyệt, Đa thiết bị
-- Javascript Đa trình duyệt, Đa thiết bị
+Thành thạo trong việc thiết kế giao diện cho thiết bị di động bằng cách tối ưu ứng dụng web theo tiêu chuẩn PWA (Progressive Web App), triển khai thiết kế đáp ứng (responsive design) với CSS media queries, và đảm bảo giao diện người dùng cùng hành vi JavaScript nhất quán trên các trình duyệt và thiết bị khác nhau.
 :::
 
 <script setup>
@@ -58,105 +39,54 @@ const imgStyles = 'style="width:48px;"';
 const aAttr = 'target="_blank"';
 
 const experiences = [
+    { badge: 'Sắp có', title: '???' },
     {
-        badge: '04 / 2022 → Nay',
+        badge: '04 / 2022 → 09 / 2025',
         title: 'Nhà phát triển web Fullstack',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Làm việc với Conexus và chịu trách nhiệm về các sản phẩm ứng dụng web, bao gồm cả Followup. Nhiệm vụ chính bao gồm:</p>
-        <ul>
-            <li>Nghiên cứu và tích hợp các công nghệ mới (VueJS, .NET Core 6, Pinia...) vào các ứng dụng web mới.</li>
-            <li>Cập nhật mã Azure Infrastructure cho các dịch vụ ứng dụng web mới (quy tắc chính sách tường lửa, pipeline,...).</li>
-            <li>Tạo POC cho các tính năng mới (xác thực sinh trắc học với FIDO).</li>
-            <li>Di chuyển các thư viện front-end hiện tại sang phiên bản mới (Bootstrap 5).</li>
-        </ul>`
+        content: `<p>Đã đóng góp vào các sản phẩm ứng dụng web như FollowUp, tập trung vào việc hiện đại hóa công nghệ và hạ tầng hệ thống. Công việc bao gồm tích hợp các framework mới như Vue.js, .NET Core 6 và Pinia; quản lý mã hạ tầng trên Azure để triển khai dịch vụ; phát triển các bản thử nghiệm (POC) như xác thực sinh trắc học dựa trên FIDO; và nâng cấp thư viện front-end lên Bootstrap 5.</p>`
     },
     {
         badge: '09 / 2022 → 03 / 2023',
         title: 'Azure DevOps',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Làm việc với Conexus để di chuyển toàn bộ cơ sở hạ tầng của họ từ máy chủ BaseFarm tại chỗ sang Azure Cloud. Các nhiệm vụ chính bao gồm:</p>
-        <ul>
-            <li>Quản lý luồng bảo mật giữa các dịch vụ ứng dụng bằng chính sách Tường lửa, quy tắc nhóm bảo mật Mạng.</li>
-            <li>Quản lý việc triển khai dịch vụ ứng dụng bằng Pipelines.</li>
-            <li>Quản lý mẫu định nghĩa triển khai dịch vụ ứng dụng bằng ARM và Bicep.</li>
-            <li>Quản lý các dịch vụ ứng dụng được đóng gói bằng Azure App Service và Azure Container Instance.</li>
-            <li>Quản lý số liệu và thông tin chi tiết về dịch vụ ứng dụng bằng Application Insights.</li>
-        </ul>`
+        content: `<p>Đã chuyển đổi hạ tầng của Conexus từ máy chủ nội bộ BaseFarm sang nền tảng đám mây Azure, tập trung vào bảo mật mạng, triển khai tự động, và hạ tầng dưới dạng mã (Infrastructure-as-Code). Quản lý các dịch vụ ứng dụng container hóa và giám sát hiệu năng hệ thống thông qua Azure Application Insights.</p>`
     },
     {
         badge: '05 / 2022 → 08 / 2022',
         title: 'Nhà phát triển web frontend',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Làm việc với Conexus và chịu trách nhiệm về giao diện người dùng cho các sản phẩm website của họ, chủ yếu là Engage & Followup. Nhiệm vụ chính bao gồm:</p>
-        <ul>
-            <li>Triển khai chức năng front-end cho ứng dụng web.</li>
-            <li>Triển khai UI/UX cho ứng dụng web, bao gồm tạo biểu tượng phông chữ từ thiết kế SVG.</li>
-            <li>Tái cấu trúc mã, sửa lỗi, thực hiện thay đổi mã khi cần thiết.</li>
-            <li>Tuân thủ khuôn khổ SCRUM.</li>
-        </ul>`
+        content: `<p>Tập trung phát triển front-end cho các sản phẩm Engage và FollowUp, bao gồm triển khai các tính năng cốt lõi, tinh chỉnh UI/UX với biểu tượng tùy chỉnh dựa trên SVG, và duy trì mã nguồn sạch, hiệu quả. Chủ động tham gia quy trình Scrum, đóng góp vào việc cung cấp trải nghiệm web nhất quán và chất lượng cao.</p>`
     },
     {
         badge: '09 / 2020 → 04 / 2022',
         title: 'Trưởng nhóm phát triển web',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Hợp tác với Conexus và Bộ Giáo dục Singapore (MOE), phụ trách một trong các module của sản phẩm chính phủ E-Learning OPAL (One Portal All Learners), được gọi là CSL (Học tập Cộng tác và Xã hội). Đây là một ứng dụng web cung cấp cộng đồng cho người học. Các nhiệm vụ chính bao gồm:</p>
-        <ul>
-            <li>Quản lý một nhóm phát triển web nhỏ để đảm bảo họ tuân thủ khuôn khổ SCRUM.</li>
-            <li>Trở thành lập trình viên fullstack, triển khai các tính năng cho ứng dụng web.</li>
-            <li>Cải thiện ứng dụng web bằng cách giải quyết các vấn đề SSAT và SPT.</li>
-        </ul>`
+        content: `<p>Hợp tác với Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng e-learning OPAL, tập trung vào phân hệ CSL (Collaborative and Social Learning). Dẫn dắt một nhóm Scrum nhỏ, đóng vai trò lập trình viên full-stack, và nâng cao độ ổn định của hệ thống thông qua việc xử lý có hệ thống các sự cố SSAT và SPT.</p>`
     },
     {
         badge: '10 / 2019 → 09 / 2020',
         title: 'Trưởng nhóm phát triển web',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Hợp tác với Conexus và Bộ Giáo dục Singapore (MOE), phụ trách một trong các module của sản phẩm chính phủ E-Learning OPAL (One Portal All Learners), được gọi là CSL (Học tập Cộng tác và Xã hội). Đây là một ứng dụng web cung cấp cộng đồng cho người học. Các nhiệm vụ chính bao gồm:</p>
-        <ul>
-            <li>Quản lý một nhóm phát triển web nhỏ để đảm bảo họ tuân thủ khuôn khổ SCRUM.</li>
-            <li>Trở thành lập trình viên fullstack, triển khai các tính năng cho ứng dụng web.</li>
-            <li>Cải thiện ứng dụng web bằng cách giải quyết các vấn đề SSAT và SPT.</li>
-        </ul>`
+        content: `<p>Làm việc cùng Conexus và Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng học trực tuyến OPAL, đóng góp vào phân hệ CSL (Collaborative and Social Learning) hỗ trợ học tập dựa trên cộng đồng. Dẫn dắt một nhóm Scrum nhỏ, phát triển các tính năng full-stack, và nâng cao độ ổn định của sản phẩm thông qua việc xử lý có mục tiêu các sự cố SSAT và SPT.</p>`
     },
     {
         badge: '01 / 2018 → 10 / 2019',
         title: 'Nhà phát triển web Fullstack',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Làm việc với Conexus và Conexus SG, chịu trách nhiệm về giao diện người dùng cho các sản phẩm website của họ, bao gồm Conexus Companion và Coursepad. Các nhiệm vụ chính bao gồm:</p>
-        <ul>
-            <li>Nâng cấp & di chuyển phiên bản hoặc thư viện web front-end.</li>
-            <li>Tạo & cập nhật các thành phần web.</li>
-            <li>Cải thiện quy trình làm việc và cơ sở hạ tầng phía máy khách.</li>
-            <li>Tái cấu trúc mã, sửa lỗi, thực hiện thay đổi mã khi cần thiết.</li>
-            <li>Tuân thủ khuôn khổ SCRUM.</li>
-        </ul>`
+        content: `<p>Hợp tác với Conexus và Conexus Singapore trong phát triển front-end cho các sản phẩm như Conexus Companion và Coursepad. Tập trung vào nâng cấp thư viện, xây dựng các thành phần web có thể tái sử dụng, cải thiện quy trình làm việc phía client, và duy trì chất lượng mã nguồn cao trong quy trình phát triển Scrum.</p>`
     },
     {
         badge: '11 / 2014 → 12 / 2017',
         title: 'Nhà phát triển Front-end',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
-        content: `<p>Tạo và duy trì các tính năng cho ứng dụng web đáp ứng và hoạt động trên càng nhiều thiết bị và trình duyệt càng tốt để tạo ra trải nghiệm liền mạch. Bao gồm:/p>
-        <ul>
-            <li>Tạo trang web trong ASP.Net MVC bằng cú pháp Razor.</li>
-            <li>Tạo các tập lệnh front-end bằng jQuery.</li>
-            <li>Tạo kiểu giao diện người dùng với LESS và font-icons.</li>
-            <li>Đóng gói mã với Microsoft Optimization.</li>
-            <li>Sử dụng kỹ thuật Javascript Module để sắp xếp các tính năng.</li>
-            <li>Thiết kế UX mới cho ứng dụng web.</li>
-            <li>Tạo và chỉnh sửa đồ họa như biểu tượng phông chữ, hình ảnh trong suốt.</li>
-        </ul>`
+        content: `<p>Thiết kế và triển khai các ứng dụng web đáp ứng (responsive) sử dụng ASP.NET MVC (Razor), jQuery và LESS. Tập trung vào tương thích đa thiết bị và đa trình duyệt, tối ưu hóa quá trình bundling với Microsoft Optimization, thiết kế JavaScript theo hướng mô-đun, và cải thiện trải nghiệm người dùng (UX) thông qua đồ họa và biểu tượng tùy chỉnh.</p>`
     },
     {
         badge: '10 / 2013 → 09 / 2014',
         title: 'Nhà phát triển Fullstack',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_1.png" ${imgStyles}></div><a href="https://f2tech.asia/" ${aAttr}>F2Tech (từng là VNYI)</a>`,
-        content: `
-        <ul>
-          <li>Phát triển và duy trì các tính năng cho ứng dụng POS bằng C# Winforms, DevExpress.</li>
-          <li>Phát triển và duy trì các tính năng cho ứng dụng web bằng ExtJS.</li>
-          <li>Phát triển ứng dụng di động đa nền tảng mới bằng Cordova, Telerik, Kendo UI.</li>
-          <li>Viết và duy trì cơ sở dữ liệu bằng SQL Server thông qua việc viết thủ tục lưu trữ.</li>
-        </ul>
-        `
+        content: `Đóng góp vào phát triển đa nền tảng, bao gồm ứng dụng POS trên máy tính (C# WinForms, DevExpress), ứng dụng web (ExtJS) và ứng dụng di động (Cordova, Telerik, Kendo UI). Quản lý logic cơ sở dữ liệu trên SQL Server thông qua các stored procedure được thiết kế có cấu trúc, đảm bảo độ tin cậy và hiệu năng của dữ liệu.`
     },
 ]
 
@@ -213,7 +143,7 @@ const certifications = [
         badge: '09 / 2009 → 03 / 2014',
         title: `Cử nhân - Kỹ thuật phần mềm, Khoa Công nghệ thông tin</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.haitrieu.com/wp-content/uploads/2021/10/DH-Hoa-Sen-Main-Icon.png" ${imgStyles}></div><a href="https://www.hoasen.edu.vn/dao-tao/dai-hoc/" ${aAttr}>Đại học Hoa Sen</a>`,
-        content: `<p>Đồ án tốt nghiệp được xây dựng bởi một nhóm 4 người. Đây là một giải pháp đặt món cho quán cà phê. Nó bao gồm một ứng dụng di động dùng để nhân viên phục vụ gọi món, được xây dựng bằng Windows Phone SDK; và một ứng dụng máy tính để bàn dùng để quản lý và kế toán, được xây dựng bằng C# WPF. Ứng dụng di động gửi dữ liệu đến cơ sở dữ liệu, sử dụng SQL Server, và ứng dụng máy tính để bàn hiển thị các thay đổi theo thời gian thực, sử dụng SignalR.</p>`
+        content: `<p>Thực hiện trong nhóm 4 thành viên, dự án tốt nghiệp này xây dựng một hệ thống đặt món và quản lý dành cho quán cà phê hoàn chỉnh. Giải pháp bao gồm ứng dụng di động trên nền tảng Windows Phone phục vụ cho việc ghi nhận đơn hàng, cùng ứng dụng desktop C# WPF dành cho quản lý và kế toán. Đồng bộ dữ liệu được xử lý qua SQL Server, với cập nhật theo thời gian thực sử dụng SignalR.</p>`
     },
 ]
 
@@ -224,43 +154,43 @@ const products = [
         img: '/images/Products_4.png',
         title: 'Elevate',
         url: 'https://www.conexus.net/produkter/elevate/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Elevate được thiết kế để đáp ứng các yêu cầu về tài liệu cho các thách thức về môi trường trường học và được xây dựng để nhóm xung quanh học sinh có thể hợp tác chặt chẽ để giải quyết thách thức.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Elevate được thiết kế nhằm đáp ứng các yêu cầu ghi nhận và quản lý tài liệu trong môi trường giáo dục, giúp các thành viên trong nhóm xung quanh học sinh có thể phối hợp chặt chẽ để cùng giải quyết các thách thức trong quá trình học tập.`
     },
     {
         img: '/images/Products_5.png',
         title: 'Engage',
         url: 'https://www.conexus.net/produkter/engage/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Engage cho thấy thành tích của từng học sinh và lớp học, cũng như những điểm cần bổ sung. Công cụ này giúp giáo viên xác định nhu cầu theo dõi và điều chỉnh, đồng thời cung cấp nền tảng hữu ích cho việc đối thoại với gia đình học sinh.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Engage giúp hiển thị rõ những lĩnh vực mà từng học sinh hoặc cả lớp đang đạt kết quả tốt, cũng như những nơi cần được hỗ trợ thêm. Công cụ này hỗ trợ giáo viên xác định nhu cầu theo dõi và điều chỉnh phương pháp giảng dạy, đồng thời tạo nền tảng hữu ích cho việc trao đổi với phụ huynh.`
     },
     {
         img: '/images/Products_7.png',
         title: 'Insight',
         url: 'https://www.conexus.net/produkter/insight/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Insight là kho tàng dành cho chủ sở hữu và lãnh đạo nhà trường. Bạn có thể xem tổng quan về kết quả học tập, tải xuống các mẫu báo cáo có sẵn và xem dữ liệu từ Conexus Elevate, Conexus Engage hoặc các nguồn dữ liệu khác.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Insight là kho dữ liệu giá trị dành cho các nhà quản lý trường học và chủ sở hữu hệ thống giáo dục. Người dùng có thể xem tổng quan về kết quả học tập, tải xuống các mẫu báo cáo dựng sẵn, và truy cập dữ liệu từ Conexus Elevate, Conexus Engage hoặc các nguồn dữ liệu khác.`
     },
     {
         img: '/images/Products_6.png',
         title: 'Stafettloggen',
         url: 'https://www.conexus.net/produkter/stafettloggen/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Stafettloggen là một sổ ghi chép kỹ thuật số cho hoạt động hợp tác liên ngành xung quanh trẻ em, dựa trên mô hình BTI (nỗ lực liên ngành tốt hơn). Công cụ này cung cấp tổng quan về các chuyên gia liên quan, trách nhiệm của họ và các biện pháp đã được triển khai, đồng thời đơn giản hóa tương tác giữa người giám hộ, trường mẫu giáo, trường học, dịch vụ y tế và các cơ quan khác.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Conexus Stafettloggen là nhật ký số hỗ trợ hợp tác liên ngành xoay quanh việc chăm sóc và phát triển của trẻ, được xây dựng dựa trên mô hình BTI (Better Interdisciplinary Efforts). Công cụ này cung cấp cái nhìn tổng quan về các chuyên viên tham gia, vai trò và biện pháp họ thực hiện, đồng thời đơn giản hóa việc phối hợp giữa phụ huynh, nhà trẻ, trường học, dịch vụ y tế và các cơ quan liên quan khác.`
     },
     {
         img: '/images/Products_3.png',
         title: 'OPAL 2.0',
         url: 'https://academyofsingaporeteachers.moe.edu.sg/professional-learning/opal/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Ministry of Education</b></div>OPAL2.0 là nền tảng học tập kỹ thuật số của Bộ Giáo dục (MOE) dành cho cán bộ, nhân viên, nhằm thúc đẩy triết lý Sở hữu và Lãnh đạo Phát triển Chuyên môn (PD). Nền tảng này được thiết kế chủ yếu cho việc học tập cá nhân hóa và hợp tác, nhằm nuôi dưỡng người học kỹ thuật số của thế kỷ 21.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Ministry of Education</b></div>OPAL 2.0 là nền tảng học tập số của Bộ Giáo dục Singapore (MOE) dành cho đội ngũ giáo viên và nhân viên giáo dục, được phát triển dựa trên triết lý “Sở hữu và Lãnh đạo trong Phát triển Nghề nghiệp” (PD Ownership and Leadership). Hệ thống được thiết kế hướng tới học tập cá nhân hóa và hợp tác, nhằm bồi dưỡng năng lực người học trong kỷ nguyên số thế kỷ 21.`
     },
     {
         img: '/images/Products_2.png',
         title: 'Coursepad',
         url: 'https://www.linkedin.com/company/coursepad/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Civil Service College</b></div>Coursepad là một môi trường học tập thông minh, được cá nhân hóa, cung cấp nội dung học tập hữu ích, phù hợp và phổ biến nhất để thúc đẩy việc học tập tại nơi làm việc. Công cụ đề xuất của chúng tôi tạo ra các đề xuất học tập có tính liên quan cao dựa trên hồ sơ công việc, xã hội và học tập của người học, giúp các tổ chức lớn nâng cao kỹ năng cho lực lượng lao động của mình trên quy mô lớn.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Civil Service College</b></div>Coursepad là môi trường học tập thông minh và cá nhân hóa, cung cấp nội dung học tập hữu ích, phù hợp và phổ biến nhất nhằm tăng tốc quá trình học tập trong môi trường làm việc. Công cụ gợi ý (recommendation engine) của hệ thống tạo ra các đề xuất học tập có mức độ liên quan cao, dựa trên công việc, hồ sơ xã hội và hồ sơ học tập của người dùng, giúp các tổ chức lớn nâng cao kỹ năng đội ngũ nhân sự trên quy mô rộng.`
     },
     {
         img: '/images/Products_1.png',
         title: 'Quick Decision',
         url: 'https://f2tech.asia/solution/giai-phap',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>F2Tech <small style="font-size:0.8rem">(từng là VNYI)</small></b></div>Giải pháp hệ thống ERP cho doanh nghiệp F&B. Đã được cải tiến thành nhiều giải pháp chuyên biệt.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>F2Tech <small style="font-size:0.8rem">(từng là VNYI)</small></b></div>Giải pháp hệ thống ERP dành cho doanh nghiệp trong lĩnh vực F&B (nhà hàng – thực phẩm & đồ uống). Sản phẩm đã được tái cấu trúc và phát triển thành nhiều giải pháp chuyên biệt phục vụ các nhu cầu khác nhau của ngành.`
     },
 ]
 const clients = [
@@ -268,19 +198,19 @@ const clients = [
         img: '/images/Clients_1.png',
         title: 'Conexus AS',
         url: 'https://www.conexus.net/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Chúng tôi cung cấp cho các trường một nền tảng nơi họ có thể tìm thấy mọi thông tin chi tiết cần thiết, đồng thời cho phép họ lập kế hoạch và đánh giá công việc tiếp theo.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Chúng tôi cung cấp cho các trường học một nền tảng giúp họ tổng hợp và khai thác mọi thông tin cần thiết, đồng thời lên kế hoạch và đánh giá hiệu quả của các hoạt động theo dõi và cải tiến.`
     },
     {
         img: '/images/Clients_3.png',
         title: 'Ministry of Education (Singapore)',
         url: 'https://www.moe.gov.sg/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Ministry of Education</b></div>Bộ Giáo dục (MOE) xây dựng và thực hiện các chính sách giáo dục về cơ cấu giáo dục, chương trình giảng dạy, phương pháp sư phạm và đánh giá.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Ministry of Education</b></div>Bộ Giáo dục Singapore (MOE) chịu trách nhiệm xây dựng và triển khai các chính sách giáo dục liên quan đến cơ cấu hệ thống, chương trình giảng dạy, phương pháp sư phạm và đánh giá học tập.`
     },
     {
         img: '/images/Clients_2.png',
         title: 'Civil Service College (Singapore)',
         url: 'https://www.csc.gov.sg/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Civil Service College</b></div>Trung tâm của sự phát triển và xuất sắc trong học tập dành cho Dịch vụ công Singapore.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/sg.svg" class="flag" width="18" alt="Singapore"><b>Civil Service College</b></div>Trung tâm đào tạo và phát triển năng lực cốt lõi của khu vực công Singapore.`
     },
 ]
 const employers = [
@@ -288,19 +218,19 @@ const employers = [
         img: '/images/Employer_3.png',
         title: 'Conexus AS',
         url: 'https://www.conexus.net/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Chúng tôi cung cấp cho các trường một nền tảng nơi họ có thể tìm thấy mọi thông tin chi tiết cần thiết, đồng thời cho phép họ lập kế hoạch và đánh giá công việc tiếp theo.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/no.svg" class="flag" width="18" alt="Norway"><b>Conexus AS</b></div>Chúng tôi cung cấp cho các trường học một nền tảng giúp họ tổng hợp và khai thác mọi thông tin cần thiết, đồng thời lên kế hoạch và đánh giá hiệu quả các hoạt động theo dõi, hỗ trợ và cải tiến chất lượng giảng dạy.`
     },
     {
         img: '/images/Employer_2.png',
         title: 'Orient Software Development Corp. Vietnam',
         url: 'https://www.orientsoftware.com/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>Orient Software</b></div>Chúng tôi cung cấp dịch vụ phần mềm trọn gói—xây dựng các giải pháp đẳng cấp thế giới và hỗ trợ các dự án của bạn với đội ngũ công nghệ được kiểm duyệt.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>Orient Software</b></div>Chúng tôi cung cấp dịch vụ phần mềm toàn diện từ đầu đến cuối, xây dựng các giải pháp đẳng cấp quốc tế và tăng cường sức mạnh cho dự án của bạn bằng đội ngũ kỹ sư công nghệ được tuyển chọn kỹ lưỡng.`
     },
     {
         img: '/images/Employer_1.png',
         title: 'F2Tech (từng là VNYI)',
         url: 'https://f2tech.asia/',
-        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>F2Tech <small style="font-size:0.8rem">(formerly VNYI)</small></b></div>Công ty Cổ phần Công nghệ F2 Châu Á (F2Tech) là công ty tư vấn chuyên nghiệp, cung cấp giải pháp phần mềm quản lý bán hàng và thiết bị POS cho ngành F&B và bán lẻ. Chúng tôi tự hào sở hữu nền tảng công nghệ cao cùng đội ngũ nhân sự tài năng, giàu nhiệt huyết và đam mê sáng tạo.`
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/vn.svg" class="flag" width="18" alt="Vietnam"><b>F2Tech <small style="font-size:0.8rem">(formerly VNYI)</small></b></div>Công ty Cổ phần Công nghệ F2 Asia (F2Tech) là đơn vị tư vấn chuyên nghiệp, cung cấp giải pháp phần mềm quản lý bán hàng và thiết bị POS dành cho ngành F&B và bán lẻ.`
     },
 ]
 </script>
