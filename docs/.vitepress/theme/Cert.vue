@@ -9,6 +9,7 @@ const efsetUrl = computed(() => {
 });
 
 const vuejsCert = computed(() => `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9cf3a5b7-fd94-4a17-ab22-6d17596e6c56${isDark.value ? '.dark' : ''}.jpg`)
+const vuejsSeniorCert = computed(() => `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2Fa035486e-e918-44ac-98fd-d6ef9a74bbc4${isDark.value ? '.dark' : ''}.jpg`)
 
 onMounted(async () => {
   await nextTick();
@@ -20,13 +21,28 @@ onMounted(async () => {
 </script>
 
 <template>
-  <iframe :src="efsetUrl" style="height: 840px; width: 100%; margin-bottom: 1.6rem;"></iframe>
+  <div class="cert">
+    <iframe :src="efsetUrl" style="height: 840px; width: 100%; margin-bottom: 1.6rem;"></iframe>
 
-  <img class="certification" :src="vuejsCert" style="width: 100%; margin-bottom: 1.6rem;">
-  <img class="certification" src="https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9f981598-89ce-4208-b545-8766a6e20fae.jpg" style="width: 100%; margin-bottom: 1.6rem;">
+    <img class="certification" :src="vuejsSeniorCert" style="width: 100%; margin-bottom: 1.6rem;">
+    <img class="certification" :src="vuejsCert" style="width: 100%; margin-bottom: 1.6rem;">
 
-  <div style="display: flex; gap: 1.6rem; align-items: center; flex-direction: column;">
-    <div class="certification" data-iframe-width="350" data-iframe-height="240" data-share-badge-id="605169cb-6c39-4172-8376-1b67031cf0d3" data-share-badge-host="https://www.credly.com"></div>
-    <div class="certification" data-iframe-width="350" data-iframe-height="265" data-share-badge-id="b50d2d25-4689-4489-bc3b-440e985a5128" data-share-badge-host="https://www.credly.com"></div>
+    <img class="certification" src="https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9f981598-89ce-4208-b545-8766a6e20fae.jpg" style="width: 100%; margin-bottom: 1.6rem;">
+
+    <div class="credly">
+      <div class="certification" data-iframe-width="330" data-iframe-height="265" data-share-badge-id="605169cb-6c39-4172-8376-1b67031cf0d3" data-share-badge-host="https://www.credly.com"></div>
+      <div class="certification" data-iframe-width="330" data-iframe-height="265" data-share-badge-id="b50d2d25-4689-4489-bc3b-440e985a5128" data-share-badge-host="https://www.credly.com"></div>
+    </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.cert {
+  .credly {
+    display: flex; gap: 1.6rem; justify-content: center;
+    @media (max-width: 720px) {
+      flex-direction: column; align-items: center;
+    }
+  } 
+}
+</style>

@@ -93,6 +93,12 @@ const experiences = [
 const certifications = [
     { badge: 'Sắp có', title: '???' },
     {
+        badge: '10 / 2025',
+        title: `<a href="https://certificates.dev/vuejs/certificates/a035486e-e918-44ac-98fd-d6ef9a74bbc4" ${aAttr}>Nhà phát triển Vue.js cao cấp được chứng nhận</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/vuedotjs" ${imgStyles}></div><a href="https://certificates.dev/vuejs/" ${aAttr}>Certificates.Dev</a>`,
+        content: `<p>Đã chứng minh được trình độ chuyên môn và thành thạo trong phát triển Vue.js và phù hợp với vị trí Lập trình viên Vue.js cao cấp.</p>`
+    },
+    {
         badge: '08 / 2025',
         title: `<a href="https://certificates.dev/c/9f981598-89ce-4208-b545-8766a6e20fae" ${aAttr}>Nhà phát triển JavaScript cấp cơ sở được chứng nhận</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
