@@ -91,22 +91,28 @@ const experiences = [
 const certifications = [
     { badge: 'Coming soon', title: '???' },
     {
+        badge: 'Nov 2025',
+        title: `<a href="https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef" ${aAttr}>Certified Mid-Level JavaScript Developer</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
+        content: `<p>Demonstrated proficiency in advanced DOM manipulation and functions as a Senior Javascript developer.</p>`
+    },
+    {
         badge: 'Oct 2025',
         title: `<a href="https://certificates.dev/vuejs/certificates/a035486e-e918-44ac-98fd-d6ef9a74bbc4" ${aAttr}>Certified Senior Vue.js Developer</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/vuedotjs" ${imgStyles}></div><a href="https://certificates.dev/vuejs/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Demonstrated expertise and proficiency in Vue.js development and suitability as a Senior Vue.js Developer.</p>`
+        content: `<p>Demonstrated suitability, advanced concepts and elements required as a Senior Vue.js Developer.</p>`
     },
     {
         badge: 'Aug 2025',
         title: `<a href="https://certificates.dev/c/9f981598-89ce-4208-b545-8766a6e20fae" ${aAttr}>Certified Junior JavaScript Developer</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Demonstrated expertise and proficiency in Javascript development on ES6.</p>`
+        content: `<p>Demonstrated foundational skills, learning commitment as a Junior Javascript developer.</p>`
     },
     {
         badge: 'Sep 2024',
         title: `<a href="https://certificates.dev/vuejs/certificates/9cf3a5b7-fd94-4a17-ab22-6d17596e6c56" ${aAttr}>Certified Mid-Level Vue.js Developer</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/vuedotjs" ${imgStyles}></div><a href="https://certificates.dev/vuejs/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Demonstrated expertise and proficiency in Vue.js development on Vue.js Version 3.</p>`
+        content: `<p>Demonstrated required competency to use the framework to its fullest extent and capabilities to deliver the best possible results in a role as a Vue.js Developer.</p>`
     },
     {
         badge: 'Mar 2023',

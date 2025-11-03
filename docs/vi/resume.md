@@ -93,22 +93,28 @@ const experiences = [
 const certifications = [
     { badge: 'Sắp có', title: '???' },
     {
+        badge: '11 / 2025',
+        title: `<a href="https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef" ${aAttr}>Nhà phát triển JavaScript cấp trung được chứng nhận</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
+        content: `<p>Đã chứng minh được năng lực thành thạo trong thao tác DOM nâng cao và các chức năng như một nhà phát triển Javascript cao cấp.</p>`
+    },
+    {
         badge: '10 / 2025',
         title: `<a href="https://certificates.dev/vuejs/certificates/a035486e-e918-44ac-98fd-d6ef9a74bbc4" ${aAttr}>Nhà phát triển Vue.js cao cấp được chứng nhận</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/vuedotjs" ${imgStyles}></div><a href="https://certificates.dev/vuejs/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Đã chứng minh được trình độ chuyên môn và thành thạo trong phát triển Vue.js và phù hợp với vị trí Lập trình viên Vue.js cao cấp.</p>`
+        content: `<p>Đã chứng minh được sự phù hợp, các khái niệm nâng cao và các yếu tố cần thiết đối với một Nhà phát triển Vue.js cao cấp.</p>`
     },
     {
         badge: '08 / 2025',
         title: `<a href="https://certificates.dev/c/9f981598-89ce-4208-b545-8766a6e20fae" ${aAttr}>Nhà phát triển JavaScript cấp cơ sở được chứng nhận</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Đã chứng minh được trình độ chuyên môn và thành thạo trong phát triển Javascript trên ES6.</p>`
+        content: `<p>Đã chứng minh được các kỹ năng cơ bản, cam kết học tập với tư cách là nhà phát triển Javascript cơ bản.</p>`
     },
     {
         badge: '09 / 2024',
         title: `<a href="https://certificates.dev/vuejs/certificates/9cf3a5b7-fd94-4a17-ab22-6d17596e6c56" ${aAttr}>Nhà phát triển Vue.js cấp trung được chứng nhận</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/vuedotjs" ${imgStyles}></div><a href="https://certificates.dev/vuejs/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Đã chứng minh được trình độ chuyên môn và thành thạo trong phát triển Vue.js trên Vue.js Phiên bản 3.</p>`
+        content: `<p>Đã chứng minh được năng lực cần thiết để sử dụng framework ở mức tối đa và khả năng mang lại kết quả tốt nhất có thể trong vai trò là Nhà phát triển Vue.js.</p>`
     },
     {
         badge: '03 / 2023',

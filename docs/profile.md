@@ -13,9 +13,10 @@ import ProfileContainer from './components/ProfileContainer.vue'
 ## 🙋 Introduction {#intro}
 
 ::: info First impression is important.
-Experienced Web Developer specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
-Skilled in Azure/AWS cloud infrastructure, Agile practices, and AI-assisted coding.
-Passionate about building modern, scalable applications that bridge technology and education.
+I am:
+- Senior Web Developer specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
+- Skilled in Azure/AWS cloud infrastructure, Agile practices, and AI-assisted coding.
+- Experienced in building modern, scalable applications that bridge technology and education.
 
 :::
 

@@ -134,6 +134,9 @@ iframe, .certification {
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
   }
+  .text {
+    font-size: 40px;
+  }
   .image-src {
     border: 1px solid #ddd;
     border-radius: 50px;

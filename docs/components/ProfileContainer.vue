@@ -1,6 +1,6 @@
 <script setup>
-import { useData } from 'vitepress';
-const { localeIndex } = useData()
+import { computed } from 'vue'
+const roles = computed(() => ['Dev Lead', 'Front-end', 'Fullstack', 'DevOps'])
 </script>
 
 <template>
@@ -10,7 +10,9 @@ const { localeIndex } = useData()
 
         <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem;">
           <h1 class="profile-name">Nguyễn Việt Tùng</h1>
-          <div class="profile-role">{{ localeIndex == 'vi' ? 'Lập trình viên Web' : 'Web Developer' }}</div>
+          <div>
+            <div v-for="role in roles" class="profile-role">{{ role }}</div>
+          </div>
         </div>
       </div>
 
@@ -42,10 +44,10 @@ const { localeIndex } = useData()
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
   padding: 1rem 2rem;
+  height: 25rem;
   &:after {
     content: "";
     position: absolute;
@@ -71,8 +73,12 @@ const { localeIndex } = useData()
     .profile-name {
       text-shadow: rgba(0, 0, 0, 0.85) 1px 0 10px;
     }
+    .profile-role {
+      margin-right: 0;
+    }
     .profile-socials {
       img {
+        width: 1.8rem;
         filter: drop-shadow(10px 10px 5px #222);
       }
     }
@@ -85,7 +91,7 @@ const { localeIndex } = useData()
       font-size: 1.2rem;
     }
     .profile-role {
-      font-size: 0.8rem;
+      font-size: 0.6rem;
     }
   }
 }
@@ -111,14 +117,18 @@ const { localeIndex } = useData()
   background: #ffffff;
   color: #333;
   border-radius: 9999px;
-  padding: 0.4em 1em;
-  font-size: 1rem;
+  padding: 0.2em 0.8em;
+  font-size: 0.8rem;
   font-weight: 500;
+  margin-right: -5px;
   transition: all 0.3s ease;
 }
 
 /* Socials */
 .profile-socials {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;

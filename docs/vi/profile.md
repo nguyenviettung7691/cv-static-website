@@ -13,9 +13,10 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 ## 🙋 Giới thiệu {#intro}
 
 ::: info Ấn tượng ban đầu rất quan trọng.
-Lập trình viên Web giàu kinh nghiệm, chuyên về thiết kế giao diện đáp ứng (responsive) và phát triển web full-stack trong các hệ sinh thái Vue.js và .NET.
-Thành thạo hạ tầng điện toán đám mây Azure/AWS, phương pháp Agile, và lập trình hỗ trợ bởi AI.
-Đam mê xây dựng các ứng dụng hiện đại, có khả năng mở rộng, kết nối giữa công nghệ và giáo dục.
+Tôi là:
+- Lập trình viên Web Cao cấp, chuyên về thiết kế giao diện đáp ứng (responsive) và phát triển web full-stack trong các hệ sinh thái Vue.js và .NET.
+- Thành thạo hạ tầng điện toán đám mây Azure/AWS, phương pháp Agile, và lập trình hỗ trợ bởi AI.
+- Giàu kinh nghiệm xây dựng các ứng dụng hiện đại, có khả năng mở rộng, kết nối giữa công nghệ và giáo dục.
 
 :::
 

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Nguyễn Việt Tùng"
-  text: "｢Lập trình viên Web｣"
-  tagline: "Hello world! Tôi là Lập trình viên Web đam mê công nghệ, có kinh nghiệm trong xây dựng các ứng dụng web responsive và scalable. Tập trung mạnh vào phát triển front-end và triển khai ứng dụng trên nền tảng đám mây."
+  text: "｢Lập trình viên Web Cao cấp｣"
+  tagline: "Hello world! Tôi là Lập trình viên Web Cao cấp, có kinh nghiệm trong xây dựng các ứng dụng web responsive và scalable. Tập trung mạnh vào phát triển front-end, triển khai ứng dụng trên nền tảng đám mây và xây dựng back-end linh động."
   image:
     src: /images/Profile.jpg
     alt: Hình hồ sơ
