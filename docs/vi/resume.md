@@ -96,7 +96,7 @@ const certifications = [
         badge: '11 / 2025',
         title: `<a href="https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef" ${aAttr}>Nhà phát triển JavaScript cấp trung được chứng nhận</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Đã chứng minh được năng lực thành thạo trong thao tác DOM nâng cao và các chức năng như một nhà phát triển Javascript cao cấp.</p>`
+        content: `<p>Đã chứng minh được năng lực thành thạo trong thao tác DOM nâng cao và các chức năng như một nhà phát triển Javascript trung cấp.</p>`
     },
     {
         badge: '10 / 2025',

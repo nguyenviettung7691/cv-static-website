@@ -94,7 +94,7 @@ const certifications = [
         badge: 'Nov 2025',
         title: `<a href="https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef" ${aAttr}>Certified Mid-Level JavaScript Developer</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
-        content: `<p>Demonstrated proficiency in advanced DOM manipulation and functions as a Senior Javascript developer.</p>`
+        content: `<p>Demonstrated proficiency in advanced DOM manipulation and functions as a Mid-Level Javascript developer.</p>`
     },
     {
         badge: 'Oct 2025',
