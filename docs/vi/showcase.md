@@ -109,19 +109,19 @@ const projects = [
     {
         key: 'Leafwise',
         repo: 'nguyenviettung7691/leafwise',
-        url: 'https://leafwise.nvtung.com/',
+        url: 'https://leafwise.nguyenviettung.id.vn/',
         image: '/images/Projects_1.png',
     },
     {
         key: 'KoiKingdom',
         repo: 'nguyenviettung7691/koi-kingdom',
-        url: 'https://koikingdom.nvtung.com/',
+        url: 'https://koi-kingdom.nguyenviettung.id.vn/',
         image: '/images/Projects_2.png',
     },
     {
         key: 'Azure-Firewall',
         repo: 'nguyenviettung7691/azure-firewall-policy-optimizer',
-        url: 'https://azure-firewall.nvtung.com/',
+        url: 'https://azure-firewall.nguyenviettung.id.vn/',
         image: '/images/Projects_3.png',
     }
 ]
