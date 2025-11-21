@@ -39,7 +39,7 @@ const aAttr = 'target="_blank"';
 const experiences = [
     { badge: 'Coming soon', title: '???' },
     {
-        badge: 'Apr 2023 → Sep 2025',
+        badge: 'Apr 2023 → Dec 2025',
         title: 'Fullstack Web Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Contributed to web app products such as FollowUp, focusing on modernizing the tech stack and infrastructure. My work involved integrating new frameworks (Vue.js, .NET Core 6, Pinia), managing Azure infrastructure code for service deployment, developing POCs like FIDO-based biometric authentication, and upgrading front-end libraries to Bootstrap 5.</p>`
