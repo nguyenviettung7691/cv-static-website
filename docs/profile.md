@@ -14,7 +14,8 @@ import ProfileContainer from './components/ProfileContainer.vue'
 
 ::: info First impression is important.
 I am:
-- Senior Web Developer specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
+- Senior-level Fullstack Web Developer with 10+ years experience, including 2 years of Team Lead position.
+- Specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
 - Skilled in Azure/AWS cloud infrastructure, Agile practices, and AI-assisted coding.
 - Experienced in building modern, scalable applications that bridge technology and education.
 
