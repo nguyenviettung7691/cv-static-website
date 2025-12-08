@@ -16,8 +16,9 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 Tôi là:
 - Nhà phát triển web fullstack cấp cao với hơn 10 năm kinh nghiệm, bao gồm 2 năm giữ vị trí Trưởng nhóm.
 - Chuyên về thiết kế responsive và phát triển web full-stack trên hệ sinh thái Vue.js và .NET.
-- Thành thạo hạ tầng điện toán đám mây Azure/AWS, phương pháp Agile, và lập trình hỗ trợ bởi AI.
-- Giàu kinh nghiệm xây dựng các ứng dụng hiện đại, có khả năng mở rộng, kết nối giữa công nghệ và giáo dục.
+- Có kỹ năng về cơ sở hạ tầng đám mây Azure/AWS, tập trung vào các kỹ thuật DevOps như CI/CD.
+- Có kinh nghiệm thiết kế hệ thống, đặc biệt là với các mô hình kiến ​​trúc phần mềm như microservices, BFF (backend-for-frontend), micro-frontend.
+- Thực hành các phương pháp Agile trong lãnh đạo nhóm và lập trình với sự hỗ trợ của AI.
 
 :::
 

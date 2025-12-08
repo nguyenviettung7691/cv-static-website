@@ -16,8 +16,9 @@ import ProfileContainer from './components/ProfileContainer.vue'
 I am:
 - Senior-level Fullstack Web Developer with 10+ years experience, including 2 years of Team Lead position.
 - Specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
-- Skilled in Azure/AWS cloud infrastructure, Agile practices, and AI-assisted coding.
-- Experienced in building modern, scalable applications that bridge technology and education.
+- Skilled in Azure/AWS cloud infrastructure, focused on DevOps techniques such as CI/CD.
+- Experienced in system design, especially with software architecture patterns such as microservices, BFF (backend-for-frontend), micro-frontend.
+- Hands-on with Agile practices in team leading, and AI-assisted coding.
 
 :::
 
