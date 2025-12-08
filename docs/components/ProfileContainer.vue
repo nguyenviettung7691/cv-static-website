@@ -23,6 +23,9 @@ const roles = computed(() => ['Front-end', 'Fullstack', 'Team Lead', 'DevOps'])
           <a href="https://www.linkedin.com/in/nguyen-viet-tung" title="LinkedIn" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" />
           </a>
+          <a href="https://hashnode.com/@nvtung" title="Hashnode" target="_blank">
+              <img src="https://cdn.simpleicons.org/hashnode/2962FF?viewbox=auto" />
+          </a>
           <a href="https://medium.com/@nvtung" title="Medium" target="_blank">
               <img src="https://cdn.simpleicons.org/medium/fff?viewbox=auto" />
           </a>
