@@ -17,8 +17,9 @@ Tôi là:
 - Nhà phát triển web fullstack cấp cao với hơn 10 năm kinh nghiệm, bao gồm 2 năm giữ vị trí Trưởng nhóm.
 - Chuyên về thiết kế responsive và phát triển web full-stack trên hệ sinh thái Vue.js và .NET.
 - Có kỹ năng về cơ sở hạ tầng đám mây Azure/AWS, tập trung vào các kỹ thuật DevOps như CI/CD.
-- Có kinh nghiệm thiết kế hệ thống, đặc biệt là với các mô hình kiến ​​trúc phần mềm như microservices, BFF (backend-for-frontend), micro-frontend.
+- Có kinh nghiệm thiết kế hệ thống, đặc biệt là với các mô hình kiến ​​trúc phần mềm như microservices, BFF (backend-for-frontend).
 - Thực hành các phương pháp Agile trong lãnh đạo nhóm và lập trình với sự hỗ trợ của AI.
+- Ngoài ra còn có kinh nghiệm thực tế về các framework JavaScript khác như React, NextJS,... cũng như PHP.
 
 :::
 

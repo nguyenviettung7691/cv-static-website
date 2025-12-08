@@ -17,8 +17,9 @@ I am:
 - Senior-level Fullstack Web Developer with 10+ years experience, including 2 years of Team Lead position.
 - Specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
 - Skilled in Azure/AWS cloud infrastructure, focused on DevOps techniques such as CI/CD.
-- Experienced in system design, especially with software architecture patterns such as microservices, BFF (backend-for-frontend), micro-frontend.
+- Experienced in system design, especially with software architecture patterns such as microservices, BFF (backend-for-frontend).
 - Hands-on with Agile practices in team leading, and AI-assisted coding.
+- Also have hands-on experience in other JavaScript frameworks such as React, NextJS,... as well as PHP.
 
 :::
 
