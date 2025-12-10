@@ -13,13 +13,13 @@ import ProfileContainer from './components/ProfileContainer.vue'
 ## 🙋 Introduction {#intro}
 
 ::: info First impression is important.
-I am:
-- Senior-level Fullstack Web Developer with 10+ years experience, including 2 years of Team Lead position.
-- Specializing in responsive design and full-stack web development across the Vue.js and .NET ecosystems.
-- Skilled in Azure/AWS cloud infrastructure, focused on DevOps techniques such as CI/CD.
-- Experienced in system design, especially with software architecture patterns such as microservices, BFF (backend-for-frontend).
-- Hands-on with Agile practices in team leading, and AI-assisted coding.
-- Also have hands-on experience in other JavaScript frameworks such as React, NextJS,... as well as PHP.
+Senior Software Engineer with over a decade of hands-on experience building and modernizing web applications. I specialize in front-end engineering and pragmatic full-stack work: transforming legacy codebases, introducing modern frameworks, and delivering production-grade, maintainable systems.
+
+Technically, I’ve driven stack and infrastructure upgrades using Vue.js + Pinia, .NET Core, JWT/BFF authentication patterns, and modern front-end toolchains (SASS/LESS, Bootstrap, modular JS/SVG components). I’ve led Azure cloud migrations and IaC-driven deployments, managed containerized services, and instrumented apps with Application Insights — plus developed POCs such as FIDO biometric authentication to raise product security and UX.
+
+On the delivery side I’ve led small Scrum teams and collaborated with external partners (including the Singapore Ministry of Education on the OPAL CSL module) to improve reliability and user experience by systematically resolving stability and performance issues. My background spans DevOps, CI/CD, Docker, PHP/.NET backends, MySQL, and search (Elasticsearch).
+
+I bring a product-minded engineering approach: balance clean front-end UX with secure, scalable infrastructure, mentor teams toward pragmatic solutions, and move projects from technical debt to modern, resilient architectures.
 
 :::
 

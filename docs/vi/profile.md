@@ -13,13 +13,13 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 ## 🙋 Giới thiệu {#intro}
 
 ::: info Ấn tượng ban đầu rất quan trọng.
-Tôi là:
-- Nhà phát triển web fullstack cấp cao với hơn 10 năm kinh nghiệm, bao gồm 2 năm giữ vị trí Trưởng nhóm.
-- Chuyên về thiết kế responsive và phát triển web full-stack trên hệ sinh thái Vue.js và .NET.
-- Có kỹ năng về cơ sở hạ tầng đám mây Azure/AWS, tập trung vào các kỹ thuật DevOps như CI/CD.
-- Có kinh nghiệm thiết kế hệ thống, đặc biệt là với các mô hình kiến ​​trúc phần mềm như microservices, BFF (backend-for-frontend).
-- Thực hành các phương pháp Agile trong lãnh đạo nhóm và lập trình với sự hỗ trợ của AI.
-- Ngoài ra còn có kinh nghiệm thực tế về các framework JavaScript khác như React, NextJS,... cũng như PHP.
+Kỹ sư Phần mềm Cao cấp với hơn một thập kỷ kinh nghiệm thực tế trong việc xây dựng và hiện đại hóa các ứng dụng web. Tôi chuyên về kỹ thuật front-end và công việc full-stack thực tế: chuyển đổi các cơ sở mã nguồn cũ, giới thiệu các framework hiện đại và cung cấp các hệ thống cấp độ sản xuất, có thể bảo trì.
+
+Về mặt kỹ thuật, tôi đã thúc đẩy việc nâng cấp stack và cơ sở hạ tầng bằng cách sử dụng Vue.js + Pinia, .NET Core, các mẫu xác thực JWT/BFF và các chuỗi công cụ front-end hiện đại (SASS/LESS, Bootstrap, các thành phần JS/SVG dạng mô-đun). Tôi đã dẫn dắt các đợt di chuyển lên đám mây Azure và triển khai theo hướng IaC, quản lý các dịch vụ container và các ứng dụng được tích hợp công cụ với Application Insights — cùng với các POC được phát triển như xác thực sinh trắc học FIDO để nâng cao bảo mật sản phẩm và UX.
+
+Về mặt triển khai, tôi đã lãnh đạo các nhóm Scrum nhỏ và hợp tác với các đối tác bên ngoài (bao gồm Bộ Giáo dục Singapore về mô-đun OPAL CSL) để cải thiện độ tin cậy và trải nghiệm người dùng bằng cách giải quyết một cách có hệ thống các vấn đề về tính ổn định và hiệu suất. Kinh nghiệm của tôi bao gồm DevOps, CI/CD, Docker, lập trình backend PHP/.NET, MySQL và tìm kiếm (Elasticsearch).
+
+Tôi mang đến cách tiếp cận kỹ thuật hướng đến sản phẩm: cân bằng giữa trải nghiệm người dùng giao diện người dùng (front-end) mượt mà với cơ sở hạ tầng an toàn và có khả năng mở rộng, hướng dẫn các nhóm tìm ra giải pháp thực tiễn và chuyển các dự án từ nợ kỹ thuật sang kiến ​​trúc hiện đại và bền vững.
 
 :::
 
