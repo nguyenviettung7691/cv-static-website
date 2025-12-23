@@ -13,7 +13,7 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 ## 🙋 Giới thiệu {#intro}
 
 ::: info Ấn tượng ban đầu rất quan trọng.
-Kỹ sư Phần mềm Cao cấp với hơn một thập kỷ kinh nghiệm thực tế trong việc xây dựng và hiện đại hóa các ứng dụng web. Tôi chuyên về kỹ thuật front-end và công việc full-stack thực tế: chuyển đổi các cơ sở mã nguồn cũ, giới thiệu các framework hiện đại và cung cấp các hệ thống cấp độ sản xuất, có thể bảo trì.
+Kỹ sư Front-End/Full-Stack cấp cao với hơn 10 năm kinh nghiệm về giao diện người dùng dựa trên JavaScript, hơn 5 năm kinh nghiệm triển khai full-stack và điện toán đám mây, kiến ​​thức vững chắc về Azure và DevOps, cùng kinh nghiệm thực tế với kiến ​​trúc Vue.js hiện đại, kiến trúc BFF và User Authentication.
 
 Về mặt kỹ thuật, tôi đã thúc đẩy việc nâng cấp stack và cơ sở hạ tầng bằng cách sử dụng Vue.js + Pinia, .NET Core, các mẫu xác thực JWT/BFF và các chuỗi công cụ front-end hiện đại (SASS/LESS, Bootstrap, các thành phần JS/SVG dạng mô-đun). Tôi đã dẫn dắt các đợt di chuyển lên đám mây Azure và triển khai theo hướng IaC, quản lý các dịch vụ container và các ứng dụng được tích hợp công cụ với Application Insights — cùng với các POC được phát triển như xác thực sinh trắc học FIDO để nâng cao bảo mật sản phẩm và UX.
 

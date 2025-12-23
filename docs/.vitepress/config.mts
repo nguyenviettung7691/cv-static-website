@@ -37,6 +37,7 @@ export default defineConfig({
       // You can include a custom label for accessibility too (optional but recommended):
       { icon: 'github', link: 'https://github.com/nguyenviettung7691', ariaLabel: 'GitHub' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/nguyen-viet-tung', ariaLabel: 'LinkedIn' },
+      { icon: 'hashnode', link: 'https://hashnode.com/@nvtung', ariaLabel: 'Hashnode' },
       { icon: 'medium', link: 'https://medium.com/@nvtung', ariaLabel: 'Medium' },
       { icon: 'stackoverflow', link: 'https://stackoverflow.com/users/1437108/harry', ariaLabel: 'StackOverflow' },
       { icon: 'gmail', link: 'mailto:nvtung.harry@gmail.com', ariaLabel: 'Email' },

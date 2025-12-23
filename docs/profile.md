@@ -13,7 +13,7 @@ import ProfileContainer from './components/ProfileContainer.vue'
 ## 🙋 Introduction {#intro}
 
 ::: info First impression is important.
-Senior Software Engineer with over a decade of hands-on experience building and modernizing web applications. I specialize in front-end engineering and pragmatic full-stack work: transforming legacy codebases, introducing modern frameworks, and delivering production-grade, maintainable systems.
+Senior Front-End / Full-Stack Engineer with 10+ years in JavaScript-driven UI, 5+ years of full-stack & cloud-native delivery, strong Azure & DevOps background, and hands-on experience with modern Vue.js architecture, BFF patterns, and secure authentication systems.
 
 Technically, I’ve driven stack and infrastructure upgrades using Vue.js + Pinia, .NET Core, JWT/BFF authentication patterns, and modern front-end toolchains (SASS/LESS, Bootstrap, modular JS/SVG components). I’ve led Azure cloud migrations and IaC-driven deployments, managed containerized services, and instrumented apps with Application Insights — plus developed POCs such as FIDO biometric authentication to raise product security and UX.
 
