@@ -12,6 +12,7 @@ const darkSuffix = computed(() => isDark.value ? '.dark' : '')
 const certificates = computed(() => [
   `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2Fa035486e-e918-44ac-98fd-d6ef9a74bbc4${darkSuffix.value}.jpg`,
   `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9cf3a5b7-fd94-4a17-ab22-6d17596e6c56${darkSuffix.value}.jpg`,
+  `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2Fa14392fa-86d6-4a2e-9154-32ccedf0f9af${darkSuffix.value}.jpg`,
   `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2Fa0444290-62ca-4f5c-bb46-90ed9228b6ef${darkSuffix.value}.jpg`,
   `https://certificates.dev/.netlify/images?url=https:%2F%2Fapi.certificates.dev%2Fcertificates%2Fthumbnail%2F9f981598-89ce-4208-b545-8766a6e20fae${darkSuffix.value}.jpg`,
 ])

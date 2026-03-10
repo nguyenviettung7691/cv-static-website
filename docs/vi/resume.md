@@ -42,43 +42,43 @@ const experiences = [
     { badge: 'Sắp có', title: '???' },
     {
         badge: '04 / 2023 → 12 / 2025',
-        title: 'Nhà phát triển web Fullstack',
+        title: 'Kỹ sư phần mềm cao cấp',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Đã đóng góp vào các sản phẩm ứng dụng web như FollowUp, tập trung vào việc hiện đại hóa công nghệ và hạ tầng hệ thống. Công việc bao gồm tích hợp các framework mới như Vue.js, .NET Core 6 và Pinia; quản lý mã hạ tầng trên Azure để triển khai dịch vụ; phát triển các bản thử nghiệm (POC) như xác thực sinh trắc học dựa trên FIDO; và nâng cấp thư viện front-end lên Bootstrap 5.</p>`
     },
     {
         badge: '09 / 2022 → 03 / 2023',
-        title: 'Azure DevOps',
+        title: 'Kỹ sư DevOps',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Đã chuyển đổi hạ tầng của Conexus từ máy chủ nội bộ BaseFarm sang nền tảng đám mây Azure, tập trung vào bảo mật mạng, triển khai tự động, và hạ tầng dưới dạng mã (Infrastructure-as-Code). Quản lý các dịch vụ ứng dụng container hóa và giám sát hiệu năng hệ thống thông qua Azure Application Insights.</p>`
     },
     {
         badge: '05 / 2022 → 08 / 2022',
-        title: 'Nhà phát triển web frontend',
+        title: 'Lập trình viên Frontend cấp cao',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Tập trung phát triển front-end cho các sản phẩm Engage và FollowUp, bao gồm triển khai các tính năng cốt lõi, tinh chỉnh UI/UX với biểu tượng tùy chỉnh dựa trên SVG, và duy trì mã nguồn sạch, hiệu quả. Chủ động tham gia quy trình Scrum, đóng góp vào việc cung cấp trải nghiệm web nhất quán và chất lượng cao.</p>`
     },
     {
         badge: '09 / 2020 → 04 / 2022',
-        title: 'Trưởng nhóm phát triển web',
+        title: 'Kỹ sư phần mềm trưởng',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Hợp tác với Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng e-learning OPAL, tập trung vào phân hệ CSL (Collaborative and Social Learning). Dẫn dắt một nhóm Scrum nhỏ, đóng vai trò lập trình viên full-stack, và nâng cao độ ổn định của hệ thống thông qua việc xử lý có hệ thống các sự cố SSAT và SPT.</p>`
     },
     {
         badge: '10 / 2019 → 09 / 2020',
-        title: 'Trưởng nhóm phát triển web',
+        title: 'Kỹ sư phần mềm trưởng',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
         content: `<p>Làm việc cùng Conexus và Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng học trực tuyến OPAL, đóng góp vào phân hệ CSL (Collaborative and Social Learning) hỗ trợ học tập dựa trên cộng đồng. Dẫn dắt một nhóm Scrum nhỏ, phát triển các tính năng full-stack, và nâng cao độ ổn định của sản phẩm thông qua việc xử lý có mục tiêu các sự cố SSAT và SPT.</p>`
     },
     {
         badge: '01 / 2018 → 10 / 2019',
-        title: 'Nhà phát triển web Fullstack',
+        title: 'Nhà phát triển Frontend',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
         content: `<p>Hợp tác với Conexus và Conexus Singapore trong phát triển front-end cho các sản phẩm như Conexus Companion và Coursepad. Tập trung vào nâng cấp thư viện, xây dựng các thành phần web có thể tái sử dụng, cải thiện quy trình làm việc phía client, và duy trì chất lượng mã nguồn cao trong quy trình phát triển Scrum.</p>`
     },
     {
         badge: '11 / 2014 → 12 / 2017',
-        title: 'Nhà phát triển Front-end',
+        title: 'Nhà phát triển Frontend',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Thiết kế và triển khai các ứng dụng web đáp ứng (responsive) sử dụng ASP.NET MVC (Razor), jQuery và LESS. Tập trung vào tương thích đa thiết bị và đa trình duyệt, tối ưu hóa quá trình bundling với Microsoft Optimization, thiết kế JavaScript theo hướng mô-đun, và cải thiện trải nghiệm người dùng (UX) thông qua đồ họa và biểu tượng tùy chỉnh.</p>`
     },
@@ -92,6 +92,12 @@ const experiences = [
 
 const certifications = [
     { badge: 'Sắp có', title: '???' },
+    {
+        badge: '03 / 2026',
+        title: `<a href="https://certificates.dev/javascript/certificates/a14392fa-86d6-4a2e-9154-32ccedf0f9af" ${aAttr}>Lập trình viên JavaScript cao cấp được chứng nhận</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
+        content: `<p>Thể hiện trình độ thành thạo trong lập trình bất đồng bộ nâng cao, kiểm thử và giảm thiểu lỗ hổng bảo mật với tư cách là một lập trình viên Javascript cấp cao.</p>`
+    },
     {
         badge: '11 / 2025',
         title: `<a href="https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef" ${aAttr}>Nhà phát triển JavaScript cấp trung được chứng nhận</a>`,

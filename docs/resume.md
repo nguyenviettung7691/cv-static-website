@@ -40,43 +40,43 @@ const experiences = [
     { badge: 'Coming soon', title: '???' },
     {
         badge: 'Apr 2023 → Dec 2025',
-        title: 'Fullstack Web Developer',
+        title: 'Senior Software Engineer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Contributed to web app products such as FollowUp, focusing on modernizing the tech stack and infrastructure. My work involved integrating new frameworks (Vue.js, .NET Core 6, Pinia), managing Azure infrastructure code for service deployment, developing POCs like FIDO-based biometric authentication, and upgrading front-end libraries to Bootstrap 5.</p>`
     },
     {
         badge: 'Sep 2022 → Mar 2023',
-        title: 'Azure DevOps',
+        title: 'DevOps Engineer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Migrated Conexus’s infrastructure from on-premise BaseFarm servers to Azure Cloud, focusing on network security, automated deployments, and infrastructure-as-code. Managed containerized app services and monitored performance using Azure Application Insights.</p>`
     },
     {
         badge: 'May 2022 → Aug 2022',
-        title: 'Frontend Web Developer',
+        title: 'Senior Frontend Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Focused on the front-end of Engage and FollowUp, implementing core features, refining UI/UX with custom SVG-based icons, and maintaining clean, efficient code. I actively contributed within the Scrum workflow to deliver consistent, high-quality web experiences.</p>`
     },
     {
         badge: 'Sep 2020 → Apr 2022',
-        title: 'Web Development Team Lead',
+        title: 'Lead Software Engineer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Collaborated with the Singapore Ministry of Education on the OPAL e-learning platform, focusing on the CSL (Collaborative and Social Learning) module. Led a small Scrum team, contributed as a full-stack developer, and improved platform reliability through systematic resolution of SSAT and SPT issues.</p>`
     },
     {
         badge: 'Oct 2019 → Sep 2020',
-        title: 'Web Development Team Lead',
+        title: 'Lead Software Engineer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
         content: `<p>Worked with Conexus and the Singapore Ministry of Education on the OPAL e-learning platform, contributing to the CSL module that supports community-based learning. Led a small Scrum team, developed full-stack features, and improved product stability through targeted SSAT and SPT issue resolution.</p>`
     },
     {
         badge: 'Jan 2018 → Oct 2019',
-        title: 'Fullstack Web Developer',
+        title: 'Frontend Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
         content: `<p>Collaborated with Conexus and Conexus SG on front-end development for products such as Conexus Companion and Coursepad. Focused on upgrading libraries, building reusable web components, improving client-side workflows, and maintaining high-quality code within the Scrum development process.</p>`
     },
     {
         badge: 'Nov 2014 → Dec 2017',
-        title: 'Front-end Developer',
+        title: 'Frontend Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
         content: `<p>Designed and implemented responsive web applications using ASP.NET MVC (Razor), jQuery, and LESS. Focused on cross-device and cross-browser compatibility, efficient bundling with Microsoft Optimization, modular JavaScript design, and UX improvements supported by custom graphics and icons.</p>`
     },
@@ -90,6 +90,12 @@ const experiences = [
 
 const certifications = [
     { badge: 'Coming soon', title: '???' },
+    {
+        badge: 'Mar 2026',
+        title: `<a href="https://certificates.dev/javascript/certificates/a14392fa-86d6-4a2e-9154-32ccedf0f9af" ${aAttr}>Certified Senior JavaScript Developer</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
+        content: `<p>Demonstrates proficiency in advanced asynchronous programming, testing, and security vulnerability mitigation as a Senior Javascript developer.</p>`
+    },
     {
         badge: 'Nov 2025',
         title: `<a href="https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef" ${aAttr}>Certified Mid-Level JavaScript Developer</a>`,
