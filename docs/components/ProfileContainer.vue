@@ -26,11 +26,8 @@ const roles = computed(() => ['Front-end', 'Fullstack', 'Team Lead', 'DevOps'])
           <a href="https://hashnode.com/@nvtung" title="Hashnode" target="_blank">
               <img src="https://cdn.simpleicons.org/hashnode/2962FF?viewbox=auto" />
           </a>
-          <a href="https://medium.com/@nvtung" title="Medium" target="_blank">
-              <img src="https://cdn.simpleicons.org/medium/fff?viewbox=auto" />
-          </a>
-          <a href="https://stackoverflow.com/users/1437108/harry" title="Stackoverflow" target="_blank">
-              <img src="https://cdn.simpleicons.org/stackoverflow?viewbox=auto" />
+          <a href="https://www.npmjs.com/~nvtung.harry" title="NPM" target="_blank">
+              <img src="https://cdn.simpleicons.org/npm/CB3837?viewbox=auto" />
           </a>
           <a href="mailto:nvtung.harry@gmail.com" title="Email" target="_blank">
               <img src="https://cdn.simpleicons.org/gmail?viewbox=auto" />
