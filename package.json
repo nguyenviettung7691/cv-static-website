@@ -11,7 +11,8 @@
     "docs:preview": "vitepress preview docs --port 8080"
   },
   "overrides": {
-    "esbuild": "0.27.2"
+    "esbuild": "0.27.2",
+    "picomatch": ">=4.0.4"
   },
   "dependencies": {
     "@iconify/utils": "^2.3.0"
