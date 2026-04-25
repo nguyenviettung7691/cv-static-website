@@ -39,27 +39,33 @@ const aAttr = 'target="_blank"';
 const experiences = [
     { badge: 'Coming soon', title: '???' },
     {
+        badge: 'Jan 2026 → Current',
+        title: 'Senior IT Consulting & Implementation',
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachids.com/vn-english/" ${aAttr}>Hitachi Digital Services Vietnam</a>`,
+        content: `<p>End-to-end technical implementation and business consulting for enterprise digital transformation projects. Worked with clients: Hitachi Solutions, FUJIFILM Business Innovation. Hands-on with: Vue.js 3, Vite, Vitest, ReactJS, Node.js, Express, AWS, jQuery.</p>`
+    },
+    {
         badge: 'Apr 2023 → Dec 2025',
         title: 'Senior Software Engineer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Contributed to web app products such as FollowUp, focusing on modernizing the tech stack and infrastructure. My work involved integrating new frameworks (Vue.js, .NET Core 6, Pinia), managing Azure infrastructure code for service deployment, developing POCs like FIDO-based biometric authentication, and upgrading front-end libraries to Bootstrap 5.</p>`
     },
     {
         badge: 'Sep 2022 → Mar 2023',
         title: 'DevOps Engineer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Migrated Conexus’s infrastructure from on-premise BaseFarm servers to Azure Cloud, focusing on network security, automated deployments, and infrastructure-as-code. Managed containerized app services and monitored performance using Azure Application Insights.</p>`
     },
     {
         badge: 'May 2022 → Aug 2022',
         title: 'Senior Frontend Developer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Focused on the front-end of Engage and FollowUp, implementing core features, refining UI/UX with custom SVG-based icons, and maintaining clean, efficient code. I actively contributed within the Scrum workflow to deliver consistent, high-quality web experiences.</p>`
     },
     {
         badge: 'Sep 2020 → Apr 2022',
         title: 'Lead Software Engineer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Collaborated with the Singapore Ministry of Education on the OPAL e-learning platform, focusing on the CSL (Collaborative and Social Learning) module. Led a small Scrum team, contributed as a full-stack developer, and improved platform reliability through systematic resolution of SSAT and SPT issues.</p>`
     },
     {
@@ -77,7 +83,7 @@ const experiences = [
     {
         badge: 'Nov 2014 → Dec 2017',
         title: 'Frontend Developer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Designed and implemented responsive web applications using ASP.NET MVC (Razor), jQuery, and LESS. Focused on cross-device and cross-browser compatibility, efficient bundling with Microsoft Optimization, modular JavaScript design, and UX improvements supported by custom graphics and icons.</p>`
     },
     {
@@ -167,6 +173,18 @@ const gridDescStyles = 'style="display:flex;align-items:center;gap:0.2rem;margin
 
 const products = [
     {
+        img: '/images/Products_9.png',
+        title: 'FUJIFILM IWpro (Capture/Automation)',
+        url: 'https://www.fujifilm.com/fbvn/en/products/software/document-management/fujifilm-iwpro',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>FUJIFILM Business Innovation <small style="font-size:0.8rem">(Vietnam)</small></b></div>FUJIFILM IWpro is an all-in-one secure platform solution for business digitisation, provide workspace for collaboration, workflow optimisation, efficient document management of metadata and documents, and versatile cloud-based printing capabilities.`
+    },
+    {
+        img: '/images/Products_8.png',
+        title: 'EcoAssist-Enterprise-Light (Global Web Client)',
+        url: 'https://www.hitachi-solutions-create.co.jp/solution/ecoassist_enterprise_light/',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>Hitachi Solutions</b></div>EcoAssist-Enterprise-Light streamlines the input, aggregation, and utilization of environmental data, enabling efficient centralized management of a company's environmental performance data across multiple locations.`
+    },
+    {
         img: '/images/Products_4.png',
         title: 'Elevate',
         url: 'https://www.conexus.net/produkter/elevate/',
@@ -211,6 +229,18 @@ const products = [
 ]
 const clients = [
     {
+        img: '/images/Clients_5.png',
+        title: 'FUJIFILM Business Innovation Vietnam',
+        url: 'https://www.fujifilm.com/fbvn/en',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>FUJIFILM Business Innovation <small style="font-size:0.8rem">(Vietnam)</small></b></div>Drawing on more than 60 years of expertise in enhancing productivity and communication through our advanced multifunctional devices and digital solutions, we are dedicated to delivering comprehensive, innovative solutions.`
+    },
+    {
+        img: '/images/Clients_4.png',
+        title: 'Hitachi Solutions',
+        url: 'https://www.hitachi-solutions.com/',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>Hitachi Solutions</b></div>We deliver products and services of superior value to customers worldwide through key subsidiaries in Asia, the United States and Europe.`
+    },
+    {
         img: '/images/Clients_1.png',
         title: 'Conexus AS',
         url: 'https://www.conexus.net/',
@@ -230,6 +260,12 @@ const clients = [
     },
 ]
 const employers = [
+    {
+        img: '/images/Employer_4.png',
+        title: 'Hitachi Digital Services Vietnam',
+        url: 'https://www.hitachids.com/vn-english/',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>Hitachi Digital Services <small style="font-size:0.8rem">(Vietnam)</small></b></div>We’re building a world where we guide businesses, industries, and society on a journey to identify and accelerate new opportunities through the power of acceleration.`
+    },
     {
         img: '/images/Employer_3.png',
         title: 'Conexus AS',
@@ -261,7 +297,7 @@ const employers = [
 
 ## Portfolio <Badge type="tip" text="how I worked" /> {#portfolio}
 
-### 📦 Products <Badge type="tip" text="I helped created..." />
+### 📦 Products <Badge type="tip" text="I helped in building..." />
 
 <Grid :data="products" />
 

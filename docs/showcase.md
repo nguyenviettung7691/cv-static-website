@@ -17,6 +17,7 @@ const skillset = [
         { icon: 'vite', color: '#646CFF', title: 'Vite', desc: 'Build Tool', url: 'https://vitejs.dev/' },
         { icon: 'vitest', color: '#6E9F18', title: 'Vitest', desc: 'Testing Framework', url: 'https://vitest.dev/' },
         { icon: 'vitepress', color: '#5C73E7', title: 'VitePress', desc: 'Static Site Generator', url: 'https://vitepress.dev/' },
+        { icon: 'primevue', color: '#31be7d', title: 'PrimeVue', desc: 'UI Component Library', url: 'https://primevue.org/' },
         { icon: '/images/vue-i18n-logo.svg', title: 'Vue I18n', desc: 'Internationalization plugin', url: 'https://vue-i18n.intlify.dev/' },
         { icon: 'vuedotjs', color: '#34495e', title: 'Vue Router', desc: 'Client-side routing', url: 'https://router.vuejs.org/' },
         { icon: '/images/vueuse.svg', title: 'VueUse', desc: 'Composition Utilities', url: 'https://vueuse.org/' },
@@ -55,17 +56,15 @@ const skillset = [
         { icon: 'javascript', color: '#F7DF1E', title: 'JavaScript', desc: 'Web Programming Language', url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
         
         { break: true },
-        { icon: 'tailwindcss', color: '#06B6D4', title: 'Tailwind CSS', desc: 'Utility-first CSS framework', url: 'https://tailwindcss.com/' },
-        { icon: 'sass', color: '#CC6699', title: 'Sass', desc: 'CSS extension language', url: 'https://sass-lang.com/' },
-        { icon: 'less', color: '#1D365D', title: 'Less', desc: 'CSS extension language', url: 'https://lesscss.org/' },
-        { icon: 'bootstrap', color: '#7952B3', title: 'Bootstrap', desc: 'Responsive UI toolkit', url: 'https://getbootstrap.com/' },
+        { icon: 'react', color: '#09d8f7', title: 'React', desc: 'JS library', url: 'https://react.dev/' },
         { icon: 'typescript', color: '#3178C6', title: 'TypeScript', desc: 'Strongly typed JS', url: 'https://www.typescriptlang.org/' },
         { icon: 'jquery', color: '#0769AD', title: 'jQuery', desc: 'JavaScript library', url: 'https://jquery.com/' },
 
         { break: true },
-        { icon: 'git', color: '#F05032', title: 'Git', desc: 'Version control system', url: 'https://git-scm.com/' },
-        { icon: 'github', title: 'GitHub', desc: 'Developer platform', url: 'https://github.com/' },
-        { icon: 'bitbucket', color: '#0052CC', title: 'Bitbucket', desc: 'Git solution for Jira', url: 'https://bitbucket.org/product/' },
+        { icon: 'tailwindcss', color: '#06B6D4', title: 'Tailwind CSS', desc: 'Utility-first CSS framework', url: 'https://tailwindcss.com/' },
+        { icon: 'sass', color: '#CC6699', title: 'Sass', desc: 'CSS extension language', url: 'https://sass-lang.com/' },
+        { icon: 'less', color: '#1D365D', title: 'Less', desc: 'CSS extension language', url: 'https://lesscss.org/' },
+        { icon: 'bootstrap', color: '#7952B3', title: 'Bootstrap', desc: 'Responsive UI toolkit', url: 'https://getbootstrap.com/' },
 
         { break: true },
         { icon: 'npm', color: '#CB3837', title: 'npm', desc: 'Package manager', url: 'https://www.npmjs.com/' },
@@ -83,6 +82,10 @@ const skillset = [
     ]},
     { icon: '/images/backend.png', color: '#25a1e8', title: 'Back-end', items: [
         { icon: 'dotnet', color: '#512BD4', title: '.NET', desc: 'Cross-platform framework', url: 'https://dotnet.microsoft.com/en-us/' },
+        { icon: 'nodedotjs', color: '#58a149', title: 'Node.js', desc: 'JavaScript runtime environment', url: 'https://nodejs.org/en' },
+        { icon: 'express', color: '#fff', title: 'Express', desc: 'Node.js web framework', url: 'https://expressjs.com/' },
+
+        { break: true },
         { icon: 'mysql', color: '#4479A1', title: 'MySQL', desc: 'Open source database', url: 'https://www.mysql.com/' },
         { icon: 'redis', color: '#FF4438', title: 'Redis', desc: 'Data caching', url: 'https://redis.io/' },
         { icon: 'rabbitmq', color: '#FF6600', title: 'RabbitMQ', desc: 'Message broker', url: 'https://www.rabbitmq.com/' },
@@ -102,6 +105,12 @@ const skillset = [
         { icon: 'linux', color: '#FCC624', title: 'Linux', desc: 'OS kernel', url: 'https://kernel.org/' },
         { icon: 'python', color: '#3776AB', title: 'Python', desc: 'Programming language', url: 'https://www.python.org/' },
         { icon: 'grafana', color: '#F46800', title: 'Grafana', desc: 'Infrastructure monitoring', url: 'https://grafana.com/' },
+
+        { break: true },
+        { icon: 'git', color: '#F05032', title: 'Git', desc: 'Version control system', url: 'https://git-scm.com/' },
+        { icon: 'github', title: 'GitHub', desc: 'Developer platform', url: 'https://github.com/' },
+        { icon: 'bitbucket', color: '#0052CC', title: 'Bitbucket', desc: 'Git solution for Jira', url: 'https://bitbucket.org/product/' },
+        { icon: 'gitlab', color: '#e24329', title: 'Gitlab', desc: 'Orchestration platform for DevSecOps', url: 'https://about.gitlab.com/' },
     ]}
 ]
 

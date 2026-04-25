@@ -13,13 +13,13 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 ## 🙋 Giới thiệu {#intro}
 
 ::: info Ấn tượng ban đầu rất quan trọng.
-Kỹ sư Front-End/Full-Stack cấp cao với hơn 10 năm kinh nghiệm về giao diện người dùng dựa trên JavaScript, hơn 5 năm kinh nghiệm triển khai full-stack và điện toán đám mây, kiến ​​thức vững chắc về Azure và DevOps, cùng kinh nghiệm thực tế với kiến ​​trúc Vue.js hiện đại, kiến trúc BFF và User Authentication.
+Kỹ sư Front-End/Full-Stack cấp cao với hơn 10 năm kinh nghiệm về giao diện người dùng dựa trên JavaScript, hơn 5 năm kinh nghiệm về phát triển full-stack và điện toán đám mây, nền tảng vững chắc về Azure và DevOps, và kinh nghiệm thực tế với kiến ​​trúc Vue.js hiện đại, các mẫu BFF và hệ thống xác thực bảo mật.
 
-Về mặt kỹ thuật, tôi đã thúc đẩy việc nâng cấp stack và cơ sở hạ tầng bằng cách sử dụng Vue.js + Pinia, .NET Core, các mẫu xác thực JWT/BFF và các chuỗi công cụ front-end hiện đại (SASS/LESS, Bootstrap, các thành phần JS/SVG dạng mô-đun). Tôi đã dẫn dắt các đợt di chuyển lên đám mây Azure và triển khai theo hướng IaC, quản lý các dịch vụ container và các ứng dụng được tích hợp công cụ với Application Insights — cùng với các POC được phát triển như xác thực sinh trắc học FIDO để nâng cao bảo mật sản phẩm và UX.
+Về mặt kỹ thuật, tôi đã dẫn dắt việc nâng cấp stack và cơ sở hạ tầng sử dụng Vue.js + Pinia, .NET Core, các mẫu xác thực JWT/BFF và các bộ công cụ front-end hiện đại (SASS/LESS, Bootstrap, các thành phần JS/SVG mô-đun). Tôi đã dẫn dắt các dự án di chuyển lên đám mây Azure và triển khai dựa trên IaC, quản lý các dịch vụ container hóa và tích hợp ứng dụng với Application Insights — cộng với việc phát triển các POC như xác thực sinh trắc học FIDO để nâng cao bảo mật sản phẩm và trải nghiệm người dùng. Tôi cũng có kinh nghiệm thực tế với phát triển hỗ trợ AI với các công cụ như Github Copilot, Firebase Studio, Codex để tăng tốc quá trình diễn giải đặc tả, triển khai mã và viết kiểm thử.
 
-Về mặt triển khai, tôi đã lãnh đạo các nhóm Scrum nhỏ và hợp tác với các đối tác bên ngoài (bao gồm Bộ Giáo dục Singapore về mô-đun OPAL CSL) để cải thiện độ tin cậy và trải nghiệm người dùng bằng cách giải quyết một cách có hệ thống các vấn đề về tính ổn định và hiệu suất. Kinh nghiệm của tôi bao gồm DevOps, CI/CD, Docker, lập trình backend PHP/.NET, MySQL và tìm kiếm (Elasticsearch).
+Về mảng triển khai, tôi đã dẫn dắt các nhóm Scrum nhỏ và hợp tác với các đối tác bên ngoài (bao gồm cả Bộ Giáo dục Singapore về mô-đun OPAL CSL) để cải thiện độ tin cậy và trải nghiệm người dùng bằng cách giải quyết một cách có hệ thống các vấn đề về tính ổn định và hiệu suất. Kinh nghiệm của tôi bao gồm DevOps, CI/CD, Docker, backend PHP/.NET, MySQL và tìm kiếm (Elasticsearch).
 
-Tôi mang đến cách tiếp cận kỹ thuật hướng đến sản phẩm: cân bằng giữa trải nghiệm người dùng giao diện người dùng (front-end) mượt mà với cơ sở hạ tầng an toàn và có khả năng mở rộng, hướng dẫn các nhóm tìm ra giải pháp thực tiễn và chuyển các dự án từ nợ kỹ thuật sang kiến ​​trúc hiện đại và bền vững.
+Tôi mang đến một cách tiếp cận kỹ thuật hướng đến sản phẩm: cân bằng trải nghiệm người dùng giao diện người dùng (front-end) sạch sẽ với cơ sở hạ tầng an toàn và có khả năng mở rộng, hướng dẫn các nhóm hướng tới các giải pháp thực tiễn và chuyển các dự án từ nợ kỹ thuật sang kiến ​​trúc hiện đại và bền vững.
 
 :::
 

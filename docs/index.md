@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Nguyễn Việt Tùng"
-  text: "｢Senior Web Developer｣"
-  tagline: "Hello world! I am well-versed in building responsive, scalable webapps. Strong focus on front-end development, cloud deployment with experiences in architecture patterns and team leading."
+  text: "｢Senior IT Consulting & Implementation｣"
+  tagline: "Hello world! I am well-versed in building responsive, scalable webapps. Comfortable with fullstack development (with strong focus on frontend), cloud deployment with experiences in architecture patterns and team leading."
   image:
     src: /images/Profile.jpg
     alt: Profile picture

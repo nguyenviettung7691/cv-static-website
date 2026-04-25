@@ -41,27 +41,33 @@ const aAttr = 'target="_blank"';
 const experiences = [
     { badge: 'Sắp có', title: '???' },
     {
+        badge: '01 / 2026 → Hiện tại',
+        title: 'Tư vấn và triển khai CNTT cấp cao',
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachids.com/vn-english/" ${aAttr}>Hitachi Digital Services Vietnam</a>`,
+        content: `<p>Thực hiện triển khai kỹ thuật toàn diện và tư vấn kinh doanh cho các dự án chuyển đổi số doanh nghiệp. Đã làm việc với các khách hàng: Hitachi Solutions, FUJIFILM Business Innovation. Có kinh nghiệm thực tế với: Vue.js 3, Vite, Vitest, ReactJS, Node.js, Express, AWS, jQuery.</p>`
+    },
+    {
         badge: '04 / 2023 → 12 / 2025',
         title: 'Kỹ sư phần mềm cao cấp',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Đã đóng góp vào các sản phẩm ứng dụng web như FollowUp, tập trung vào việc hiện đại hóa công nghệ và hạ tầng hệ thống. Công việc bao gồm tích hợp các framework mới như Vue.js, .NET Core 6 và Pinia; quản lý mã hạ tầng trên Azure để triển khai dịch vụ; phát triển các bản thử nghiệm (POC) như xác thực sinh trắc học dựa trên FIDO; và nâng cấp thư viện front-end lên Bootstrap 5.</p>`
     },
     {
         badge: '09 / 2022 → 03 / 2023',
         title: 'Kỹ sư DevOps',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Đã chuyển đổi hạ tầng của Conexus từ máy chủ nội bộ BaseFarm sang nền tảng đám mây Azure, tập trung vào bảo mật mạng, triển khai tự động, và hạ tầng dưới dạng mã (Infrastructure-as-Code). Quản lý các dịch vụ ứng dụng container hóa và giám sát hiệu năng hệ thống thông qua Azure Application Insights.</p>`
     },
     {
         badge: '05 / 2022 → 08 / 2022',
         title: 'Lập trình viên Frontend cấp cao',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Tập trung phát triển front-end cho các sản phẩm Engage và FollowUp, bao gồm triển khai các tính năng cốt lõi, tinh chỉnh UI/UX với biểu tượng tùy chỉnh dựa trên SVG, và duy trì mã nguồn sạch, hiệu quả. Chủ động tham gia quy trình Scrum, đóng góp vào việc cung cấp trải nghiệm web nhất quán và chất lượng cao.</p>`
     },
     {
         badge: '09 / 2020 → 04 / 2022',
         title: 'Kỹ sư phần mềm trưởng',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Hợp tác với Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng e-learning OPAL, tập trung vào phân hệ CSL (Collaborative and Social Learning). Dẫn dắt một nhóm Scrum nhỏ, đóng vai trò lập trình viên full-stack, và nâng cao độ ổn định của hệ thống thông qua việc xử lý có hệ thống các sự cố SSAT và SPT.</p>`
     },
     {
@@ -79,7 +85,7 @@ const experiences = [
     {
         badge: '11 / 2014 → 12 / 2017',
         title: 'Nhà phát triển Frontend',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp. Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
         content: `<p>Thiết kế và triển khai các ứng dụng web đáp ứng (responsive) sử dụng ASP.NET MVC (Razor), jQuery và LESS. Tập trung vào tương thích đa thiết bị và đa trình duyệt, tối ưu hóa quá trình bundling với Microsoft Optimization, thiết kế JavaScript theo hướng mô-đun, và cải thiện trải nghiệm người dùng (UX) thông qua đồ họa và biểu tượng tùy chỉnh.</p>`
     },
     {
@@ -169,6 +175,18 @@ const gridDescStyles = 'style="display:flex;align-items:center;gap:0.2rem;margin
 
 const products = [
     {
+        img: '/images/Products_9.png',
+        title: 'FUJIFILM IWpro (Capture/Automation)',
+        url: 'https://www.fujifilm.com/fbvn/vi/products/software/document-management/fujifilm-iwpro',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>FUJIFILM Business Innovation <small style="font-size:0.8rem">(Vietnam)</small></b></div>FUJIFILM IWpro là giải pháp nền tảng bảo mật toàn diện cho việc số hóa doanh nghiệp, cung cấp không gian làm việc cộng tác, tối ưu hóa quy trình làm việc, quản lý tài liệu hiệu quả bao gồm siêu dữ liệu và tài liệu, cùng khả năng in ấn linh hoạt trên nền tảng đám mây.`
+    },
+    {
+        img: '/images/Products_8.png',
+        title: 'EcoAssist-Enterprise-Light (Global Web Client)',
+        url: 'https://www.hitachi-solutions-create.co.jp/solution/ecoassist_enterprise_light/',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>Hitachi Solutions</b></div>EcoAssist-Enterprise-Light đơn giản hóa việc nhập, tổng hợp và sử dụng dữ liệu môi trường, cho phép quản lý tập trung hiệu quả dữ liệu hiệu suất môi trường của công ty trên nhiều địa điểm.`
+    },
+    {
         img: '/images/Products_4.png',
         title: 'Elevate',
         url: 'https://www.conexus.net/produkter/elevate/',
@@ -213,6 +231,18 @@ const products = [
 ]
 const clients = [
     {
+        img: '/images/Clients_5.png',
+        title: 'FUJIFILM Business Innovation Vietnam',
+        url: 'https://www.fujifilm.com/fbvn/vi',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>FUJIFILM Business Innovation <small style="font-size:0.8rem">(Vietnam)</small></b></div>Với hơn 60 năm kinh nghiệm trong việc nâng cao năng suất và khả năng giao tiếp thông qua các thiết bị đa chức năng tiên tiến và giải pháp kỹ thuật số, chúng tôi cam kết cung cấp các giải pháp toàn diện và sáng tạo.`
+    },
+    {
+        img: '/images/Clients_4.png',
+        title: 'Hitachi Solutions',
+        url: 'https://www.hitachi-solutions.com/',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>Hitachi Solutions</b></div>Chúng tôi cung cấp các sản phẩm và dịch vụ có giá trị vượt trội cho khách hàng trên toàn thế giới thông qua các công ty con chủ chốt tại châu Á, Hoa Kỳ và châu Âu.`
+    },
+    {
         img: '/images/Clients_1.png',
         title: 'Conexus AS',
         url: 'https://www.conexus.net/',
@@ -232,6 +262,12 @@ const clients = [
     },
 ]
 const employers = [
+    {
+        img: '/images/Employer_4.png',
+        title: 'Hitachi Digital Services Vietnam',
+        url: 'https://www.hitachids.com/vn-english/',
+        desc: `<div ${gridDescStyles}><img src="https://flagcdn.com/jp.svg" class="flag" width="18" alt="Japan"><b>Hitachi Digital Services <small style="font-size:0.8rem">(Vietnam)</small></b></div>Chúng tôi đang xây dựng một thế giới nơi chúng tôi hướng dẫn các doanh nghiệp, ngành công nghiệp và xã hội trên hành trình xác định và thúc đẩy các cơ hội mới thông qua sức mạnh của sự tăng tốc.`
+    },
     {
         img: '/images/Employer_3.png',
         title: 'Conexus AS',
@@ -263,7 +299,7 @@ const employers = [
 
 ## Thành tựu <Badge type="tip" text="tôi đã làm việc thế nào" /> {#portfolio}
 
-### 📦 Sản phẩm <Badge type="tip" text="Tôi đã góp phần tạo ra..." />
+### 📦 Sản phẩm <Badge type="tip" text="Tôi đã giúp xây dựng..." />
 
 <Grid :data="products" />
 
