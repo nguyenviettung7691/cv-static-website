@@ -5,32 +5,6 @@ layout: doc
 
 # Resume {#resume}
 
-## Services <Badge type="tip" text="what I do" /> {#services}
-
-### 🎯 Team Leader & Organizer
-
-::: tip With great power comes great responsibility
-Experienced in applying Scrum and Agile methodologies, leading cross-functional teams of developers, testers, and business analysts, and managing requirement clarification and high-level technical estimation.
-:::
-
-### 💡 Technical Solution Maker
-
-::: tip Careful planning will go a long way
-Skilled in researching and selecting technical solutions that balance business needs, technical limitations, and compliance requirements. Experienced with modern web architectures, including BFF, SPA, and MVC, and adept at building scalable solutions using AWS and Azure cloud services.
-:::
-
-### 🖥️ Web Development
-
-::: tip So many tools to choose from, how you use them is up to you
-Full-stack web developer skilled in both front-end and back-end technologies, including Vue.js, PHP, .NET Core, and containerized deployments with Docker. Experienced in cloud integration (AWS, Azure), modern build pipelines, and database solutions using MySQL, Elasticsearch, and Redis.
-:::
-
-### 📱 Mobile Design
-
-::: tip Web deserves to have their own mobile app experience
-Skilled in designing for mobile by optimizing web apps to PWA standards, implementing responsive design with CSS media queries, and ensuring consistent UI and JavaScript behavior across browsers and devices.
-:::
-
 <script setup>
 const imgWrapperStyles = 'style="display:inline-flex;width:50px;height:50px;background-color:#fff;align-items:center;border-radius:5px;padding:2px;margin-right:10px;box-shadow:var(--vp-shadow-3)"';
 const imgStyles = 'style="width:48px;"';

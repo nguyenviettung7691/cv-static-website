@@ -48,12 +48,12 @@ export default defineConfig({
           { text: 'Home', link: '/' },
           { text: 'Profile', link: '/profile', items: [
             { text: 'Introduction', link: '/profile#intro' },
+            { text: 'Services', link: '/profile#services' },
             { text: 'Bio', link: '/profile#bio' },
             { text: 'Languages', link: '/profile#languages' },
             { text: 'Interests', link: '/profile#interests' },
           ] },
           { text: 'Resume', link: '/resume', items: [
-            { text: 'Services', link: '/resume#services' },
             { text: 'Experiences', link: '/resume#experiences' },
             { text: 'Certifications', link: '/resume#certifications' },
             { text: 'Portfolio', link: '/resume#portfolio' },
@@ -131,11 +131,11 @@ export default defineConfig({
               { text: 'Hồ sơ', link: '/vi/profile', items: [
                 { text: 'Giới thiệu', link: '/vi/profile#intro' },
                 { text: 'Thông tin cá nhân', link: '/vi/profile#bio' },
+                { text: 'Dịch vụ', link: '/vi/profile#services' },
                 { text: 'Ngôn ngữ', link: '/vi/profile#languages' },
                 { text: 'Sở thích', link: '/vi/profile#interests' },
               ] },
               { text: 'Chuyên môn', link: '/vi/resume', items: [
-                { text: 'Dịch vụ', link: '/vi/resume#services' },
                 { text: 'Kinh nghiệm', link: '/vi/resume#experiences' },
                 { text: 'Chứng nhận', link: '/vi/resume#certifications' },
                 { text: 'Thành tựu', link: '/vi/resume#portfolio' },

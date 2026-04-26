@@ -5,34 +5,6 @@ layout: doc
 
 # Chuyên môn {#resume}
 
-## Dịch vụ <Badge type="tip" text="tôi làm gì" /> {#services}
-
-### 🎯 Trưởng nhóm & Người tổ chức
-
-::: tip Với sức mạnh lớn đi kèm trách nhiệm lớn
-Có kinh nghiệm áp dụng phương pháp Scrum và Agile, dẫn dắt các nhóm liên chức năng gồm lập trình viên, kiểm thử viên và chuyên viên phân tích nghiệp vụ, đồng thời quản lý việc làm rõ yêu cầu và ước lượng kỹ thuật ở cấp độ tổng thể.
-:::
-
-### 💡 Tạo ra giải pháp kỹ thuật
-
-::: tip Kế hoạch cẩn thận sẽ giúp đi một chặng đường dài
-Thành thạo trong việc nghiên cứu và lựa chọn các giải pháp kỹ thuật phù hợp, cân bằng giữa nhu cầu kinh doanh, giới hạn kỹ thuật và yêu cầu tuân thủ.
-Có kinh nghiệm với kiến trúc web hiện đại như BFF (Backend for Frontend), SPA (Single Page Application) và MVC (Model–View–Controller), cùng khả năng xây dựng các giải pháp có khả năng mở rộng trên nền tảng điện toán đám mây AWS và Azure.
-:::
-
-### 🖥️ Phát triển web
-
-::: tip Có rất nhiều công cụ để lựa chọn, cách bạn sử dụng chúng là tùy thuộc vào bạn
-Lập trình viên Web full-stack, thành thạo cả front-end và back-end, với kinh nghiệm sử dụng Vue.js, PHP, .NET Core, cùng khả năng triển khai ứng dụng bằng Docker.
-Có kinh nghiệm trong tích hợp điện toán đám mây (AWS, Azure), quy trình build hiện đại, và giải pháp cơ sở dữ liệu sử dụng MySQL, Elasticsearch, và Redis.
-:::
-
-### 📱 Thiết kế Di động
-
-::: tip Web xứng đáng có trải nghiệm ứng dụng di động riêng
-Thành thạo trong việc thiết kế giao diện cho thiết bị di động bằng cách tối ưu ứng dụng web theo tiêu chuẩn PWA (Progressive Web App), triển khai thiết kế đáp ứng (responsive design) với CSS media queries, và đảm bảo giao diện người dùng cùng hành vi JavaScript nhất quán trên các trình duyệt và thiết bị khác nhau.
-:::
-
 <script setup>
 const imgWrapperStyles = 'style="display:inline-flex;width:50px;height:50px;background-color:#fff;align-items:center;border-radius:5px;padding:2px;margin-right:10px;box-shadow:var(--vp-shadow-3)"';
 const imgStyles = 'style="width:48px;"';

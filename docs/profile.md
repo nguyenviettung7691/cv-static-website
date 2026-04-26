@@ -23,6 +23,32 @@ I bring a product-minded engineering approach: balance clean front-end UX with s
 
 :::
 
+## 🖥️ Services {#services}
+
+### 🎯 Team Leader & Organizer
+
+::: info With great power comes great responsibility
+Experienced in applying Scrum and Agile methodologies, leading cross-functional teams of developers, testers, and business analysts, and managing requirement clarification and high-level technical estimation.
+:::
+
+### 💡 Technical Solution Maker
+
+::: info Careful planning will go a long way
+Skilled in researching and selecting technical solutions that balance business needs, technical limitations, and compliance requirements. Experienced with modern web architectures, including BFF, SPA, and MVC, and adept at building scalable solutions using AWS and Azure cloud services.
+:::
+
+### 🌐 Web Development
+
+::: info So many tools to choose from, how you use them is up to you
+Full-stack web developer skilled in both front-end and back-end technologies, including Vue.js, PHP, .NET Core, and containerized deployments with Docker. Experienced in cloud integration (AWS, Azure), modern build pipelines, and database solutions using MySQL, Elasticsearch, and Redis.
+:::
+
+### 📱 Mobile Design
+
+::: info Web deserves to have their own mobile app experience
+Skilled in designing for mobile by optimizing web apps to PWA standards, implementing responsive design with CSS media queries, and ensuring consistent UI and JavaScript behavior across browsers and devices.
+:::
+
 ## 📋 Bio {#bio}
 
 ::: info You shouldn't lose sight of who you are.
