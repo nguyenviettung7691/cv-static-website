@@ -78,6 +78,6 @@ Skilled in designing for mobile by optimizing web apps to PWA standards, impleme
 ::: info Everyone is free to live & pursue their passions.
 - **Investments**: <Badge type="info" text="📈 Stocks trade" /> <Badge type="info" text="💻 Certificated" />
 - **Sports**: <Badge type="info" text="⚽ Football" /> <Badge type="info" text="🏃 Running" /> <Badge type="info" text="🏹 Archery" />
-- **Recreations**: <Badge type="info" text="🎮 Video game" /> <Badge type="info" text="🎨 AI Artwork" /> <Badge type="info" text="🗾 Japan culture" />
+- **Recreations**: <Badge type="info" text="🎮 Video game" /> <Badge type="info" text="📹 Media editing" /> <Badge type="info" text="🗾 Japan culture" />
 
 :::

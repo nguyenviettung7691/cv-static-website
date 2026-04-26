@@ -20,11 +20,11 @@ hero:
 features:
   - icon: 👨‍🦱
     title: Hồ sơ
-    details: Thông tin cá nhân, ngôn ngữ và sở thích của tôi.
+    details: Thông tin cá nhân, dịch vụ, ngôn ngữ và sở thích của tôi.
     link: /profile
   - icon: 📂
     title: Chuyên môn
-    details: Dịch vụ, kinh nghiệm, chứng chỉ, trình độ học vấn và lịch sử làm việc của tôi.
+    details: Kinh nghiệm, lịch sử làm việc, chứng chỉ và trình độ học vấn của tôi.
     link: /resume
   - icon: 💼
     title: Trưng bày

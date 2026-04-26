@@ -261,14 +261,6 @@ const employers = [
 ]
 </script>
 
-## Experiences <Badge type="tip" text="what I did" /> {#experiences}
-
-<Timeline :data="experiences" />
-
-## Certifications <Badge type="tip" text="what I learned" /> {#certifications}
-
-<Timeline :data="certifications" />
-
 ## Portfolio <Badge type="tip" text="how I worked" /> {#portfolio}
 
 ### 📦 Products <Badge type="tip" text="I helped in building..." />
@@ -282,3 +274,11 @@ const employers = [
 ### 🏢 Employers <Badge type="tip" text="I am employed by..." />
 
 <Grid :data="employers" />
+
+## Experiences <Badge type="tip" text="what I did" /> {#experiences}
+
+<Timeline :data="experiences" />
+
+## Certifications <Badge type="tip" text="what I learned" /> {#certifications}
+
+<Timeline :data="certifications" />

@@ -54,9 +54,9 @@ export default defineConfig({
             { text: 'Interests', link: '/profile#interests' },
           ] },
           { text: 'Resume', link: '/resume', items: [
+            { text: 'Portfolio', link: '/resume#portfolio' },
             { text: 'Experiences', link: '/resume#experiences' },
             { text: 'Certifications', link: '/resume#certifications' },
-            { text: 'Portfolio', link: '/resume#portfolio' },
           ] },
           { text: 'Showcase', link: '/showcase', items: [
             { text: 'Skillsets', link: '/showcase#skillsets' },
@@ -130,19 +130,19 @@ export default defineConfig({
               { text: 'Trang chủ', link: '/vi/' },
               { text: 'Hồ sơ', link: '/vi/profile', items: [
                 { text: 'Giới thiệu', link: '/vi/profile#intro' },
-                { text: 'Thông tin cá nhân', link: '/vi/profile#bio' },
                 { text: 'Dịch vụ', link: '/vi/profile#services' },
+                { text: 'Thông tin cá nhân', link: '/vi/profile#bio' },
                 { text: 'Ngôn ngữ', link: '/vi/profile#languages' },
                 { text: 'Sở thích', link: '/vi/profile#interests' },
               ] },
               { text: 'Chuyên môn', link: '/vi/resume', items: [
+                { text: 'Thành tựu', link: '/vi/resume#portfolio' },
                 { text: 'Kinh nghiệm', link: '/vi/resume#experiences' },
                 { text: 'Chứng nhận', link: '/vi/resume#certifications' },
-                { text: 'Thành tựu', link: '/vi/resume#portfolio' },
               ] },
               { text: 'Trưng bày', link: '/vi/showcase', items: [
                 { text: 'Bộ kỹ năng', link: '/vi/showcase#skillsets' },
-                { text: 'Dự án', link: '/showcase#projects' },
+                { text: 'Dự án', link: '/vi/showcase#projects' },
                 { text: 'Chứng nhận', link: '/vi/showcase#certifications' },
               ] }
             ]

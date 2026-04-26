@@ -80,6 +80,6 @@ Thành thạo trong việc thiết kế giao diện cho thiết bị di động 
 ::: info Ai cũng nên được sống & theo đuổi đam mê.
 - Đầu tư: <Badge type="info" text="📈 Chứng khoán" /> <Badge type="info" text="💻 Thi lấy bằng" />
 - Thể thao: <Badge type="info" text="⚽ Bóng đá" /> <Badge type="info" text="🏃 Chạy bộ" /> <Badge type="info" text="🏹 Bắn cung" />
-- Giải trí: <Badge type="info" text="🎮 Trò chơi điện tử" /> <Badge type="info" text="🎨 Tranh ảnh AI" /> <Badge type="info" text="🗾 Văn hóa Nhật Bản" />
+- Giải trí: <Badge type="info" text="🎮 Trò chơi điện tử" /> <Badge type="info" text="📹 Biên tập phim ảnh" /> <Badge type="info" text="🗾 Văn hóa Nhật Bản" />
 
 :::

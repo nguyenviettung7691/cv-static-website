@@ -261,14 +261,6 @@ const employers = [
 ]
 </script>
 
-## Kinh nghiệm <Badge type="tip" text="tôi đã làm gì" /> {#experiences}
-
-<Timeline :data="experiences" />
-
-## Chứng nhận <Badge type="tip" text="tôi đã học gì" /> {#certifications}
-
-<Timeline :data="certifications" />
-
 ## Thành tựu <Badge type="tip" text="tôi đã làm việc thế nào" /> {#portfolio}
 
 ### 📦 Sản phẩm <Badge type="tip" text="Tôi đã giúp xây dựng..." />
@@ -282,3 +274,11 @@ const employers = [
 ### 🏢 Nhà tuyển dụng <Badge type="tip" text="Tôi được tuyển dụng bởi..." />
 
 <Grid :data="employers" />
+
+## Kinh nghiệm <Badge type="tip" text="tôi đã làm gì" /> {#experiences}
+
+<Timeline :data="experiences" />
+
+## Chứng nhận <Badge type="tip" text="tôi đã học gì" /> {#certifications}
+
+<Timeline :data="certifications" />

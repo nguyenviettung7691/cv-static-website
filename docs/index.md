@@ -20,11 +20,11 @@ hero:
 features:
   - icon: 👨‍🦱
     title: Profile
-    details: My personal information, languages, and interests.
+    details: My personal information, services, languages, and interests.
     link: /profile
   - icon: 📂
     title: Resume
-    details: My services, experiences, certifications, education, and employment history.
+    details: My experiences, employment history, certifications and education.
     link: /resume
   - icon: 💼
     title: Showcase
