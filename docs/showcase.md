@@ -83,7 +83,7 @@ const skillset = [
     { icon: '/images/backend.png', color: '#25a1e8', title: 'Back-end', items: [
         { icon: 'dotnet', color: '#512BD4', title: '.NET', desc: 'Cross-platform framework', url: 'https://dotnet.microsoft.com/en-us/' },
         { icon: 'nodedotjs', color: '#58a149', title: 'Node.js', desc: 'JavaScript runtime environment', url: 'https://nodejs.org/en' },
-        { icon: 'express', color: '#fff', title: 'Express', desc: 'Node.js web framework', url: 'https://expressjs.com/' },
+        { icon: 'express', title: 'Express', desc: 'Node.js web framework', url: 'https://expressjs.com/' },
 
         { break: true },
         { icon: 'mysql', color: '#4479A1', title: 'MySQL', desc: 'Open source database', url: 'https://www.mysql.com/' },
