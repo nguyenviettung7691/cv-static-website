@@ -116,6 +116,18 @@ const skillset = [
 
 const projects = [
     {
+        key: 'Azure-Vnet',
+        repo: 'nguyenviettung7691/azure-virtual-network-simulator',
+        url: 'https://azure-vnet.nguyenviettung.id.vn/',
+        image: '/images/Projects_4.png',
+    },
+    {
+        key: 'AZ-104',
+        repo: 'nguyenviettung7691/az-104-exam-simulator',
+        url: 'https://az104.nguyenviettung.id.vn/',
+        image: '/images/Projects_5.png',
+    },
+    {
         key: 'Leafwise',
         repo: 'nguyenviettung7691/leafwise',
         url: 'https://leafwise.nguyenviettung.id.vn/',
