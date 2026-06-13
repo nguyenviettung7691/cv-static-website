@@ -71,6 +71,12 @@ const experiences = [
 const certifications = [
     { badge: 'Coming soon', title: '???' },
     {
+        badge: 'Jun 2026',
+        title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D" ${aAttr}>Microsoft Certified: Azure Administrator Associate</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
+        content: `<p>Demonstrate key skills to configure, manage, secure, and administer key professional functions in Microsoft Azure.</p>`
+    },
+    {
         badge: 'Mar 2026',
         title: `<a href="https://certificates.dev/javascript/certificates/a14392fa-86d6-4a2e-9154-32ccedf0f9af" ${aAttr}>Certified Senior JavaScript Developer</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
@@ -102,7 +108,7 @@ const certifications = [
     },
     {
         badge: 'Mar 2023',
-        title: `<a href="https://www.credly.com/badges/605169cb-6c39-4172-8376-1b67031cf0d3/public_url" ${aAttr}>Microsoft Certified: Azure Fundamentals</a>`,
+        title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D" ${aAttr}>Microsoft Certified: Azure Fundamentals</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
         content: `<p>Demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.</p>`
     },

@@ -71,6 +71,12 @@ const experiences = [
 const certifications = [
     { badge: 'Sắp có', title: '???' },
     {
+        badge: '06 / 2026',
+        title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D" ${aAttr}>Chứng chỉ Microsoft: Chuyên viên Quản trị Azure</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
+        content: `<p>Thể hiện các kỹ năng then chốt trong việc cấu hình, quản lý, bảo mật và vận hành các chức năng chuyên môn quan trọng trong Microsoft Azure.</p>`
+    },
+    {
         badge: '03 / 2026',
         title: `<a href="https://certificates.dev/javascript/certificates/a14392fa-86d6-4a2e-9154-32ccedf0f9af" ${aAttr}>Lập trình viên JavaScript cao cấp được chứng nhận</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.simpleicons.org/javascript" ${imgStyles}></div><a href="https://certificates.dev/javascript/" ${aAttr}>Certificates.Dev</a>`,
@@ -102,7 +108,7 @@ const certifications = [
     },
     {
         badge: '03 / 2023',
-        title: `<a href="https://www.credly.com/badges/605169cb-6c39-4172-8376-1b67031cf0d3/public_url" ${aAttr}>Chứng nhận Microsoft: Azure Fundamentals</a>`,
+        title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D" ${aAttr}>Chứng nhận Microsoft: Azure Fundamentals</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/vi-vn/credentials/" ${aAttr}>Microsoft Credentials</a>`,
         content: `<p>Thể hiện kiến thức cơ bản về dịch vụ đám mây và cách cung cấp các dịch vụ đó với Microsoft Azure.</p>`
     },
