@@ -4,6 +4,7 @@ import Timeline from './Timeline.vue'
 import Grid from './Grid.vue'
 import Accordion from './Accordion.vue'
 import Cert from './Cert.vue'
+import Awards from './Awards.vue'
 
 export default {
   extends: DefaultTheme,
@@ -16,5 +17,6 @@ export default {
       .component('Grid', Grid)
       .component('Accordion', Accordion)
       .component('Cert', Cert)
+      .component('Awards', Awards)
   }
 }

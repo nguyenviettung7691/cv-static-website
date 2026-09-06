@@ -157,3 +157,8 @@ const projects = [
 ## 🏅 Certifications {#certifications}
 
 <Cert />
+
+## 🏆 Awards {#awards}
+
+<Awards />
+

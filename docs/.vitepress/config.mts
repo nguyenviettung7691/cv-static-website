@@ -62,6 +62,7 @@ export default defineConfig({
             { text: 'Skillsets', link: '/showcase#skillsets' },
             { text: 'Projects', link: '/showcase#projects' },
             { text: 'Certifications', link: '/showcase#certifications' },
+            { text: 'Awards', link: '/showcase#awards' },
           ] }
         ]
       }
@@ -144,6 +145,7 @@ export default defineConfig({
                 { text: 'Bộ kỹ năng', link: '/vi/showcase#skillsets' },
                 { text: 'Dự án', link: '/vi/showcase#projects' },
                 { text: 'Chứng nhận', link: '/vi/showcase#certifications' },
+                { text: 'Giải thưởng', link: '/vi/showcase#awards' },
               ] }
             ]
           }

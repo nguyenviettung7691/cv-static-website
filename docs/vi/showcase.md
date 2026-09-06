@@ -157,3 +157,8 @@ const projects = [
 ## 🏅 Chứng nhận {#certifications}
 
 <Cert />
+
+## 🏆 Giải thưởng {#awards}
+
+<Awards />
+
