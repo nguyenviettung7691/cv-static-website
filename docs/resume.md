@@ -16,55 +16,61 @@ const experiences = [
         badge: 'Jan 2026 → Current',
         title: 'Senior IT Consulting & Implementation',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachids.com/vn-english/" ${aAttr}>Hitachi Digital Services Vietnam</a>`,
-        content: `<p>End-to-end technical implementation and business consulting for enterprise digital transformation projects. Worked with clients: Hitachi Solutions, FUJIFILM Business Innovation. Hands-on with: Vue.js 3, Vite, Vitest, ReactJS, Node.js, Express, AWS, jQuery.</p>`
+        content: `<p>★ Tech Lead:
+<ul>
+<li>Desktop Publishing Platform (Client: FUJIFILM): Acted as Technical Lead for desktop app migration (Pintail), directing front-end architecture, parallel processing feature development, and foundation restructuring using ElectronJS, ReactJS, NestJS, and fabric.js.</li>
+</ul>
+
+★ Senior Engineer:
+<ul>
+<li>Enterprise Document Automation (Client: FUJIFILM): Engineered configurable multi-step pipeline features and Microsoft Teams notification integrations across a 50+ microservice cloud ecosystem (IWPro) using Node.js, AWS Lambda, SQS, and DocumentDB.</li>
+<li>ESG & Carbon Accounting Platform (Client: Hitachi Solutions): Built a Vue 3/PrimeVue web client (EcoAssist) featuring raw utility-to-tCO2 conversion pipelines, Scope 1 & 2 compliance reporting, and carbon credit lifecycle tracking.</li>
+</ul>
+</p>`
     },
     {
-        badge: 'Apr 2023 → Dec 2025',
+        badge: 'Sep 2020 → Dec 2025',
         title: 'Senior Software Engineer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Contributed to web app products such as FollowUp, focusing on modernizing the tech stack and infrastructure. My work involved integrating new frameworks (Vue.js, .NET Core 6, Pinia), managing Azure infrastructure code for service deployment, developing POCs like FIDO-based biometric authentication, and upgrading front-end libraries to Bootstrap 5.</p>`
+        content: `<p>★ Tech Lead (Singapore Ministry of Education):
+Led a Scrum team delivering the OPAL e-learning platform (CSL module), significantly boosting system reliability and stability by systematically resolving SSAT and SPT issues.</p>
+
+<p>★ Senior Fullstack Developer (Conexus - Norway):
+Modernized web products (Elevate, Engage, FollowUp) by implementing BFF architecture, JWT authentication, Vue.js/Pinia, .NET Core, and FIDO biometric authentication POCs.</p>
+
+<p>★ DevOps Engineer (Conexus - Norway): Executed cloud migration from on-premise BaseFarm servers to Azure Cloud, establishing automated deployments, containerized app services, and IaC.
+<ul>
+<li>Open-Source Project: Created an Azure Firewall Policy Optimizer tool to parse ARM template JSON, eliminating rule redundancy and simplifying cloud security management. <a href="https://github.com/nguyenviettung7691/azure-firewall-policy-optimizer">Github</a></li>
+</ul>
+        </p>`
     },
     {
-        badge: 'Sep 2022 → Mar 2023',
-        title: 'DevOps Engineer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Migrated Conexus’s infrastructure from on-premise BaseFarm servers to Azure Cloud, focusing on network security, automated deployments, and infrastructure-as-code. Managed containerized app services and monitored performance using Azure Application Insights.</p>`
-    },
-    {
-        badge: 'May 2022 → Aug 2022',
-        title: 'Senior Frontend Developer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Focused on the front-end of Engage and FollowUp, implementing core features, refining UI/UX with custom SVG-based icons, and maintaining clean, efficient code. I actively contributed within the Scrum workflow to deliver consistent, high-quality web experiences.</p>`
-    },
-    {
-        badge: 'Sep 2020 → Apr 2022',
-        title: 'Lead Software Engineer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Collaborated with the Singapore Ministry of Education on the OPAL e-learning platform, focusing on the CSL (Collaborative and Social Learning) module. Led a small Scrum team, contributed as a full-stack developer, and improved platform reliability through systematic resolution of SSAT and SPT issues.</p>`
-    },
-    {
-        badge: 'Oct 2019 → Sep 2020',
-        title: 'Lead Software Engineer',
+        badge: 'Jan 2018 → Sep 2020',
+        title: 'Senior Software Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Worked with Conexus and the Singapore Ministry of Education on the OPAL e-learning platform, contributing to the CSL module that supports community-based learning. Led a small Scrum team, developed full-stack features, and improved product stability through targeted SSAT and SPT issue resolution.</p>`
+        content: `<p>★ Tech Lead (Singapore Ministry of Education): Led a Scrum team building full-stack features for the OPAL e-learning platform (CSL module), improving product stability through targeted SSAT and SPT issue resolution.</p>
+
+<p>★ Senior Frontend Developer (Conexus & Conexus SG - Norway): Modernized web client architectures by upgrading legacy libraries, building reusable web components, and refining client-side workflows for products including Conexus Companion and Coursepad.</p>`
     },
     {
-        badge: 'Jan 2018 → Oct 2019',
-        title: 'Frontend Developer',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Collaborated with Conexus and Conexus SG on front-end development for products such as Conexus Companion and Coursepad. Focused on upgrading libraries, building reusable web components, improving client-side workflows, and maintaining high-quality code within the Scrum development process.</p>`
-    },
-    {
-        badge: 'Nov 2014 → Dec 2017',
+        badge: 'Oct 2014 → Jan 2018',
         title: 'Frontend Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Designed and implemented responsive web applications using ASP.NET MVC (Razor), jQuery, and LESS. Focused on cross-device and cross-browser compatibility, efficient bundling with Microsoft Optimization, modular JavaScript design, and UX improvements supported by custom graphics and icons.</p>`
+        content: `<p>★ Client: Conexus (Norway).
+<ul>
+<li>Responsive Web Engineering: Built and maintained responsive web applications using ASP.NET MVC (Razor), jQuery, and LESS.</li>
+<li>Performance & UX Optimization: Ensured cross-browser compatibility, optimized asset bundling using Microsoft Optimization, and engineered modular JavaScript architectures alongside custom UI/UX graphics.</li>
+</ul></p>`
     },
     {
         badge: 'Oct 2013 → Sep 2014',
         title: 'Fullstack Developer',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_1.png" ${imgStyles}></div><a href="https://f2tech.asia/" ${aAttr}>F2Tech (formerly VNYI)</a>`,
-        content: `<p>Contributed to multi-platform development, including a POS desktop app (C# WinForms, DevExpress), a web app (ExtJS), and a mobile app (Cordova, Telerik, Kendo UI). Managed database logic in SQL Server through well-structured stored procedures to ensure data reliability and performance.</p>`
+        content: `<p>★ Employer: F2Tech.Asia (formerly VNYI) - Vietnam.
+<ul>
+<li>Multi-Platform Product Engineering: Built core products across desktop (C# WinForms, DevExpress), web (ExtJS), and hybrid mobile platforms (Cordova, Telerik, Kendo UI).</li>
+<li>Database Optimization: Designed and maintained complex SQL Server stored procedures to ensure high data reliability and query performance.</li>
+</ul></p>`
     },
 ]
 
@@ -145,7 +151,7 @@ const certifications = [
         badge: 'Sep 2009 → Mar 2014',
         title: `Bachelor - Software Engineering, Information Technology Faculty</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.haitrieu.com/wp-content/uploads/2021/10/DH-Hoa-Sen-Main-Icon.png" ${imgStyles}></div><a href="https://www.hoasen.edu.vn/en/education/university/" ${aAttr}>Hoa Sen, University</a>`,
-        content: `<p>Developed as a team of four, this graduation project delivered a complete ordering and management system for coffee shops. The solution featured a Windows Phone-based mobile app for order taking and a C# WPF desktop app for management and accounting. Data synchronization was handled via SQL Server, with real-time updates powered by SignalR.</p>`
+        content: `<p>Graduation Project: Built a multi-platform coffee shop management system featuring a C# WPF desktop app, Windows Phone client, SQL Server backend, and SignalR for real-time sync.</p>`
     },
 ]
 

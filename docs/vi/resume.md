@@ -16,55 +16,60 @@ const experiences = [
         badge: '01 / 2026 → Hiện tại',
         title: 'Tư vấn và triển khai CNTT cấp cao',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachids.com/vn-english/" ${aAttr}>Hitachi Digital Services Vietnam</a>`,
-        content: `<p>Thực hiện triển khai kỹ thuật toàn diện và tư vấn kinh doanh cho các dự án chuyển đổi số doanh nghiệp. Đã làm việc với các khách hàng: Hitachi Solutions, FUJIFILM Business Innovation. Có kinh nghiệm thực tế với: Vue.js 3, Vite, Vitest, ReactJS, Node.js, Express, AWS, jQuery.</p>`
+        content: `<p>★ Trưởng nhóm Kỹ thuật (Tech Lead):
+<ul>
+<li>Nền tảng Chế bản Điện tử (Khách hàng: FUJIFILM): Đảm nhiệm vai trò Trưởng nhóm Kỹ thuật cho dự án chuyển đổi ứng dụng desktop (Pintail); chỉ đạo thiết kế kiến ​​trúc front-end, phát triển tính năng xử lý song song và tái cấu trúc nền tảng hệ thống sử dụng ElectronJS, ReactJS, NestJS và fabric.js.</li>
+</ul>
+
+★ Kỹ sư Cao cấp (Senior Engineer):
+<ul>
+<li>Hệ thống Tự động hóa Tài liệu Doanh nghiệp (Khách hàng: FUJIFILM): Phát triển các tính năng quy trình xử lý (pipeline) đa bước có thể tùy chỉnh và tích hợp thông báo qua Microsoft Teams trong hệ sinh thái đám mây (IWPro) gồm hơn 50 microservice, sử dụng Node.js, AWS Lambda, SQS và DocumentDB.</li>
+<li>Nền tảng ESG & Kiểm kê Carbon (Khách hàng: Hitachi Solutions): Xây dựng ứng dụng web client (EcoAssist) bằng Vue 3/PrimeVue, bao gồm các quy trình chuyển đổi dữ liệu tiện ích thô sang đơn vị tCO2, lập báo cáo tuân thủ Scope 1 & 2, và theo dõi vòng đời tín chỉ carbon.</li>
+</ul>
+</p>`
     },
     {
-        badge: '04 / 2023 → 12 / 2025',
+        badge: '09 / 2020 → 12 / 2025',
         title: 'Kỹ sư phần mềm cao cấp',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Đã đóng góp vào các sản phẩm ứng dụng web như FollowUp, tập trung vào việc hiện đại hóa công nghệ và hạ tầng hệ thống. Công việc bao gồm tích hợp các framework mới như Vue.js, .NET Core 6 và Pinia; quản lý mã hạ tầng trên Azure để triển khai dịch vụ; phát triển các bản thử nghiệm (POC) như xác thực sinh trắc học dựa trên FIDO; và nâng cấp thư viện front-end lên Bootstrap 5.</p>`
+        content: `<p>★ Tech Lead (Bộ Giáo dục Singapore):
+Dẫn dắt một nhóm Scrum phát triển nền tảng học trực tuyến OPAL (phân hệ CSL), giúp cải thiện đáng kể độ tin cậy và tính ổn định của hệ thống thông qua việc giải quyết triệt để các vấn đề SSAT và SPT.</p>
+
+<p>★ Senior Fullstack Developer (Conexus - Na Uy):
+Hiện đại hóa các sản phẩm web (Elevate, Engage, FollowUp) bằng cách triển khai kiến ​​trúc BFF, xác thực JWT, Vue.js/Pinia, .NET Core và xây dựng các bản thử nghiệm (POC) cho xác thực sinh trắc học FIDO.</p>
+
+<p>★ DevOps Engineer (Conexus - Na Uy): Thực hiện chuyển đổi hệ thống từ máy chủ tại chỗ (BaseFarm) sang Azure Cloud; thiết lập quy trình triển khai tự động, đóng gói ứng dụng (containerization) và triển khai hạ tầng dưới dạng mã nguồn (IaC).
+<ul>
+<li>Dự án mã nguồn mở: Phát triển công cụ tối ưu hóa chính sách Azure Firewall (Azure Firewall Policy Optimizer) để phân tích tệp JSON của ARM template, giúp loại bỏ các quy tắc dư thừa và đơn giản hóa việc quản lý bảo mật trên đám mây. <a href="https://github.com/nguyenviettung7691/azure-firewall-policy-optimizer">Github</a></li>
+</ul></p>`
     },
     {
-        badge: '09 / 2022 → 03 / 2023',
-        title: 'Kỹ sư DevOps',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Đã chuyển đổi hạ tầng của Conexus từ máy chủ nội bộ BaseFarm sang nền tảng đám mây Azure, tập trung vào bảo mật mạng, triển khai tự động, và hạ tầng dưới dạng mã (Infrastructure-as-Code). Quản lý các dịch vụ ứng dụng container hóa và giám sát hiệu năng hệ thống thông qua Azure Application Insights.</p>`
-    },
-    {
-        badge: '05 / 2022 → 08 / 2022',
-        title: 'Lập trình viên Frontend cấp cao',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Tập trung phát triển front-end cho các sản phẩm Engage và FollowUp, bao gồm triển khai các tính năng cốt lõi, tinh chỉnh UI/UX với biểu tượng tùy chỉnh dựa trên SVG, và duy trì mã nguồn sạch, hiệu quả. Chủ động tham gia quy trình Scrum, đóng góp vào việc cung cấp trải nghiệm web nhất quán và chất lượng cao.</p>`
-    },
-    {
-        badge: '09 / 2020 → 04 / 2022',
-        title: 'Kỹ sư phần mềm trưởng',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Hợp tác với Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng e-learning OPAL, tập trung vào phân hệ CSL (Collaborative and Social Learning). Dẫn dắt một nhóm Scrum nhỏ, đóng vai trò lập trình viên full-stack, và nâng cao độ ổn định của hệ thống thông qua việc xử lý có hệ thống các sự cố SSAT và SPT.</p>`
-    },
-    {
-        badge: '10 / 2019 → 09 / 2020',
-        title: 'Kỹ sư phần mềm trưởng',
+        badge: '01 / 2018 → 09 / 2020',
+        title: 'Lập trình viên phần mềm cấp cao',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Làm việc cùng Conexus và Bộ Giáo dục Singapore (Ministry of Education) trong dự án nền tảng học trực tuyến OPAL, đóng góp vào phân hệ CSL (Collaborative and Social Learning) hỗ trợ học tập dựa trên cộng đồng. Dẫn dắt một nhóm Scrum nhỏ, phát triển các tính năng full-stack, và nâng cao độ ổn định của sản phẩm thông qua việc xử lý có mục tiêu các sự cố SSAT và SPT.</p>`
+        content: `<p>★ Tech Lead (Bộ Giáo dục Singapore): Dẫn dắt một nhóm Scrum phát triển các tính năng full-stack cho nền tảng học trực tuyến OPAL (phân hệ CSL), đồng thời nâng cao độ ổn định của sản phẩm thông qua việc giải quyết hiệu quả các vấn đề SSAT và SPT.</p>
+
+<p>★ Senior Frontend Developer (Conexus & Conexus SG - Na Uy): Hiện đại hóa kiến ​​trúc web client bằng cách nâng cấp các thư viện cũ, xây dựng các thành phần web có thể tái sử dụng và tối ưu hóa quy trình làm việc phía client cho các sản phẩm như Conexus Companion và Coursepad.</p>`
     },
     {
-        badge: '01 / 2018 → 10 / 2019',
-        title: 'Nhà phát triển Frontend',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_3.png" ${imgStyles}></div><a href="https://www.conexus.net/" ${aAttr}>Conexus AS</a>`,
-        content: `<p>Hợp tác với Conexus và Conexus Singapore trong phát triển front-end cho các sản phẩm như Conexus Companion và Coursepad. Tập trung vào nâng cấp thư viện, xây dựng các thành phần web có thể tái sử dụng, cải thiện quy trình làm việc phía client, và duy trì chất lượng mã nguồn cao trong quy trình phát triển Scrum.</p>`
-    },
-    {
-        badge: '11 / 2014 → 12 / 2017',
+        badge: '10 / 2014 → 01 / 2018',
         title: 'Nhà phát triển Frontend',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_2.png" ${imgStyles}></div><a href="https://www.orientsoftware.net/" ${aAttr}>Orient Software Development Corp.</a>`,
-        content: `<p>Thiết kế và triển khai các ứng dụng web đáp ứng (responsive) sử dụng ASP.NET MVC (Razor), jQuery và LESS. Tập trung vào tương thích đa thiết bị và đa trình duyệt, tối ưu hóa quá trình bundling với Microsoft Optimization, thiết kế JavaScript theo hướng mô-đun, và cải thiện trải nghiệm người dùng (UX) thông qua đồ họa và biểu tượng tùy chỉnh.</p>`
+        content: `<p>★ Khách hàng: Conexus (Na Uy).
+<ul>
+<li>Phát triển Web Responsive: Xây dựng và duy trì các ứng dụng web có khả năng thích ứng linh hoạt (responsive) sử dụng ASP.NET MVC (Razor), jQuery và LESS.</li>
+<li>Tối ưu hóa Hiệu năng & UX: Đảm bảo khả năng tương thích trên nhiều trình duyệt, tối ưu hóa việc gộp tài nguyên (asset bundling) bằng Microsoft Optimization, đồng thời thiết kế kiến ​​trúc JavaScript dạng mô-đun kết hợp với đồ họa UI/UX tùy chỉnh.</li>
+</ul></p>`
     },
     {
         badge: '10 / 2013 → 09 / 2014',
         title: 'Nhà phát triển Fullstack',
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_1.png" ${imgStyles}></div><a href="https://f2tech.asia/" ${aAttr}>F2Tech (từng là VNYI)</a>`,
-        content: `Đóng góp vào phát triển đa nền tảng, bao gồm ứng dụng POS trên máy tính (C# WinForms, DevExpress), ứng dụng web (ExtJS) và ứng dụng di động (Cordova, Telerik, Kendo UI). Quản lý logic cơ sở dữ liệu trên SQL Server thông qua các stored procedure được thiết kế có cấu trúc, đảm bảo độ tin cậy và hiệu năng của dữ liệu.`
+        content: `★ Nhà tuyển dụng: F2Tech.Asia (trước đây là VNYI) - Việt Nam.
+<ul>
+<li>Phát triển sản phẩm đa nền tảng: Xây dựng các sản phẩm cốt lõi trên nền tảng desktop (C# WinForms, DevExpress), web (ExtJS) và di động lai/hybrid (Cordova, Telerik, Kendo UI).</li>
+<li>Tối ưu hóa cơ sở dữ liệu: Thiết kế và duy trì các stored procedure phức tạp trên SQL Server nhằm đảm bảo độ tin cậy cao của dữ liệu và hiệu suất truy vấn.</li>
+</ul>`
     },
 ]
 
@@ -145,7 +150,7 @@ const certifications = [
         badge: '09 / 2009 → 03 / 2014',
         title: `Cử nhân - Kỹ thuật phần mềm, Khoa Công nghệ thông tin</a>`,
         subtitle: `<div ${imgWrapperStyles}><img src="https://cdn.haitrieu.com/wp-content/uploads/2021/10/DH-Hoa-Sen-Main-Icon.png" ${imgStyles}></div><a href="https://www.hoasen.edu.vn/dao-tao/dai-hoc/" ${aAttr}>Đại học Hoa Sen</a>`,
-        content: `<p>Thực hiện trong nhóm 4 thành viên, dự án tốt nghiệp này xây dựng một hệ thống đặt món và quản lý dành cho quán cà phê hoàn chỉnh. Giải pháp bao gồm ứng dụng di động trên nền tảng Windows Phone phục vụ cho việc ghi nhận đơn hàng, cùng ứng dụng desktop C# WPF dành cho quản lý và kế toán. Đồng bộ dữ liệu được xử lý qua SQL Server, với cập nhật theo thời gian thực sử dụng SignalR.</p>`
+        content: `<p>Đồ án tốt nghiệp: Xây dựng hệ thống quản lý quán cà phê đa nền tảng, bao gồm ứng dụng desktop C# WPF, ứng dụng khách trên Windows Phone, hệ thống backend SQL Server và sử dụng SignalR để đồng bộ hóa dữ liệu theo thời gian thực.</p>`
     },
 ]
 

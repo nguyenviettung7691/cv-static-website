@@ -13,13 +13,18 @@ import ProfileContainer from './components/ProfileContainer.vue'
 ## 🙋 Introduction {#intro}
 
 ::: info First impression is important.
-Senior Front-End / Full-Stack Engineer with 10+ years in JavaScript-driven UI, 5+ years of full-stack & cloud-native delivery, strong Azure & DevOps background, and hands-on experience with modern Vue.js architecture, BFF patterns, and secure authentication systems.
+Technical Lead & Full-Stack Architect with 10+ years of experience engineering web applications, leading cloud-native migrations, and modernizing enterprise architectures.  
+I specialize in bridging front-end systems with cloud infrastructure—leveraging architectural patterns (BFF, microservices), security protocols (FIDO biometric auth, JWT, OIDC), and automated DevOps pipelines.
 
-Technically, I’ve driven stack and infrastructure upgrades using Vue.js + Pinia, .NET Core, JWT/BFF authentication patterns, and modern front-end toolchains (SASS/LESS, Bootstrap, modular JS/SVG components). I’ve led Azure cloud migrations and IaC-driven deployments, managed containerized services, and instrumented apps with Application Insights — plus developed POCs such as FIDO biometric authentication to raise product security and UX. I've also had hands-on experience with AI-assisted developing with tools such as Github Copilot, Firebase Studio, Codex to accelerate intepreting specs, implementing code and writing tests.
+Core Impact & Capabilities:
 
-On the delivery side I’ve led small Scrum teams and collaborated with external partners (including the Singapore Ministry of Education on the OPAL CSL module) to improve reliability and user experience by systematically resolving stability and performance issues. My background spans DevOps, CI/CD, Docker, PHP/.NET backends, MySQL, and search (Elasticsearch).
+◦ Technical Leadership: Led cross-functional Scrum teams delivering platforms for global clients including FUJIFILM, Hitachi Solutions, and the Singapore Ministry of Education.
 
-I bring a product-minded engineering approach: balance clean front-end UX with secure, scalable infrastructure, mentor teams toward pragmatic solutions, and move projects from technical debt to modern, resilient architectures.
+◦ Cloud & Infrastructure: Microsoft Certified Azure Administrator experienced in IaC, containerized app deployments, application monitoring, and AWS serverless services.
+
+◦ Frontend Architecture: Deep expertise in Vue 3 (Pinia, PrimeVue), as well as hands-on experience with React and .NET Core, with a proven history of modernizing legacy systems and reducing technical debt.
+
+◦ AI-Assisted Workflow: Integrating GitHub Copilot and AI tooling into delivery cycles to accelerate technical analysis, implementation, and automated testing.
 
 :::
 

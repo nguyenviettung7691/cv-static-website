@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-const roles = computed(() => ['Fullstack', 'Cloud', "System Design", "Team Lead"])
+const roles = computed(() => ['Technical Lead', 'Fullstack', 'Cloud Architect'])
 </script>
 
 <template>

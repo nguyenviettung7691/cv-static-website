@@ -13,13 +13,18 @@ import ProfileContainer from '../components/ProfileContainer.vue'
 ## 🙋 Giới thiệu {#intro}
 
 ::: info Ấn tượng ban đầu rất quan trọng.
-Kỹ sư Front-End/Full-Stack cấp cao với hơn 10 năm kinh nghiệm về giao diện người dùng dựa trên JavaScript, hơn 5 năm kinh nghiệm về phát triển full-stack và điện toán đám mây, nền tảng vững chắc về Azure và DevOps, và kinh nghiệm thực tế với kiến ​​trúc Vue.js hiện đại, các mẫu BFF và hệ thống xác thực bảo mật.
+Trưởng nhóm Kỹ thuật & Kiến trúc sư Full-Stack với hơn 10 năm kinh nghiệm phát triển ứng dụng web, dẫn dắt quá trình chuyển đổi sang kiến ​​trúc cloud-native và hiện đại hóa kiến ​​trúc hệ thống doanh nghiệp.
+Tôi chuyên về việc kết nối hệ thống front-end với cơ sở hạ tầng đám mây, ứng dụng các mô hình kiến ​​trúc (BFF, microservices), các giao thức bảo mật (xác thực sinh trắc học FIDO, JWT, OIDC) và quy trình DevOps tự động hóa.
 
-Về mặt kỹ thuật, tôi đã dẫn dắt việc nâng cấp stack và cơ sở hạ tầng sử dụng Vue.js + Pinia, .NET Core, các mẫu xác thực JWT/BFF và các bộ công cụ front-end hiện đại (SASS/LESS, Bootstrap, các thành phần JS/SVG mô-đun). Tôi đã dẫn dắt các dự án di chuyển lên đám mây Azure và triển khai dựa trên IaC, quản lý các dịch vụ container hóa và tích hợp ứng dụng với Application Insights — cộng với việc phát triển các POC như xác thực sinh trắc học FIDO để nâng cao bảo mật sản phẩm và trải nghiệm người dùng. Tôi cũng có kinh nghiệm thực tế với phát triển hỗ trợ AI với các công cụ như Github Copilot, Firebase Studio, Codex để tăng tốc quá trình diễn giải đặc tả, triển khai mã và viết kiểm thử.
+Những đóng góp và năng lực cốt lõi:
 
-Về mảng triển khai, tôi đã dẫn dắt các nhóm Scrum nhỏ và hợp tác với các đối tác bên ngoài (bao gồm cả Bộ Giáo dục Singapore về mô-đun OPAL CSL) để cải thiện độ tin cậy và trải nghiệm người dùng bằng cách giải quyết một cách có hệ thống các vấn đề về tính ổn định và hiệu suất. Kinh nghiệm của tôi bao gồm DevOps, CI/CD, Docker, backend PHP/.NET, MySQL và tìm kiếm (Elasticsearch).
+◦ Lãnh đạo Kỹ thuật: Dẫn dắt các nhóm Scrum đa chức năng triển khai nền tảng cho các khách hàng toàn cầu như FUJIFILM, Hitachi Solutions và Bộ Giáo dục Singapore.
 
-Tôi mang đến một cách tiếp cận kỹ thuật hướng đến sản phẩm: cân bằng trải nghiệm người dùng giao diện người dùng (front-end) sạch sẽ với cơ sở hạ tầng an toàn và có khả năng mở rộng, hướng dẫn các nhóm hướng tới các giải pháp thực tiễn và chuyển các dự án từ nợ kỹ thuật sang kiến ​​trúc hiện đại và bền vững.
+◦ Cloud & Cơ sở hạ tầng: Chuyên gia được Microsoft chứng nhận (Azure Administrator) với kinh nghiệm về IaC, triển khai ứng dụng dạng container, giám sát ứng dụng và các dịch vụ serverless của AWS.
+
+◦ Kiến trúc Frontend: Chuyên môn sâu về Vue 3 (Pinia, PrimeVue) cũng như kinh nghiệm thực tế với React và .NET Core; có bề dày thành tích trong việc hiện đại hóa các hệ thống cũ (legacy systems) và giảm thiểu nợ kỹ thuật.
+
+◦ Quy trình làm việc hỗ trợ bởi AI: Tích hợp GitHub Copilot và các công cụ AI vào chu trình triển khai nhằm đẩy nhanh quá trình phân tích kỹ thuật, phát triển và kiểm thử tự động.
 
 :::
 
