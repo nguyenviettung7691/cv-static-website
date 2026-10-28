@@ -116,6 +116,18 @@ const skillset = [
 
 const projects = [
     {
+        key: 'Alice-Type',
+        repo: 'nguyenviettung7691/alice-type',
+        url: 'https://alice-type.nguyenviettung.id.vn/',
+        image: '/images/Projects_7.png',
+    },
+    {
+        key: 'Lai-Xe-Nhan',
+        repo: 'nguyenviettung7691/lai-xe-nhan',
+        url: 'https://lai-xe-nhan.nguyenviettung.id.vn/',
+        image: '/images/Projects_6.png',
+    },
+    {
         key: 'Azure-Vnet',
         repo: 'nguyenviettung7691/azure-virtual-network-simulator',
         url: 'https://azure-vnet.nguyenviettung.id.vn/',
@@ -128,6 +140,12 @@ const projects = [
         image: '/images/Projects_5.png',
     },
     {
+        key: 'Azure-Firewall',
+        repo: 'nguyenviettung7691/azure-firewall-policy-optimizer',
+        url: 'https://azure-firewall.nguyenviettung.id.vn/',
+        image: '/images/Projects_3.png',
+    },
+    {
         key: 'Leafwise',
         repo: 'nguyenviettung7691/leafwise',
         url: 'https://leafwise.nguyenviettung.id.vn/',
@@ -138,12 +156,6 @@ const projects = [
         repo: 'nguyenviettung7691/koi-kingdom',
         url: 'https://koi-kingdom.nguyenviettung.id.vn/',
         image: '/images/Projects_2.png',
-    },
-    {
-        key: 'Azure-Firewall',
-        repo: 'nguyenviettung7691/azure-firewall-policy-optimizer',
-        url: 'https://azure-firewall.nguyenviettung.id.vn/',
-        image: '/images/Projects_3.png',
     }
 ]
 </script>
