@@ -24,7 +24,7 @@ function navigateHandler(direction){
 }
 
 function getCarouselHeader() {
-    return `https://gh-card.dev/repos/${selected.value.repo}.svg?link_target=_blank`
+    return `https://github-stats-extended.vercel.app/api/pin/?username=nguyenviettung7691&repo=${selected.value.repo}`
 }
 function getCarouselInnerStyle() {
     return {
@@ -88,7 +88,7 @@ function isSelected(item) {
         box-shadow: var(--vp-shadow-3);
         .url {
             position: absolute;
-            top: 1rem;
+            bottom: 1rem;
             right: 1rem;
         }
     }

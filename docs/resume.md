@@ -138,13 +138,13 @@ const certifications = [
     {
         badge: 'Mar 2014 → Mar 2016',
         title: `TOEIC (955/990)`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://elearning.iigvietnam.com/Favicon.png" ${imgStyles}></div><a href="https://iigvietnam.com/toeic-test/" ${aAttr}>IIG Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://duhocglolink.com/wp-content/uploads/2019/05/luyen-thi-toeic-philippines-du-hoc-glolink-1.png" ${imgStyles}></div><a href="https://iigvietnam.com/toeic-test/" ${aAttr}>IIG Vietnam</a>`,
         content: `<p>TOEIC test has been used as a standard to assess the Listening and Reading skills of English - two essential skills in an international working environment.</p>`
     },
     {
         badge: 'Nov 2009 → Nov 2011',
         title: `TOEFL ITP (573/677)`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://elearning.iigvietnam.com/Favicon.png" ${imgStyles}></div><a href="https://iigvietnam.com/toefl-itp-test/" ${aAttr}>IIG Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://www.iie.org/wp-content/uploads/2022/12/ETS-TOEFL-ITP-logo.png" ${imgStyles}></div><a href="https://iigvietnam.com/toefl-itp-test/" ${aAttr}>IIG Vietnam</a>`,
         content: `<p>TOEFL ITP test is an English proficiency test for non-native speakers. It is an academic test, used to assess the English proficiency of learners from intermediate to advanced levels.</p>`
     },
     {
