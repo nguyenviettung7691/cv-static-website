@@ -85,7 +85,7 @@ const certifications = [
     {
         badge: 'Jun 2026',
         title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D" ${aAttr}>Microsoft Certified: Azure Administrator Associate</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/microsoft-azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
         content: `<p>Demonstrate key skills to configure, manage, secure, and administer key professional functions in Microsoft Azure.</p>`
     },
     {
@@ -121,13 +121,13 @@ const certifications = [
     {
         badge: 'Mar 2023',
         title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D" ${aAttr}>Microsoft Certified: Azure Fundamentals</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/microsoft-azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
         content: `<p>Demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.</p>`
     },
     {
         badge: 'Apr 2022 → Apr 2025',
         title: `<a href="https://www.credly.com/badges/b50d2d25-4689-4489-bc3b-440e985a5128/public_url" ${aAttr}>AWS Certified Cloud Practitioner</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" ${imgStyles}></div><a href="https://aws.amazon.com/training/" ${aAttr}>AWS Training and Certification</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/aws.svg" ${imgStyles}></div><a href="https://aws.amazon.com/training/" ${aAttr}>AWS Training and Certification</a>`,
         content: `<p>Demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.</p>`
     },
     {

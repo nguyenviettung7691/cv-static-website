@@ -18,19 +18,19 @@ const roles = computed(() => ['Technical Lead', 'Fullstack', 'Cloud Architect'])
 
       <div class="profile-socials">
           <a href="https://github.com/nguyenviettung7691" title="Github" target="_blank">
-              <img src="https://cdn.simpleicons.org/github/9E95B7?viewbox=auto" />
+              <img src="https://devicons.io/devicons/icons/github-icon.svg" />
           </a>
           <a href="https://www.linkedin.com/in/nguyen-viet-tung" title="LinkedIn" target="_blank">
               <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" />
           </a>
           <a href="https://hashnode.com/@nvtung" title="Hashnode" target="_blank">
-              <img src="https://cdn.simpleicons.org/hashnode/2962FF?viewbox=auto" />
+              <img src="https://devicons.io/devicons/icons/hashnode-icon.svg" />
           </a>
           <a href="https://www.npmjs.com/~nvtung.harry" title="NPM" target="_blank">
-              <img src="https://cdn.simpleicons.org/npm/CB3837?viewbox=auto" />
+              <img src="https://devicons.io/devicons/icons/npm-icon.svg" />
           </a>
           <a href="mailto:nvtung.harry@gmail.com" title="Email" target="_blank">
-              <img src="https://cdn.simpleicons.org/gmail?viewbox=auto" />
+              <img src="https://devicons.io/devicons/icons/google-gmail.svg" />
           </a>
       </div>
     </div>
@@ -127,7 +127,7 @@ const roles = computed(() => ['Technical Lead', 'Fullstack', 'Cloud Architect'])
 /* Socials */
 .profile-socials {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1.5rem;
   right: 2rem;
   display: flex;
   justify-content: flex-end;

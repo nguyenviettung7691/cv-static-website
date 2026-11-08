@@ -84,7 +84,7 @@ const certifications = [
     {
         badge: '06 / 2026',
         title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D" ${aAttr}>Chứng chỉ Microsoft: Chuyên viên Quản trị Azure</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/microsoft-azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/en-us/credentials/" ${aAttr}>Microsoft Credentials</a>`,
         content: `<p>Thể hiện các kỹ năng then chốt trong việc cấu hình, quản lý, bảo mật và vận hành các chức năng chuyên môn quan trọng trong Microsoft Azure.</p>`
     },
     {
@@ -120,13 +120,13 @@ const certifications = [
     {
         badge: '03 / 2023',
         title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D" ${aAttr}>Chứng nhận Microsoft: Azure Fundamentals</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/vi-vn/credentials/" ${aAttr}>Microsoft Credentials</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/microsoft-azure.svg" ${imgStyles}></div><a href="https://learn.microsoft.com/vi-vn/credentials/" ${aAttr}>Microsoft Credentials</a>`,
         content: `<p>Thể hiện kiến thức cơ bản về dịch vụ đám mây và cách cung cấp các dịch vụ đó với Microsoft Azure.</p>`
     },
     {
         badge: '04 / 2022 → 04 / 2025',
         title: `<a href="https://www.credly.com/badges/b50d2d25-4689-4489-bc3b-440e985a5128/public_url" ${aAttr}>Chuyên gia đám mây được chứng nhận AWS</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" ${imgStyles}></div><a href="https://aws.amazon.com/vi/training/" ${aAttr}>AWS Training and Certification</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/aws.svg" ${imgStyles}></div><a href="https://aws.amazon.com/vi/training/" ${aAttr}>AWS Training and Certification</a>`,
         content: `<p>Đã chứng minh được sự thành thạo về đám mây và kiến thức nền tảng về AWS. Người sở hữu huy hiệu có thể xác định các dịch vụ AWS thiết yếu cần thiết để thiết lập các dự án tập trung vào AWS.</p>`
     },
     {
