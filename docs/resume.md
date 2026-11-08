@@ -15,16 +15,16 @@ const experiences = [
     {
         badge: 'Jan 2026 → Current',
         title: 'Senior IT Consulting & Implementation',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachids.com/vn-english/" ${aAttr}>Hitachi Digital Services Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachidigital.com/" ${aAttr}>Hitachi Digital</a>`,
         content: `<p>★ Tech Lead:
 <ul>
-<li>Desktop Publishing Platform (Client: FUJIFILM): Acted as Technical Lead for desktop app migration (Pintail), directing front-end architecture, parallel processing feature development, and foundation restructuring using ElectronJS, ReactJS, NestJS, and fabric.js.</li>
+<li>Desktop Publishing Platform: Contracted client is FUJIFILM (Japan) - Acted as Technical Lead for desktop app migration (Pintail), directing front-end architecture, parallel processing feature development, and foundation restructuring using ElectronJS, ReactJS, NestJS, and fabric.js.</li>
 </ul>
 
 ★ Senior Engineer:
 <ul>
-<li>Enterprise Document Automation (Client: FUJIFILM): Engineered configurable multi-step pipeline features and Microsoft Teams notification integrations across a 50+ microservice cloud ecosystem (IWPro) using Node.js, AWS Lambda, SQS, and DocumentDB.</li>
-<li>ESG & Carbon Accounting Platform (Client: Hitachi Solutions): Built a Vue 3/PrimeVue web client (EcoAssist) featuring raw utility-to-tCO2 conversion pipelines, Scope 1 & 2 compliance reporting, and carbon credit lifecycle tracking.</li>
+<li>Enterprise Document Automation: Contracted client is FUJIFILM (Japan) - Engineered configurable multi-step pipeline features and Microsoft Teams notification integrations across a 50+ microservice cloud ecosystem (IWPro) using Node.js, AWS Lambda, SQS, and DocumentDB.</li>
+<li>ESG & Carbon Accounting Platform: Contracted client is Hitachi Solutions (Japan) - Built a Vue 3/PrimeVue web client (EcoAssist) featuring raw utility-to-tCO2 conversion pipelines, Scope 1 & 2 compliance reporting, and carbon credit lifecycle tracking.</li>
 </ul>
 </p>`
     },
@@ -76,6 +76,12 @@ Modernized web products (Elevate, Engage, FollowUp) by implementing BFF architec
 
 const certifications = [
     { badge: 'Coming soon', title: '???' },
+    {
+        badge: 'Nov 2026',
+        title: `<a href="https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url" ${aAttr}>Claude Certified Developer - Foundations</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg" ${imgStyles}></div><a href="https://www.credly.com/org/anthropic" ${aAttr}>Anthropic</a>`,
+        content: `<p>Earners can build, integrate, and ship production applications and agents on Claude using the Claude API, Claude Code, custom tools, and MCP servers.</p>`
+    },
     {
         badge: 'Jun 2026',
         title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D" ${aAttr}>Microsoft Certified: Azure Administrator Associate</a>`,

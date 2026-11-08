@@ -27,7 +27,10 @@ const microsoft = [
   },
 ]
 
-const credly = ['b50d2d25-4689-4489-bc3b-440e985a5128']
+const credly = [
+  '8ee7fc55-e289-4861-ab44-9ca6b2737c6d',
+  'b50d2d25-4689-4489-bc3b-440e985a5128'
+]
 
 const efsetUrl = computed(() => {
   let lang = localeIndex.value != 'root' ? (localeIndex.value + '/') : '';

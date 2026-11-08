@@ -116,6 +116,12 @@ const skillset = [
 
 const projects = [
     {
+        key: 'Park-Core',
+        repo: 'nguyenviettung7691/park-core',
+        url: 'https://park-core.nguyenviettung.id.vn/',
+        image: '/images/Projects_8.png',
+    },
+    {
         key: 'Azure-Vnet',
         repo: 'nguyenviettung7691/azure-virtual-network-simulator',
         url: 'https://azure-vnet.nguyenviettung.id.vn/',
