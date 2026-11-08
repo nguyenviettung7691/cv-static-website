@@ -61,7 +61,7 @@ Skilled in designing for mobile by optimizing web apps to PWA standards, impleme
 - 📍 **Location**: Saigon, Vietnam  
 - 📧 **Email**: [nvtung.harry@gmail.com](mailto:nvtung.harry@gmail.com)  
 
-<a href="/content/CV.pdf" target="_blank" class="download-btn">⬇️ DOWNLOAD CV</a>
+<a href="/content/Nguyen_Viet_Tung-profile.pdf" target="_blank" class="download-btn">⬇️ DOWNLOAD CV</a>
 
 :::
 

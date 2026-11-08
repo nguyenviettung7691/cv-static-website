@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: ⬇ Download CV
-      link: /content/CV.pdf
+      link: /content/Nguyen_Viet_Tung-profile.pdf
       target: _blank
     - theme: alt
       text: 📩 Share

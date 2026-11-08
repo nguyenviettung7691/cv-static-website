@@ -63,7 +63,7 @@ Thành thạo trong việc thiết kế giao diện cho thiết bị di động 
 - 📍 **Địa điểm**: Sài Gòn, Việt Nam  
 - 📧 **Email**: [nvtung.harry@gmail.com](mailto:nvtung.harry@gmail.com)  
 
-<a href="/content/CV.pdf" target="_blank" class="download-btn">⬇️ TẢI XUỐNG CV</a>
+<a href="/content/Nguyen_Viet_Tung-profile.pdf" target="_blank" class="download-btn">⬇️ TẢI XUỐNG CV</a>
 
 :::
 
