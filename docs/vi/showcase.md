@@ -27,7 +27,7 @@ const skillset = [
         { icon: 'capacitor', color: '#119EFF', title: 'Capacitor', desc: 'Native runtime for web app', url: 'https://capacitorjs.com/', wishlist: true },
     ]},
     { icon: '/images/Microsoft_Azure.svg', color: '#38c1f0', title: 'Azure', desc: 'Azure là nền tảng đám mây đáng tin cậy để xây dựng, triển khai và quản lý các giải pháp sáng tạo.', url: 'https://azure.microsoft.com/en-us', items: [
-        { icon: '/images/azure-icons/devops/10261-icon-service-Azure-DevOps.svg', title: 'DevOps', desc: 'Build and deploy applications', url: 'hhttps://azure.microsoft.com/en-us/products/devops/' },
+        { icon: '/images/azure-icons/devops/10261-icon-service-Azure-DevOps.svg', title: 'DevOps', desc: 'Build and deploy applications', url: 'https://azure.microsoft.com/en-us/products/devops/' },
         { icon: '/images/azure-icons/app services/10035-icon-service-App-Services.svg', title: 'App Service', desc: 'Web apps and APIs', url: 'https://azure.microsoft.com/en-us/products/app-service' },
         { icon: '/images/azure-icons/networking/10061-icon-service-Virtual-Networks.svg', title: 'Virtual Networks', desc: 'Private network', url: 'https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview' },
         { icon: '/images/azure-icons/monitor/00012-icon-service-Application-Insights.svg', title: 'Application Insights', desc: 'Real-time monitoring of applications', url: 'https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview' },

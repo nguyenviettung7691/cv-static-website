@@ -6,9 +6,12 @@
 
 ## ✨ Features
 
-- **Comprehensive Profile**: Personal bio, services, languages, and interests
-- **Experience Timeline**: Interactive resume with certifications and achievements
+- **Comprehensive Profile**: Responsive photo hero with CV/email actions and labeled social links, capability and service cards, personal bio, languages, and interests
+- **Experience Timeline**: Compact Experiences and Certifications cards with dates, duration, Current/Expired tags, per-entry Details, and Expand all
 - **Technical Showcase**: Skills matrix, projects portfolio, and professional highlights
+- **Skillset Browser**: Labeled category buttons with tool counts, contrasting logo backplates, responsive linked skill cards, and localized wishlist badges
+- **Project Carousel**: Stacked GitHub repository panel, uncropped 16:9 screenshots, keyboard-accessible navigation and paging, and reduced-motion support
+- **Portfolio Grid**: Uniform logo frames, always-visible company and country, and independently expanding details for products, clients, and employers
 - **Bilingual Support**: English and Vietnamese content
 - **SEO Optimization**: Static assets for search engines (sitemap, robots.txt)
 - **PWA Ready**: Progressive Web App metadata and manifest
@@ -96,10 +99,20 @@ npm run docs:build -- --base "/"
 
 ### Theme Components
 - **Layout**: [`docs/.vitepress/theme/Layout.vue`](docs/.vitepress/theme/Layout.vue) - Main layout wrapper
-- **Timeline**: [`docs/.vitepress/theme/Timeline.vue`](docs/.vitepress/theme/Timeline.vue) - Experience timeline component
-- **Grid**: [`docs/.vitepress/theme/Grid.vue`](docs/.vitepress/theme/Grid.vue) - Responsive grid system
-- **Accordion**: [`docs/.vitepress/theme/Accordion.vue`](docs/.vitepress/theme/Accordion.vue) - Collapsible sections
+- **Timeline**: [`docs/.vitepress/theme/Timeline.vue`](docs/.vitepress/theme/Timeline.vue) - Experiences (`kind="experience"`) and Certifications (`kind="certification"`) timeline shared by both Resume locales; logo, title, organization, dates, and tags stay visible, each Details button expands one entry, Expand all toggles the section, and print shows every entry
+- **Grid**: [`docs/.vitepress/theme/Grid.vue`](docs/.vitepress/theme/Grid.vue) - Portfolio tiles (Products, Clients, Employers) shared by both Resume locales; logo, title, and company with flag stay visible, and each tile's Details button expands only that tile
+- **Accordion**: [`docs/.vitepress/theme/Accordion.vue`](docs/.vitepress/theme/Accordion.vue) - Category-first skillset browser shared by both Showcase locales; keyboard activation preserves focus, subgroup separators retain tool order, and details expand without nested scrolling
 - **Certification**: [`docs/.vitepress/theme/Cert.vue`](docs/.vitepress/theme/Cert.vue) - Certification card display
+- **Projects**: [`docs/components/ProjectsContainer.vue`](docs/components/ProjectsContainer.vue) - Responsive project carousel shared by both Showcase locales
+- **Profile**: [`docs/components/ProfileContent.vue`](docs/components/ProfileContent.vue) - Typed, localized content sections shared by both Profile pages, with preserved section anchors and responsive cards; [`ProfileContainer.vue`](docs/components/ProfileContainer.vue) renders the identity hero, CV/email actions, and labeled social links
+
+Profile content is defined as `ProfileContentData` in each localized Profile page. Keep translated text, captions, decorative `icon` fields for capability cards/Bio facts, and the existing section/service IDs together in this data. Section headings are unnumbered. The hero resembles a business card with a theme-aware photo beneath the entire card. The front uses one continuous 50%-opacity gray overlay to avoid seams between panels; backdrop filtering preserves readability, with a light overlay as a fallback when unsupported. A small flip button reveals the unfiltered photo, cropped to cover the reverse face edge to edge, with a localized Landmark 81/location/photographer/date note over a theme-aware translucent gray strip. A second click returns to the profile. Save photo appears only on the photo face and uses a native download link to the original JPG, without cropping, overlays, captions, or controls. The inactive face is inert and hidden from assistive technology; reduced motion disables animation, and print always shows the profile face. The portrait, typographic roles, CV action, and social brand-icon tiles retain distinct treatments. On mobile the portrait moves above the identity and social links form two columns. Hover adds photo brightness and shadow without resizing controls. Social buttons reuse the theme's brand icons. Profile styles are scoped; the hero and cards support keyboard focus, forced colors, reduced motion, and printing. CV links retain their new-tab behavior and identify the file as a PDF.
+
+Skillset icon colors use `#RGB` or `#RRGGBB`. Inline brand logos receive an automatically contrasted neutral backplate; multicolor image assets retain a light backplate in either theme.
+
+Portfolio Grid items use `{ img, title, url, org, orgNote?, country, countryName, desc }`. `country` is a lowercase [flagcdn](https://flagcdn.com) code, `countryName` is localized per page, and `desc` holds only the description. When the title already starts with `org`, the tile shows the country name instead of repeating the company.
+
+Timeline experiences use `{ start, end?, title, org, orgUrl, logo, roles: [{ name, html }] }` and certifications use `{ title, url?, issuer, issuerUrl, logo, issued, start?, expires?, desc }`. Dates are `YYYY-MM` and are formatted per locale (`Jan 2026` / `01 / 2026`). Omit `end` for the current role; its duration and any Expired tag (`expires` before the current month) are computed in the browser after hydration.
 
 ## 📁 Static Assets
 

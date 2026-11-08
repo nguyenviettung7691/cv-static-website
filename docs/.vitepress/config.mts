@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: "Nguyễn Việt Tùng",
   description: "My CV portfolio showcase powered by VitePress",
+  srcExclude: ['superpowers/**'],
   head: [
     // icon
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
