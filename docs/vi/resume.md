@@ -15,16 +15,16 @@ const experiences = [
     {
         badge: '01 / 2026 → Hiện tại',
         title: 'Tư vấn và triển khai CNTT cấp cao',
-        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachids.com/vn-english/" ${aAttr}>Hitachi Digital Services Vietnam</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachidigital.com/" ${aAttr}>Hitachi Digital</a>`,
         content: `<p>★ Trưởng nhóm Kỹ thuật (Tech Lead):
 <ul>
-<li>Nền tảng Chế bản Điện tử (Khách hàng: FUJIFILM): Đảm nhiệm vai trò Trưởng nhóm Kỹ thuật cho dự án chuyển đổi ứng dụng desktop (Pintail); chỉ đạo thiết kế kiến ​​trúc front-end, phát triển tính năng xử lý song song và tái cấu trúc nền tảng hệ thống sử dụng ElectronJS, ReactJS, NestJS và fabric.js.</li>
+<li>Nền tảng Chế bản Điện tử: Khách hàng ký hợp đồng là FUJIFILM (Nhật Bản) - Đảm nhiệm vai trò Trưởng nhóm Kỹ thuật (Technical Lead) trong dự án hiện đại hóa ứng dụng desktop (MakeReady) – công cụ được sử dụng để tùy chỉnh tài liệu in ấn; chịu trách nhiệm định hướng kiến ​​trúc front-end, phát triển tính năng xử lý song song và tái cấu trúc nền tảng hệ thống bằng cách sử dụng ElectronJS, ReactJS, NestJS và fabric.js.</li>
 </ul>
 
 ★ Kỹ sư Cao cấp (Senior Engineer):
 <ul>
-<li>Hệ thống Tự động hóa Tài liệu Doanh nghiệp (Khách hàng: FUJIFILM): Phát triển các tính năng quy trình xử lý (pipeline) đa bước có thể tùy chỉnh và tích hợp thông báo qua Microsoft Teams trong hệ sinh thái đám mây (IWPro) gồm hơn 50 microservice, sử dụng Node.js, AWS Lambda, SQS và DocumentDB.</li>
-<li>Nền tảng ESG & Kiểm kê Carbon (Khách hàng: Hitachi Solutions): Xây dựng ứng dụng web client (EcoAssist) bằng Vue 3/PrimeVue, bao gồm các quy trình chuyển đổi dữ liệu tiện ích thô sang đơn vị tCO2, lập báo cáo tuân thủ Scope 1 & 2, và theo dõi vòng đời tín chỉ carbon.</li>
+<li>Hệ thống Tự động hóa Tài liệu Doanh nghiệp: Khách hàng ký hợp đồng là FUJIFILM (Nhật Bản) - Phát triển các tính năng quy trình xử lý (pipeline) đa bước có thể tùy chỉnh và tích hợp thông báo qua Microsoft Teams trong hệ sinh thái đám mây (IWPro) gồm hơn 50 microservice, sử dụng Node.js, AWS Lambda, SQS và DocumentDB.</li>
+<li>Nền tảng ESG & Kiểm kê Carbon: Khách hàng ký hợp đồng là Hitachi Solutions (Nhật Bản) - Xây dựng ứng dụng web client (EcoAssist) bằng Vue 3/PrimeVue, bao gồm các quy trình chuyển đổi dữ liệu tiện ích thô sang đơn vị tCO2, lập báo cáo tuân thủ Scope 1 & 2, và theo dõi vòng đời tín chỉ carbon.</li>
 </ul>
 </p>`
     },
@@ -75,6 +75,12 @@ Hiện đại hóa các sản phẩm web (Elevate, Engage, FollowUp) bằng các
 
 const certifications = [
     { badge: 'Sắp có', title: '???' },
+    {
+        badge: '11 / 2026',
+        title: `<a href="https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url" ${aAttr}>Nhà phát triển được chứng nhận Claude - Nền tảng</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/anthropic-icon.svg" ${imgStyles}></div><a href="https://www.credly.com/org/anthropic" ${aAttr}>Anthropic</a>`,
+        content: `<p>Người đạt chứng nhận có khả năng xây dựng, tích hợp và triển khai các ứng dụng cũng như tác nhân (agent) thực tế trên nền tảng Claude, thông qua việc sử dụng Claude API, Claude Code, các công cụ tùy chỉnh và máy chủ MCP.</p>`
+    },
     {
         badge: '06 / 2026',
         title: `<a href="https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D" ${aAttr}>Chứng chỉ Microsoft: Chuyên viên Quản trị Azure</a>`,

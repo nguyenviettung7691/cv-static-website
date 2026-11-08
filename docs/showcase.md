@@ -116,6 +116,12 @@ const skillset = [
 
 const projects = [
     {
+        key: 'Park-Core',
+        repo: 'nguyenviettung7691/park-core',
+        url: 'https://park-core.nguyenviettung.id.vn/',
+        image: '/images/Projects_8.png',
+    },
+    {
         key: 'Alice-Type',
         repo: 'nguyenviettung7691/alice-type',
         url: 'https://alice-type.nguyenviettung.id.vn/',
