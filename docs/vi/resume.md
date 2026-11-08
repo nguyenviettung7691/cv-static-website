@@ -18,7 +18,7 @@ const experiences = [
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachidigital.com/" ${aAttr}>Hitachi Digital</a>`,
         content: `<p>★ Trưởng nhóm Kỹ thuật (Tech Lead):
 <ul>
-<li>Nền tảng Chế bản Điện tử: Khách hàng ký hợp đồng là FUJIFILM (Nhật Bản) - Đảm nhiệm vai trò Trưởng nhóm Kỹ thuật cho dự án chuyển đổi ứng dụng desktop (Pintail); chỉ đạo thiết kế kiến ​​trúc front-end, phát triển tính năng xử lý song song và tái cấu trúc nền tảng hệ thống sử dụng ElectronJS, ReactJS, NestJS và fabric.js.</li>
+<li>Nền tảng Chế bản Điện tử: Khách hàng ký hợp đồng là FUJIFILM (Nhật Bản) - Đảm nhiệm vai trò Trưởng nhóm Kỹ thuật (Technical Lead) trong dự án hiện đại hóa ứng dụng desktop (MakeReady) – công cụ được sử dụng để tùy chỉnh tài liệu in ấn; chịu trách nhiệm định hướng kiến ​​trúc front-end, phát triển tính năng xử lý song song và tái cấu trúc nền tảng hệ thống bằng cách sử dụng ElectronJS, ReactJS, NestJS và fabric.js.</li>
 </ul>
 
 ★ Kỹ sư Cao cấp (Senior Engineer):
@@ -78,7 +78,7 @@ const certifications = [
     {
         badge: '11 / 2026',
         title: `<a href="https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url" ${aAttr}>Nhà phát triển được chứng nhận Claude - Nền tảng</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg" ${imgStyles}></div><a href="https://www.credly.com/org/anthropic" ${aAttr}>Anthropic</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/anthropic-icon.svg" ${imgStyles}></div><a href="https://www.credly.com/org/anthropic" ${aAttr}>Anthropic</a>`,
         content: `<p>Người đạt chứng nhận có khả năng xây dựng, tích hợp và triển khai các ứng dụng cũng như tác nhân (agent) thực tế trên nền tảng Claude, thông qua việc sử dụng Claude API, Claude Code, các công cụ tùy chỉnh và máy chủ MCP.</p>`
     },
     {

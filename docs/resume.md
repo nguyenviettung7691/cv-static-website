@@ -18,7 +18,7 @@ const experiences = [
         subtitle: `<div ${imgWrapperStyles}><img src="/images/Employer_4.png" ${imgStyles}></div><a href="https://www.hitachidigital.com/" ${aAttr}>Hitachi Digital</a>`,
         content: `<p>★ Tech Lead:
 <ul>
-<li>Desktop Publishing Platform: Contracted client is FUJIFILM (Japan) - Acted as Technical Lead for desktop app migration (Pintail), directing front-end architecture, parallel processing feature development, and foundation restructuring using ElectronJS, ReactJS, NestJS, and fabric.js.</li>
+<li>Desktop Publishing Platform: Contracted client is FUJIFILM (Japan) - Acted as Technical Lead for modernizing desktop app (MakeReady) used in printing document customization, directing front-end architecture, parallel processing feature development, and foundation restructuring using ElectronJS, ReactJS, NestJS, and fabric.js.</li>
 </ul>
 
 ★ Senior Engineer:
@@ -79,7 +79,7 @@ const certifications = [
     {
         badge: 'Nov 2026',
         title: `<a href="https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url" ${aAttr}>Claude Certified Developer - Foundations</a>`,
-        subtitle: `<div ${imgWrapperStyles}><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg" ${imgStyles}></div><a href="https://www.credly.com/org/anthropic" ${aAttr}>Anthropic</a>`,
+        subtitle: `<div ${imgWrapperStyles}><img src="https://devicons.io/devicons/icons/anthropic-icon.svg" ${imgStyles}></div><a href="https://www.credly.com/org/anthropic" ${aAttr}>Anthropic</a>`,
         content: `<p>Earners can build, integrate, and ship production applications and agents on Claude using the Claude API, Claude Code, custom tools, and MCP servers.</p>`
     },
     {
