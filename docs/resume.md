@@ -193,7 +193,7 @@ const products = [
         img: '/images/Products_9.png',
         title: 'FUJIFILM IWpro',
         url: 'https://www.fujifilm.com/fbvn/en/products/software/document-management/fujifilm-iwpro',
-        org: 'FUJIFILM Business Innovation',
+        org: 'FUJIFILM BI',
         country: 'jp',
         countryName: 'Japan',
         desc: `FUJIFILM IWpro is an all-in-one secure platform solution for business digitisation, provide workspace for collaboration, workflow optimisation, efficient document management of metadata and documents, and versatile cloud-based printing capabilities.`
@@ -275,10 +275,9 @@ const products = [
 const clients = [
     {
         img: '/images/Clients_5.png',
-        title: 'FUJIFILM Business Innovation',
+        title: 'FUJIFILM BI',
         url: 'https://www.fujifilm.com/fbvn/en',
-        org: 'FUJIFILM Business Innovation',
-        orgNote: 'Vietnam',
+        org: 'FUJIFILM BI',
         country: 'jp',
         countryName: 'Japan',
         desc: `Drawing on more than 60 years of expertise in enhancing productivity and communication through our advanced multifunctional devices and digital solutions, we are dedicated to delivering comprehensive, innovative solutions.`
@@ -342,7 +341,7 @@ const employers = [
     },
     {
         img: '/images/Employer_2.png',
-        title: 'Orient Software Development Corp.',
+        title: 'Orient Software',
         url: 'https://www.orientsoftware.com/',
         org: 'Orient Software',
         country: 'vn',
