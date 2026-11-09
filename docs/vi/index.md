@@ -9,6 +9,9 @@ hero:
   image:
     src: /images/Profile.jpg
     alt: Hình hồ sơ
+    props:
+      fetchpriority: "high"
+      loading: "eager"
   actions:
     - theme: brand
       text: "Khám phá dự án"

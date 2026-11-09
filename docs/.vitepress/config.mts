@@ -6,6 +6,11 @@ export default defineConfig({
   title: "Nguyễn Việt Tùng",
   description: "My CV portfolio showcase powered by VitePress",
   srcExclude: ['superpowers/**'],
+  vite: {
+    build: {
+      sourcemap: true
+    }
+  },
   head: [
     // icon
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
@@ -15,16 +20,37 @@ export default defineConfig({
     // font
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap', rel: 'stylesheet' }],
+    ['link', { 
+      href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap',
+      rel: 'stylesheet',
+      media: 'print', 
+      onload: "this.media='all'"
+    }],
+    ['noscript', {}, '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap">'],
     // meta
     ['meta', { name: 'theme-color', content: '#9BBC23' }],
     ['meta', { name: 'author', content: 'Nguyễn Việt Tùng' }],
     ['meta', { name: 'keywords', content: 'web developer, portfolio, resume, showcase' }],
+    // script
+    [
+      'script',
+      {
+        type: "module",
+        defer: '',
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        'data-cf-beacon': '{"token": "83d4c06d4f954f6688ec3b6c379e643b"}'
+      }
+    ]
   ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
+    logo: {
+      src: '/logo.webp',
+      width: 16,
+      height: 24,
+      alt: 'Matsu'
+    },
     nav: [
       { text: '🏡 Home', link: '/', activeMatch: '^/$' },
       { text: '👨‍🦱 Profile', link: '/profile' },

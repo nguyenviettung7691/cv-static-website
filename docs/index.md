@@ -9,6 +9,9 @@ hero:
   image:
     src: /images/Profile.jpg
     alt: Profile picture
+    props:
+      fetchpriority: "high"
+      loading: "eager"
   actions:
     - theme: brand
       text: "Explore my work"
