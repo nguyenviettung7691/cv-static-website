@@ -7,7 +7,7 @@ hero:
   text: "Building what comes next."
   tagline: "Technical Lead & Full-Stack Architect with 10+ years of experience building web applications, guiding cloud-native transformations, and modernizing enterprise systems."
   image:
-    src: /images/Profile.jpg
+    src: /images/Profile.webp
     alt: Profile picture
     props:
       fetchpriority: "high"

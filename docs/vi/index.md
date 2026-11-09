@@ -7,7 +7,7 @@ hero:
   text: "Xây dựng tương lai."
   tagline: "Trưởng nhóm Kỹ thuật kiêm Kiến trúc sư Full-Stack với hơn 10 năm kinh nghiệm xây dựng ứng dụng web, dẫn dắt chuyển đổi cloud-native và hiện đại hóa hệ thống doanh nghiệp."
   image:
-    src: /images/Profile.jpg
+    src: /images/Profile.webp
     alt: Hình hồ sơ
     props:
       fetchpriority: "high"

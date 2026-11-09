@@ -41,7 +41,7 @@ const socials = [
         <div class="profile-card-flipper">
             <div class="profile-card-front" :inert="isFlipped" :aria-hidden="isFlipped">
                 <div class="profile-portrait-panel">
-                    <img :src="withBase('/images/Profile.jpg')" alt="Nguyễn Việt Tùng" class="profile-avatar" width="112" height="112">
+                    <img :src="withBase('/images/Profile.webp')" alt="Nguyễn Việt Tùng" class="profile-avatar" width="112" height="112">
                 </div>
                 <div class="profile-card-body">
                     <div class="profile-heading">
