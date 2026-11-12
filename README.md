@@ -1,8 +1,19 @@
 # 🚀 CV Static Website
 
-![Site preview](docs/public/preview.png)
+<img width="1558" height="1230" alt="image" src="https://github.com/user-attachments/assets/8380a5a0-2094-427e-92df-fdb203350682" />
 
 **Personal CV and portfolio website built with [VitePress](https://vitepress.dev/)** - A modern, fast, and SEO-friendly static site for showcasing professional experience.
+
+[![GitHub Stars](https://img.shields.io/github/stars/nguyenviettung7691/cv-static-website)](https://github.com/nguyenviettung7691/cv-static-website/stargazers)
+[![Total Commits](https://img.shields.io/github/commit-activity/t/nguyenviettung7691/cv-static-website?label=commits)](https://github.com/nguyenviettung7691/cv-static-website/commits)
+[![Last Commit](https://img.shields.io/github/last-commit/nguyenviettung7691/cv-static-website)](https://github.com/nguyenviettung7691/cv-static-website/commits)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/nguyenviettung7691/cv-static-website/blob/main/LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-cv.nguyenviettung.id.vn-222222?logo=githubpages&logoColor=white)](https://cv.nguyenviettung.id.vn/)
+
+![VitePress](https://img.shields.io/badge/VitePress-1.6%2B-5C73E7?logo=vitepress&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?logo=vuedotjs&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+![@iconify/utils](https://img.shields.io/badge/%40iconify%2Futils-1769AA?logo=iconify&logoColor=white)
 
 ## ✨ Features
 
