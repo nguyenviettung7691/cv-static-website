@@ -16,18 +16,19 @@ const certificates = [
 
 const microsoft = [
   {
-    file: `images/Certs_2.png`,
+    file: `/images/Certs_2.png`,
     name: 'Microsoft',
     url: 'https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D'
   },
   {
-    file: `images/Certs_1.png`,
+    file: `/images/Certs_1.png`,
     name: 'Microsoft',
     url: 'https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D'
   },
 ]
 
 const credly = [
+  '93f6512c-0387-4d41-8067-cb6bbe49adc2',
   '8ee7fc55-e289-4861-ab44-9ca6b2737c6d',
   'b50d2d25-4689-4489-bc3b-440e985a5128'
 ]
@@ -232,6 +233,7 @@ onUnmounted(() => document.removeEventListener('click', closeAll));
 
   &:hover {
     background-color: var(--vp-c-brand-2);
+    color: #fff;
   }
 
   &:focus-visible {

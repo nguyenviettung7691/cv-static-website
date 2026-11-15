@@ -69,6 +69,15 @@ const experiences = [
 
 const certifications = [
     {
+        title: 'Claude Certified Architect - Foundations',
+        url: 'https://www.credly.com/badges/93f6512c-0387-4d41-8067-cb6bbe49adc2/public_url',
+        issuer: 'Anthropic',
+        issuerUrl: 'https://www.credly.com/org/anthropic',
+        logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
+        issued: '2026-11',
+        desc: `<p>Earners can design and build production-grade applications with Claude using Claude Code, the Claude Agent SDK, the Claude API, and MCP.</p>`,
+    },
+    {
         title: 'Claude Certified Developer - Foundations',
         url: 'https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url',
         issuer: 'Anthropic',

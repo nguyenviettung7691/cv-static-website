@@ -69,6 +69,15 @@ const experiences = [
 
 const certifications = [
     {
+        title: 'Kiến trúc sư được chứng nhận Claude - Nền tảng',
+        url: 'https://www.credly.com/badges/93f6512c-0387-4d41-8067-cb6bbe49adc2/public_url',
+        issuer: 'Anthropic',
+        issuerUrl: 'https://www.credly.com/org/anthropic',
+        logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
+        issued: '2026-11',
+        desc: `<p>Người đạt chứng nhận có thể thiết kế và xây dựng các ứng dụng ở cấp độ sản xuất với Claude, thông qua việc sử dụng Claude Code, Claude Agent SDK, Claude API và MCP.</p>`,
+    },
+    {
         title: 'Nhà phát triển được chứng nhận Claude - Nền tảng',
         url: 'https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url',
         issuer: 'Anthropic',
