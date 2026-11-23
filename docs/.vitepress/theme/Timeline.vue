@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, useId } from 'vue'
 import { useData } from 'vitepress'
+import { groupCertificationItems } from './certification-groups'
 
 interface Role {
     name: string
@@ -19,6 +20,8 @@ interface ExperienceItem {
 
 interface CertificationItem {
     title: string
+    groupId?: string
+    groupTitle?: string
     url?: string
     issuer: string
     issuerUrl: string
@@ -42,6 +45,8 @@ const labels = computed(() => vi.value
 
 const experiences = computed(() => (props.kind === 'experience' ? props.data : []) as ExperienceItem[])
 const certifications = computed(() => (props.kind === 'certification' ? props.data : []) as CertificationItem[])
+const certificationGroups = computed(() => groupCertificationItems(certifications.value))
+const entryCount = computed(() => props.kind === 'experience' ? experiences.value.length : certificationGroups.value.length)
 
 const countLabel = computed(() => {
     const n = props.data.length
@@ -91,7 +96,7 @@ const baseId = `timeline-${useId()}`
 const panelId = (index: number) => `${baseId}-${index}`
 const expanded = ref(new Set<number>())
 const isOpen = (index: number) => expanded.value.has(index)
-const allOpen = computed(() => props.data.length > 0 && expanded.value.size === props.data.length)
+const allOpen = computed(() => entryCount.value > 0 && expanded.value.size === entryCount.value)
 
 function toggle(index: number) {
     const next = new Set(expanded.value)
@@ -100,7 +105,7 @@ function toggle(index: number) {
 }
 
 function toggleAll() {
-    expanded.value = allOpen.value ? new Set() : new Set(props.data.map((_, index) => index))
+    expanded.value = allOpen.value ? new Set() : new Set(Array.from({ length: entryCount.value }, (_, index) => index))
 }
 </script>
 
@@ -151,32 +156,54 @@ function toggleAll() {
         </ol>
 
         <ol v-else class="timeline">
-            <li v-for="(item, index) in certifications" :key="item.title"
-                :class="['tl-entry', { expired: isExpired(item), open: isOpen(index) }]">
+            <li v-for="(group, index) in certificationGroups" :key="group.id"
+                :class="['tl-entry', { expired: group.items.every(isExpired), open: isOpen(index) }]">
                 <span class="tl-dot" aria-hidden="true"></span>
                 <div class="tl-card">
                     <div class="tl-head">
-                        <div class="tl-logo"><img :src="item.logo" alt="" loading="lazy" decoding="async"></div>
+                        <div class="tl-logo"><img :src="group.items[0].logo" alt="" loading="lazy" decoding="async"></div>
                         <div class="tl-main">
                             <h3 class="tl-title">
-                                <a v-if="item.url" class="no-icon" :href="item.url" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
-                                <template v-else>{{ item.title }}</template>
+                                <template v-if="group.isGrouped">{{ group.title }}</template>
+                                <a v-else-if="group.items[0].url" class="no-icon" :href="group.items[0].url" target="_blank" rel="noopener noreferrer">{{ group.items[0].title }}</a>
+                                <template v-else>{{ group.items[0].title }}</template>
                             </h3>
-                            <a class="tl-org no-icon" :href="item.issuerUrl" target="_blank" rel="noopener noreferrer">{{ item.issuer }}</a>
-                            <p class="tl-meta">
-                                <span v-if="item.start || item.expires">
-                                    <time :datetime="item.start ?? item.issued">{{ formatMonth(item.start ?? item.issued) }}</time> –
-                                    <time :datetime="item.expires ?? item.issued">{{ formatMonth(item.expires ?? item.issued) }}</time>
+                            <a v-if="!group.isGrouped" class="tl-org no-icon" :href="group.items[0].issuerUrl" target="_blank" rel="noopener noreferrer">{{ group.items[0].issuer }}</a>
+                            <p v-if="!group.isGrouped" class="tl-meta">
+                                <span v-if="group.items[0].start || group.items[0].expires">
+                                    <time :datetime="group.items[0].start ?? group.items[0].issued">{{ formatMonth(group.items[0].start ?? group.items[0].issued) }}</time> –
+                                    <time :datetime="group.items[0].expires ?? group.items[0].issued">{{ formatMonth(group.items[0].expires ?? group.items[0].issued) }}</time>
                                 </span>
-                                <span v-else>{{ labels.issued }} <time :datetime="item.issued">{{ formatMonth(item.issued) }}</time></span>
-                                <span v-if="isExpired(item)" class="tl-tag tl-tag--expired">{{ labels.expired }}</span>
+                                <span v-else>{{ labels.issued }} <time :datetime="group.items[0].issued">{{ formatMonth(group.items[0].issued) }}</time></span>
+                                <span v-if="isExpired(group.items[0])" class="tl-tag tl-tag--expired">{{ labels.expired }}</span>
                             </p>
                         </div>
                     </div>
-                    <div v-show="isOpen(index)" :id="panelId(index)" class="tl-body tl-html" v-html="item.desc"></div>
+                    <p v-if="group.isGrouped" class="tl-summary">{{ group.items.map((item) => item.title).join(' · ') }}</p>
+                    <div v-show="isOpen(index)" :id="panelId(index)" class="tl-body">
+                        <template v-if="group.isGrouped">
+                            <section v-for="item in group.items" :key="item.title" class="tl-role">
+                                <h4 class="tl-role-name">
+                                    <a v-if="item.url" class="no-icon" :href="item.url" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+                                    <template v-else>{{ item.title }}</template>
+                                </h4>
+                                <a class="tl-org no-icon" :href="item.issuerUrl" target="_blank" rel="noopener noreferrer">{{ item.issuer }}</a>
+                                <p class="tl-meta">
+                                    <span v-if="item.start || item.expires">
+                                        <time :datetime="item.start ?? item.issued">{{ formatMonth(item.start ?? item.issued) }}</time> –
+                                        <time :datetime="item.expires ?? item.issued">{{ formatMonth(item.expires ?? item.issued) }}</time>
+                                    </span>
+                                    <span v-else>{{ labels.issued }} <time :datetime="item.issued">{{ formatMonth(item.issued) }}</time></span>
+                                    <span v-if="isExpired(item)" class="tl-tag tl-tag--expired">{{ labels.expired }}</span>
+                                </p>
+                                <div class="tl-html" v-html="item.desc"></div>
+                            </section>
+                        </template>
+                        <div v-else class="tl-html" v-html="group.items[0].desc"></div>
+                    </div>
                     <button type="button" class="tl-btn tl-details" :aria-expanded="isOpen(index)"
                         :aria-controls="panelId(index)" @click="toggle(index)">
-                        {{ labels.details }}<span class="visually-hidden">: {{ item.title }}</span>
+                        {{ labels.details }}<span class="visually-hidden">: {{ group.title }}</span>
                         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
                     </button>
                 </div>

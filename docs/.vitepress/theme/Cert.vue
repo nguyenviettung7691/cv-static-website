@@ -28,6 +28,7 @@ const microsoft = [
 ]
 
 const credly = [
+  '20b9afe9-6bf2-4466-89a5-a477c4bb07b5',
   '93f6512c-0387-4d41-8067-cb6bbe49adc2',
   '8ee7fc55-e289-4861-ab44-9ca6b2737c6d',
   'b50d2d25-4689-4489-bc3b-440e985a5128'

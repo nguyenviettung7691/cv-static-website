@@ -69,13 +69,26 @@ const experiences = [
 
 const certifications = [
     {
+        title: 'Claude Certified Architect - Professional',
+        groupId: 'claude-architect',
+        groupTitle: 'Claude Certified Architect',
+        url: 'https://www.credly.com/badges/20b9afe9-6bf2-4466-89a5-a477c4bb07b5/public_url',
+        issuer: 'Anthropic',
+        issuerUrl: 'https://www.credly.com/org/anthropic',
+        logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
+        issued: '2026-11',
+        desc: `<p>Design and lead enterprise-scale Claude deployments, architect integrations, optimize systems at scale, and apply governance and responsible deployment practices.</p>`,
+    },
+    {
         title: 'Claude Certified Architect - Foundations',
+        groupId: 'claude-architect',
+        groupTitle: 'Claude Certified Architect',
         url: 'https://www.credly.com/badges/93f6512c-0387-4d41-8067-cb6bbe49adc2/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
         logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
         issued: '2026-11',
-        desc: `<p>Earners can design and build production-grade applications with Claude using Claude Code, the Claude Agent SDK, the Claude API, and MCP.</p>`,
+        desc: `<p>Design and build production-grade applications with Claude using Claude Code, the Claude Agent SDK, the Claude API, and MCP.</p>`,
     },
     {
         title: 'Claude Certified Developer - Foundations',
@@ -84,7 +97,7 @@ const certifications = [
         issuerUrl: 'https://www.credly.com/org/anthropic',
         logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
         issued: '2026-11',
-        desc: `<p>Earners can build, integrate, and ship production applications and agents on Claude using the Claude API, Claude Code, custom tools, and MCP servers.</p>`,
+        desc: `<p>Build, integrate, and ship production applications and agents on Claude using the Claude API, Claude Code, custom tools, and MCP servers.</p>`,
     },
     {
         title: 'Microsoft Certified: Azure Administrator Associate',
@@ -97,6 +110,8 @@ const certifications = [
     },
     {
         title: 'Certified Senior JavaScript Developer',
+        groupId: 'javascript-developer',
+        groupTitle: 'JavaScript Developer',
         url: 'https://certificates.dev/javascript/certificates/a14392fa-86d6-4a2e-9154-32ccedf0f9af',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/javascript/',
@@ -106,6 +121,8 @@ const certifications = [
     },
     {
         title: 'Certified Mid-Level JavaScript Developer',
+        groupId: 'javascript-developer',
+        groupTitle: 'JavaScript Developer',
         url: 'https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/javascript/',
@@ -115,6 +132,8 @@ const certifications = [
     },
     {
         title: 'Certified Senior Vue.js Developer',
+        groupId: 'vuejs-developer',
+        groupTitle: 'Vue.js Developer',
         url: 'https://certificates.dev/vuejs/certificates/a035486e-e918-44ac-98fd-d6ef9a74bbc4',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/vuejs/',
@@ -124,6 +143,8 @@ const certifications = [
     },
     {
         title: 'Certified Junior JavaScript Developer',
+        groupId: 'javascript-developer',
+        groupTitle: 'JavaScript Developer',
         url: 'https://certificates.dev/c/9f981598-89ce-4208-b545-8766a6e20fae',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/javascript/',
@@ -133,6 +154,8 @@ const certifications = [
     },
     {
         title: 'Certified Mid-Level Vue.js Developer',
+        groupId: 'vuejs-developer',
+        groupTitle: 'Vue.js Developer',
         url: 'https://certificates.dev/vuejs/certificates/9cf3a5b7-fd94-4a17-ab22-6d17596e6c56',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/vuejs/',

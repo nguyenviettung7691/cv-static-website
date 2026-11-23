@@ -69,13 +69,26 @@ const experiences = [
 
 const certifications = [
     {
+        title: 'Kiến trúc sư được chứng nhận Claude - Chuyên nghiệp',
+        groupId: 'claude-architect',
+        groupTitle: 'Kiến trúc sư Claude được chứng nhận',
+        url: 'https://www.credly.com/badges/20b9afe9-6bf2-4466-89a5-a477c4bb07b5/public_url',
+        issuer: 'Anthropic',
+        issuerUrl: 'https://www.credly.com/org/anthropic',
+        logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
+        issued: '2026-11',
+        desc: `<p>Có thể thiết kế và dẫn dắt việc triển khai Claude ở quy mô doanh nghiệp, xây dựng cấu trúc các tích hợp, tối ưu hóa hệ thống trên quy mô lớn, đồng thời áp dụng các quy tắc quản trị và thực tiễn triển khai có trách nhiệm.</p>`,
+    },
+    {
         title: 'Kiến trúc sư được chứng nhận Claude - Nền tảng',
+        groupId: 'claude-architect',
+        groupTitle: 'Kiến trúc sư Claude được chứng nhận',
         url: 'https://www.credly.com/badges/93f6512c-0387-4d41-8067-cb6bbe49adc2/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
         logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
         issued: '2026-11',
-        desc: `<p>Người đạt chứng nhận có thể thiết kế và xây dựng các ứng dụng ở cấp độ sản xuất với Claude, thông qua việc sử dụng Claude Code, Claude Agent SDK, Claude API và MCP.</p>`,
+        desc: `<p>Có thể thiết kế và xây dựng các ứng dụng ở cấp độ sản xuất với Claude, thông qua việc sử dụng Claude Code, Claude Agent SDK, Claude API và MCP.</p>`,
     },
     {
         title: 'Nhà phát triển được chứng nhận Claude - Nền tảng',
@@ -84,7 +97,7 @@ const certifications = [
         issuerUrl: 'https://www.credly.com/org/anthropic',
         logo: 'https://devicons.io/devicons/icons/anthropic-icon.svg',
         issued: '2026-11',
-        desc: `<p>Người đạt chứng nhận có khả năng xây dựng, tích hợp và triển khai các ứng dụng cũng như tác nhân (agent) thực tế trên nền tảng Claude, thông qua việc sử dụng Claude API, Claude Code, các công cụ tùy chỉnh và máy chủ MCP.</p>`,
+        desc: `<p>Có khả năng xây dựng, tích hợp và triển khai các ứng dụng cũng như tác nhân (agent) thực tế trên nền tảng Claude, thông qua việc sử dụng Claude API, Claude Code, các công cụ tùy chỉnh và máy chủ MCP.</p>`,
     },
     {
         title: 'Chứng chỉ Microsoft: Chuyên viên Quản trị Azure',
@@ -97,6 +110,8 @@ const certifications = [
     },
     {
         title: 'Lập trình viên JavaScript cao cấp được chứng nhận',
+        groupId: 'javascript-developer',
+        groupTitle: 'Nhà phát triển JavaScript được chứng nhận',
         url: 'https://certificates.dev/javascript/certificates/a14392fa-86d6-4a2e-9154-32ccedf0f9af',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/javascript/',
@@ -106,6 +121,8 @@ const certifications = [
     },
     {
         title: 'Nhà phát triển JavaScript cấp trung được chứng nhận',
+        groupId: 'javascript-developer',
+        groupTitle: 'Nhà phát triển JavaScript được chứng nhận',
         url: 'https://certificates.dev/javascript/certificates/a0444290-62ca-4f5c-bb46-90ed9228b6ef',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/javascript/',
@@ -115,6 +132,8 @@ const certifications = [
     },
     {
         title: 'Nhà phát triển Vue.js cao cấp được chứng nhận',
+        groupId: 'vuejs-developer',
+        groupTitle: 'Nhà phát triển Vue.js được chứng nhận',
         url: 'https://certificates.dev/vuejs/certificates/a035486e-e918-44ac-98fd-d6ef9a74bbc4',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/vuejs/',
@@ -124,6 +143,8 @@ const certifications = [
     },
     {
         title: 'Nhà phát triển JavaScript cấp cơ sở được chứng nhận',
+        groupId: 'javascript-developer',
+        groupTitle: 'Nhà phát triển JavaScript được chứng nhận',
         url: 'https://certificates.dev/c/9f981598-89ce-4208-b545-8766a6e20fae',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/javascript/',
@@ -133,6 +154,8 @@ const certifications = [
     },
     {
         title: 'Nhà phát triển Vue.js cấp trung được chứng nhận',
+        groupId: 'vuejs-developer',
+        groupTitle: 'Nhà phát triển Vue.js được chứng nhận',
         url: 'https://certificates.dev/vuejs/certificates/9cf3a5b7-fd94-4a17-ab22-6d17596e6c56',
         issuer: 'Certificates.Dev',
         issuerUrl: 'https://certificates.dev/vuejs/',
@@ -172,7 +195,7 @@ const certifications = [
         title: 'TOEIC (955/990)',
         issuer: 'IIG Vietnam',
         issuerUrl: 'https://iigvietnam.com/bai-thi-toeic/',
-        logo: 'https://elearning.iigvietnam.com/Favicon.png',
+        logo: 'https://duhocglolink.com/wp-content/uploads/2019/05/luyen-thi-toeic-philippines-du-hoc-glolink-1.png',
         issued: '2014-03',
         expires: '2016-03',
         desc: `<p>Bài thi TOEIC đã được sử dụng làm chuẩn đánh giá các kỹ năng Nghe hiểu và Đọc hiểu tiếng Anh – hai kỹ năng thiết yếu trong môi trường làm việc quốc tế.</p>`,
@@ -181,7 +204,7 @@ const certifications = [
         title: 'TOEFL ITP (573/677)',
         issuer: 'IIG Vietnam',
         issuerUrl: 'https://iigvietnam.com/bai-thi-toefl-itp/',
-        logo: 'https://elearning.iigvietnam.com/Favicon.png',
+        logo: 'https://www.iie.org/wp-content/uploads/2022/12/ETS-TOEFL-ITP-logo.png',
         issued: '2009-11',
         expires: '2011-11',
         desc: `<p>Bài thi TOEFL ITP là bài thi đánh giá trình độ sử dụng tiếng Anh dành cho những người sử dụng Tiếng Anh như một ngoại ngữ. Đây là bài thi học thuật, dùng để đánh giá trình độ Anh Ngữ của các học viên từ bậc trung cấp đến cao cấp.</p>`,
