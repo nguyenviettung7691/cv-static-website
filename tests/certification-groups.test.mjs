@@ -57,3 +57,40 @@ test('does not combine different expertise IDs from the same issuer', () => {
     { id: 'claude-developer', titles: ['Claude Developer - Foundations'] },
   ])
 })
+
+test('groups Microsoft certifications at the latest certificate position', () => {
+  const certifications = [
+    { title: 'Azure Fundamentals', issued: '2023-03', groupId: 'microsoft-certified', groupTitle: 'Microsoft Certified' },
+    { title: 'AWS Cloud Practitioner', issued: '2024-01' },
+    { title: 'Azure Administrator', issued: '2026-06', groupId: 'microsoft-certified', groupTitle: 'Microsoft Certified' },
+  ]
+
+  assert.deepEqual(groupCertificationItems(certifications).map(({ id, title, items, isGrouped }) => ({
+    id,
+    title,
+    titles: items.map((item) => item.title),
+    isGrouped,
+  })), [
+    { id: 'microsoft-certified', title: 'Microsoft Certified', titles: ['Azure Administrator', 'Azure Fundamentals'], isGrouped: true },
+    { id: 'AWS Cloud Practitioner', title: 'AWS Cloud Practitioner', titles: ['AWS Cloud Practitioner'], isGrouped: false },
+  ])
+})
+
+test('groups all Claude certifications and keeps the latest member first', () => {
+  const certifications = [
+    { title: 'Claude Developer - Foundations', issued: '2026-11', groupId: 'claude-certified', groupTitle: 'Claude Certified' },
+    { title: 'Claude Architect - Foundations', issued: '2026-11', groupId: 'claude-certified', groupTitle: 'Claude Certified' },
+    { title: 'Claude Architect - Professional', issued: '2026-11', groupId: 'claude-certified', groupTitle: 'Claude Certified' },
+  ]
+
+  const groups = groupCertificationItems(certifications)
+
+  assert.equal(groups.length, 1)
+  assert.equal(groups[0].title, 'Claude Certified')
+  assert.equal(groups[0].isGrouped, true)
+  assert.deepEqual(groups[0].items.map((item) => item.title), [
+    'Claude Developer - Foundations',
+    'Claude Architect - Foundations',
+    'Claude Architect - Professional',
+  ])
+})

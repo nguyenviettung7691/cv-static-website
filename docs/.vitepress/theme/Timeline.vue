@@ -139,7 +139,12 @@ function toggleAll() {
                             </p>
                         </div>
                     </div>
-                    <p class="tl-summary">{{ item.roles.map((role) => role.name).join(' · ') }}</p>
+                    <ul v-if="item.roles.length > 1" class="tl-summary tl-summary-list">
+                        <li v-for="role in item.roles" :key="role.name">
+                            {{ role.name }}
+                        </li>
+                    </ul>
+                    <p v-else class="tl-summary">{{ item.roles[0].name }}</p>
                     <div v-show="isOpen(index)" :id="panelId(index)" class="tl-body">
                         <section v-for="role in item.roles" :key="role.name" class="tl-role">
                             <h4 class="tl-role-name">{{ role.name }}</h4>
@@ -179,7 +184,11 @@ function toggleAll() {
                             </p>
                         </div>
                     </div>
-                    <p v-if="group.isGrouped" class="tl-summary">{{ group.items.map((item) => item.title).join(' · ') }}</p>
+                    <ul v-if="group.isGrouped" class="tl-summary tl-summary-list">
+                        <li v-for="item in group.items" :key="item.title">
+                            {{ item.title }}
+                        </li>
+                    </ul>
                     <div v-show="isOpen(index)" :id="panelId(index)" class="tl-body">
                         <template v-if="group.isGrouped">
                             <section v-for="item in group.items" :key="item.title" class="tl-role">
@@ -392,6 +401,16 @@ function toggleAll() {
     font-size: 14px;
     line-height: 1.5;
 }
+.vp-doc .tl-summary-list {
+    padding-left: 20px;
+    list-style: disc;
+
+    li {
+        margin: 0;
+
+        & + li { margin-top: 4px; }
+    }
+}
 .tl-body {
     margin-top: 10px;
     padding-top: 6px;
@@ -405,6 +424,12 @@ function toggleAll() {
     font-weight: 600;
     line-height: 1.4;
     letter-spacing: normal;
+
+    &::before {
+        content: "•";
+        margin-right: 6px;
+        color: var(--tl-accent);
+    }
 }
 .vp-doc .tl-html {
     color: var(--vp-c-text-1);

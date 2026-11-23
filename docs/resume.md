@@ -70,8 +70,8 @@ const experiences = [
 const certifications = [
     {
         title: 'Claude Certified Architect - Professional',
-        groupId: 'claude-architect',
-        groupTitle: 'Claude Certified Architect',
+        groupId: 'claude-certified',
+        groupTitle: 'Claude Certified',
         url: 'https://www.credly.com/badges/20b9afe9-6bf2-4466-89a5-a477c4bb07b5/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
@@ -81,8 +81,8 @@ const certifications = [
     },
     {
         title: 'Claude Certified Architect - Foundations',
-        groupId: 'claude-architect',
-        groupTitle: 'Claude Certified Architect',
+        groupId: 'claude-certified',
+        groupTitle: 'Claude Certified',
         url: 'https://www.credly.com/badges/93f6512c-0387-4d41-8067-cb6bbe49adc2/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
@@ -92,6 +92,8 @@ const certifications = [
     },
     {
         title: 'Claude Certified Developer - Foundations',
+        groupId: 'claude-certified',
+        groupTitle: 'Claude Certified',
         url: 'https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
@@ -101,6 +103,8 @@ const certifications = [
     },
     {
         title: 'Microsoft Certified: Azure Administrator Associate',
+        groupId: 'microsoft-certified',
+        groupTitle: 'Microsoft Certified',
         url: 'https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D',
         issuer: 'Microsoft Credentials',
         issuerUrl: 'https://learn.microsoft.com/en-us/credentials/',
@@ -165,6 +169,8 @@ const certifications = [
     },
     {
         title: 'Microsoft Certified: Azure Fundamentals',
+        groupId: 'microsoft-certified',
+        groupTitle: 'Microsoft Certified',
         url: 'https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D',
         issuer: 'Microsoft Credentials',
         issuerUrl: 'https://learn.microsoft.com/en-us/credentials/',

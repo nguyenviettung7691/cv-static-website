@@ -70,8 +70,8 @@ const experiences = [
 const certifications = [
     {
         title: 'Kiến trúc sư được chứng nhận Claude - Chuyên nghiệp',
-        groupId: 'claude-architect',
-        groupTitle: 'Kiến trúc sư Claude được chứng nhận',
+        groupId: 'claude-certified',
+        groupTitle: 'Chứng nhận Claude',
         url: 'https://www.credly.com/badges/20b9afe9-6bf2-4466-89a5-a477c4bb07b5/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
@@ -81,8 +81,8 @@ const certifications = [
     },
     {
         title: 'Kiến trúc sư được chứng nhận Claude - Nền tảng',
-        groupId: 'claude-architect',
-        groupTitle: 'Kiến trúc sư Claude được chứng nhận',
+        groupId: 'claude-certified',
+        groupTitle: 'Chứng nhận Claude',
         url: 'https://www.credly.com/badges/93f6512c-0387-4d41-8067-cb6bbe49adc2/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
@@ -92,6 +92,8 @@ const certifications = [
     },
     {
         title: 'Nhà phát triển được chứng nhận Claude - Nền tảng',
+        groupId: 'claude-certified',
+        groupTitle: 'Chứng nhận Claude',
         url: 'https://www.credly.com/badges/8ee7fc55-e289-4861-ab44-9ca6b2737c6d/public_url',
         issuer: 'Anthropic',
         issuerUrl: 'https://www.credly.com/org/anthropic',
@@ -101,6 +103,8 @@ const certifications = [
     },
     {
         title: 'Chứng chỉ Microsoft: Chuyên viên Quản trị Azure',
+        groupId: 'microsoft-certified',
+        groupTitle: 'Chứng nhận Microsoft',
         url: 'https://learn.microsoft.com/api/credentials/share/en-us/nvtung/C1C5BBCDD21770C3?sharingId=5F11ACC34CA524D',
         issuer: 'Microsoft Credentials',
         issuerUrl: 'https://learn.microsoft.com/en-us/credentials/',
@@ -165,6 +169,8 @@ const certifications = [
     },
     {
         title: 'Chứng nhận Microsoft: Azure Fundamentals',
+        groupId: 'microsoft-certified',
+        groupTitle: 'Chứng nhận Microsoft',
         url: 'https://learn.microsoft.com/api/credentials/share/en-us/nvtung/6A08F9787FA7B1F4?sharingId=5F11ACC34CA524D',
         issuer: 'Microsoft Credentials',
         issuerUrl: 'https://learn.microsoft.com/vi-vn/credentials/',
